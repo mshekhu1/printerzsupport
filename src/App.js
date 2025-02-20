@@ -1,6 +1,8 @@
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, Link, Route, Routes } from 'react-router-dom';
 import './App.css';
+import './styles/animations.css';
 import Footer from './components/Footer';
+import Services from './pages/Services';
 
 function App() {
   return (
@@ -29,6 +31,9 @@ function App() {
           </div>
         </div>
       </nav>
+      <Routes>
+        <Route path="/services" element={<Services />} />
+      </Routes>
       <Outlet />
       <Footer style={{ marginTop: '40px' }} />
     </div>

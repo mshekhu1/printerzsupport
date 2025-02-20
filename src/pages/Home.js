@@ -45,8 +45,8 @@ function Home() {
         <div className="col-md-4">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Remote Assistance</h5>
-              <p className="card-text">Get remote assistance from our experts to resolve your issues quickly.</p>
+              <h5 className="card-title">Wireless Connection</h5>
+              <p className="card-text">Get your printer wirelessly connected to your wifi</p>
             </div>
           </div>
         </div>
