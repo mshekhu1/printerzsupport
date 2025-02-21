@@ -1,0 +1,32 @@
+.about-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.about-team, .about-mission, .about-history, .about-contact {
+  margin-bottom: 30px;
+}
+
+.about-team h2, .about-mission h2, .about-history h2, .about-contact h2 {
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.about-team p, .about-mission p, .about-history p, .about-contact p {
+  font-size: 1rem;
+  color: #555;
+}
