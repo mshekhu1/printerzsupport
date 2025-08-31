@@ -82,9 +82,11 @@ function Home() {
                 <p className="hero-subtitle animate__animated animate__fadeInUp">
                   Fast, friendly, and reliable help to install, repair, and optimize your printers.
                 </p>
-                <a href="tel:+1-888-423-7747" className="hero-phone animate__animated animate__fadeInUp">
-                  Call for support: +1-888-423-7747
-                </a>
+                <div className="hero-actions animate__animated animate__fadeInUp">
+                  <a href="tel:+1-888-423-7747" className="hero-phone">
+                    Call Now: +1-888-423-7747
+                  </a>
+                </div>
               </div>
               <div className="col-md-6 text-center">
                 <img 
