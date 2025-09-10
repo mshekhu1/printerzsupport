@@ -8,7 +8,7 @@ function Contact() {
       <p>If you have any questions or need support, please contact us at:</p>
       <div className="contact-info">
         <p>Email: <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></p>
-        <p>Phone: <a href="tel:+1-888-423-7747">+1-888-423-7747</a></p>
+        <p>Phone: <a href="tel:+1-888-423-7757">+1-888-423-7757</a></p>
       </div>
       <form className="contact-form">
         <div className="form-group">

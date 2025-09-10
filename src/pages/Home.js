@@ -83,8 +83,8 @@ function Home() {
                   Fast, friendly, and reliable help to install, repair, and optimize your printers.
                 </p>
                 <div className="hero-actions animate__animated animate__fadeInUp">
-                  <a href="tel:+1-888-423-7747" className="hero-phone">
-                    Call Now: +1-888-423-7747
+                  <a href="tel:+1-888-423-7757" className="hero-phone">
+                    Call Now: +1-888-423-7757
                   </a>
                 </div>
               </div>

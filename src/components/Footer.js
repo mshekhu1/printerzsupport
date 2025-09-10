@@ -40,7 +40,7 @@ function Footer() {
             <h4>Contact Info</h4>
             <div className="contact-info">
               <p>📧 <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></p>
-              <p>📞 <a href="tel:+1-888-423-7747">+1-888-423-7747</a></p>
+              <p>📞 <a href="tel:+1-888-423-7757">+1-888-423-7757</a></p>
               <p>🕒 24/7 Support Available</p>
               <p>🌍 Worldwide Service</p>
             </div>
