@@ -1,5 +1,7 @@
 import React from 'react';
 import './Home.css';
+import SEO from '../components/SEO';
+import { getLocalBusinessSchema, getServiceSchema, getReviewSchema } from '../utils/structuredData';
 
 function Home() {
   const features = [
@@ -68,18 +70,31 @@ function Home() {
     }
   ];
 
+  // Multiple schemas for home page
+  const structuredData = [
+    getLocalBusinessSchema(),
+    getServiceSchema(),
+    getReviewSchema(testimonials)
+  ];
+
   return (
     <div className="home-container">
+      <SEO
+        title="Expert Printer Support - 24/7 Help for All Printer Brands"
+        description="Get fast, reliable printer support for HP, Canon, Epson, Brother and more. Expert help with setup, installation, wireless configuration, troubleshooting, and repairs. 24/7 technical support available. Call +1-888-423-7757"
+        keywords="printer support, printer setup, printer installation, wireless printer setup, printer troubleshooting, HP printer support, Canon printer support, Epson printer support, Brother printer support, printer repair, fix printer offline, printer not printing"
+        structuredData={structuredData}
+      />
       {/* Hero Section */}
-      <section className="hero-section">
+      <section className="hero-section" itemScope itemType="https://schema.org/Service">
         <div className="container">
           <div className="hero-content">
             <div className="row align-items-center">
               <div className="col-md-6 text-center text-md-start">
-                <h1 className="hero-title animate__animated animate__fadeInUp">
+                <h1 className="hero-title animate__animated animate__fadeInUp" itemProp="name">
                   Expert Printer Support
                 </h1>
-                <p className="hero-subtitle animate__animated animate__fadeInUp">
+                <p className="hero-subtitle animate__animated animate__fadeInUp" itemProp="description">
                   Fast, friendly, and reliable help to install, repair, and optimize your printers.
                 </p>
                 <div className="hero-actions animate__animated animate__fadeInUp">

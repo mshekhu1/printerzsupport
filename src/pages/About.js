@@ -1,9 +1,24 @@
 import React from 'react';
 import './About.css';
+import SEO from '../components/SEO';
+import Breadcrumb from '../components/Breadcrumb';
+import { getOrganizationSchema } from '../utils/structuredData';
 
 function About() {
+  const breadcrumbItems = [
+    { name: 'Home', url: 'https://www.printerzsupport.com/' },
+    { name: 'About Us', url: 'https://www.printerzsupport.com/about' }
+  ];
+
   return (
     <div className="about-container animate__animated animate__fadeIn">
+      <Breadcrumb items={breadcrumbItems} />
+      <SEO
+        title="About Us - Printer Support Team"
+        description="Learn about Printer Support - your trusted partner for printer services. Over 10 years of experience helping customers with printer setup, installation, troubleshooting, and repairs. Expert team dedicated to customer satisfaction."
+        keywords="about printer support, printer support company, printer service provider, printer support team, printer support history"
+        structuredData={getOrganizationSchema()}
+      />
       <h1 className="animate__animated animate__fadeInDown">About Us</h1>
       <p className="animate__animated animate__fadeInUp">
         Welcome to our company. We provide the best printer support services.

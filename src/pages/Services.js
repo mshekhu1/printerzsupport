@@ -1,7 +1,14 @@
 import React from 'react';
 import './Services.css';
+import SEO from '../components/SEO';
+import Breadcrumb from '../components/Breadcrumb';
+import { getServiceSchema } from '../utils/structuredData';
 
 const Services = () => {
+    const breadcrumbItems = [
+        { name: 'Home', url: 'https://www.printerzsupport.com/' },
+        { name: 'Services', url: 'https://www.printerzsupport.com/services' }
+    ];
     const services = [
         {
             id: 1,
@@ -67,6 +74,13 @@ const Services = () => {
 
     return (
         <div className="services-container">
+            <Breadcrumb items={breadcrumbItems} />
+            <SEO
+                title="Our Services - Professional Printer Support Services"
+                description="Comprehensive printer support services including wireless setup, printer repair, installation, maintenance, and troubleshooting. Professional technicians available 24/7. Get started today!"
+                keywords="printer services, wireless printer setup service, printer repair service, printer installation service, printer maintenance service, printer troubleshooting service, professional printer support"
+                structuredData={getServiceSchema()}
+            />
             <div className="services-header">
                 <h1>Our Services</h1>
                 <p className="lead">Professional printer support services to keep your business running smoothly</p>
