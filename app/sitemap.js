@@ -1,4 +1,4 @@
-import { blogPosts } from '../src/data/blogPosts';
+import { blogPosts } from './data/blogPosts';
 
 export const dynamic = 'force-static';
 

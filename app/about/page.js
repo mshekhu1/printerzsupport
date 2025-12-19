@@ -9,6 +9,10 @@ export const metadata = {
     title: 'About Us - Printer Support',
     description: 'Learn about Printer Support - your trusted partner for printer services.',
     url: 'https://www.printerzsupport.com/about',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://www.printerzsupport.com/about',
   },
 };
 

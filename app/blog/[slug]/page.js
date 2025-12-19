@@ -1,8 +1,8 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumb from '../../components/Breadcrumb';
-import { blogPosts } from '../../../src/data/blogPosts';
-import '../../../src/page-styles/BlogPost.css';
+import { blogPosts } from '../../data/blogPosts';
+import '../../data/BlogPost.css';
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -31,12 +31,23 @@ export async function generateMetadata({ params }) {
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
-      images: ['/hero-printer.svg'],
+      images: [
+        {
+          url: 'https://www.printerzsupport.com/hero-printer.svg',
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
+      images: ['https://www.printerzsupport.com/hero-printer.svg'],
+    },
+    alternates: {
+      canonical: `https://www.printerzsupport.com/blog/${post.slug}`,
     },
   };
 }

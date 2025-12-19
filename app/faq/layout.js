@@ -6,6 +6,10 @@ export const metadata = {
     title: 'FAQ - Printer Support',
     description: 'Find answers to frequently asked questions about printer support.',
     url: 'https://www.printerzsupport.com/faq',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://www.printerzsupport.com/faq',
   },
 };
 

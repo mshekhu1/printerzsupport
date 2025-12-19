@@ -6,6 +6,10 @@ export const metadata = {
     title: 'Printer Support Blog - Expert Guides & Tips',
     description: 'Expert printer guides, troubleshooting tips, and step-by-step tutorials.',
     url: 'https://www.printerzsupport.com/blog',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://www.printerzsupport.com/blog',
   },
 };
 

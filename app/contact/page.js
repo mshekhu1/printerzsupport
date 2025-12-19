@@ -9,6 +9,10 @@ export const metadata = {
     title: 'Contact Us - Printer Support',
     description: 'Get in touch with Printer Support for expert printer help.',
     url: 'https://www.printerzsupport.com/contact',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://www.printerzsupport.com/contact',
   },
 };
 

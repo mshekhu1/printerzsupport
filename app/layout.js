@@ -1,4 +1,5 @@
 import { Inter, Poppins } from 'next/font/google';
+import Script from 'next/script';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/index.css';
 import '../src/App.css';
@@ -77,6 +78,12 @@ export const metadata = {
   },
 };
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
@@ -84,7 +91,8 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/logo192.png" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <meta name="theme-color" content="#667eea" />
       </head>
@@ -94,6 +102,10 @@ export default function RootLayout({ children }) {
           <main>{children}</main>
           <Footer style={{ marginTop: '40px' }} />
         </div>
+        <Script
+          src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );

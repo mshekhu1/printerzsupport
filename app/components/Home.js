@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import ScrollAnimation from './ScrollAnimation';
 import AnimatedCounter from './AnimatedCounter';
 import '../../src/page-styles/Home.css';
@@ -104,9 +105,12 @@ export default function Home() {
               </div>
               <div className="col-md-6 text-center">
                 <div className="hero-image-container animate__animated animate__fadeInRight">
-                  <img 
+                  <Image 
                     src="/hero-printer.svg" 
                     alt="Printer illustration" 
+                    width={600}
+                    height={400}
+                    priority
                     className="hero-image" 
                   />
                   <div className="floating-card">
@@ -212,10 +216,14 @@ export default function Home() {
                     <div className="testimonial-rating">
                       {'⭐'.repeat(testimonial.rating)}
                     </div>
-                    <img 
+                    <Image 
                       src={testimonial.avatar} 
-                      alt={testimonial.name} 
+                      alt={`${testimonial.name} - Customer testimonial`}
+                      width={80}
+                      height={80}
                       className="testimonial-avatar"
+                      loading="lazy"
+                      unoptimized
                     />
                     <p className="testimonial-text">"{testimonial.text}"</p>
                     <p className="testimonial-author">- {testimonial.name}</p>

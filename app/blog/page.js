@@ -1,10 +1,11 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
-import { blogPosts } from '../../src/data/blogPosts';
+import { blogPosts } from '../data/blogPosts';
 import '../../src/page-styles/Blog.css';
+
 
 export default function BlogPage() {
   const breadcrumbItems = [
@@ -21,9 +22,11 @@ export default function BlogPage() {
     { id: 'installation', name: 'Installation' }
   ];
 
-  const filteredPosts = selectedCategory === 'all' 
-    ? blogPosts 
-    : blogPosts.filter(post => post.category === selectedCategory);
+  const filteredPosts = useMemo(() => {
+    return selectedCategory === 'all' 
+      ? blogPosts 
+      : blogPosts.filter(post => post.category === selectedCategory);
+  }, [selectedCategory]);
 
   const blogSchema = {
     "@context": "https://schema.org",

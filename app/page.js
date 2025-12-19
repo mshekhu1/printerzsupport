@@ -11,6 +11,9 @@ export const metadata = {
     url: 'https://www.printerzsupport.com',
     type: 'website',
   },
+  alternates: {
+    canonical: 'https://www.printerzsupport.com',
+  },
 };
 
 export default function HomePage() {
