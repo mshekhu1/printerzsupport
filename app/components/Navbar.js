@@ -7,6 +7,8 @@ import '../../src/App.css';
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isBranchesDropdownOpen, setIsBranchesDropdownOpen] = useState(false);
+  const [isPrinterSupportDropdownOpen, setIsPrinterSupportDropdownOpen] = useState(false);
 
   useEffect(() => {
     let ticking = false;
@@ -23,12 +25,43 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (isBranchesDropdownOpen && !event.target.closest('.nav-item.dropdown.branches')) {
+        setIsBranchesDropdownOpen(false);
+      }
+      if (isPrinterSupportDropdownOpen && !event.target.closest('.nav-item.dropdown.printer-support')) {
+        setIsPrinterSupportDropdownOpen(false);
+      }
+    };
+
+    if (isBranchesDropdownOpen || isPrinterSupportDropdownOpen) {
+      document.addEventListener('click', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [isBranchesDropdownOpen, isPrinterSupportDropdownOpen]);
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   const closeMenu = () => {
     setIsMenuOpen(false);
+    setIsBranchesDropdownOpen(false);
+    setIsPrinterSupportDropdownOpen(false);
+  };
+
+  const toggleBranchesDropdown = () => {
+    setIsBranchesDropdownOpen(!isBranchesDropdownOpen);
+    setIsPrinterSupportDropdownOpen(false);
+  };
+
+  const togglePrinterSupportDropdown = () => {
+    setIsPrinterSupportDropdownOpen(!isPrinterSupportDropdownOpen);
+    setIsBranchesDropdownOpen(false);
   };
 
   return (
@@ -60,6 +93,61 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/blog" onClick={closeMenu}>Blog</Link>
+            </li>
+            <li 
+              className="nav-item dropdown branches"
+              onMouseEnter={() => {
+                if (window.innerWidth > 991) {
+                  setIsBranchesDropdownOpen(true);
+                }
+              }}
+              onMouseLeave={() => {
+                if (window.innerWidth > 991) {
+                  setIsBranchesDropdownOpen(false);
+                }
+              }}
+            >
+              <button 
+                className={`nav-link dropdown-toggle ${isBranchesDropdownOpen ? 'active' : ''}`}
+                onClick={toggleBranchesDropdown}
+                type="button"
+              >
+                Branches
+              </button>
+              <ul className={`dropdown-menu ${isBranchesDropdownOpen ? 'show' : ''}`}>
+                <li>
+                  <Link className="dropdown-item" href="/us" onClick={closeMenu}>United States</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" href="/canada" onClick={closeMenu}>Canada</Link>
+                </li>
+              </ul>
+            </li>
+            <li 
+              className="nav-item dropdown printer-support"
+              onMouseEnter={() => {
+                if (window.innerWidth > 991) {
+                  setIsPrinterSupportDropdownOpen(true);
+                }
+              }}
+              onMouseLeave={() => {
+                if (window.innerWidth > 991) {
+                  setIsPrinterSupportDropdownOpen(false);
+                }
+              }}
+            >
+              <button 
+                className={`nav-link dropdown-toggle ${isPrinterSupportDropdownOpen ? 'active' : ''}`}
+                onClick={togglePrinterSupportDropdown}
+                type="button"
+              >
+                Printer Support
+              </button>
+              <ul className={`dropdown-menu ${isPrinterSupportDropdownOpen ? 'show' : ''}`}>
+                <li>
+                  <Link className="dropdown-item" href="/brands" onClick={closeMenu}>Printer Brands</Link>
+                </li>
+              </ul>
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/faq" onClick={closeMenu}>FAQ</Link>
