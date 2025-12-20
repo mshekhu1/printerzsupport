@@ -84,6 +84,9 @@ export default function Navbar() {
               <Link className="nav-link" href="/blog" onClick={closeMenu}>Blog</Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" href="/forum" onClick={closeMenu}>Forum</Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" href="/brands" onClick={closeMenu}>Printer Brands</Link>
             </li>
             <li 
