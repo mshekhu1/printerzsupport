@@ -200,12 +200,6 @@
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
-.hero-phone::after {
-  content: '📞';
-  font-size: var(--font-size-xl);
-  margin-right: var(--spacing-2);
-}
-
 .hero-cta {
   display: inline-flex;
   align-items: center;

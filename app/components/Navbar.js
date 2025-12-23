@@ -57,6 +57,14 @@ export default function Navbar() {
     <nav className={`navbar navbar-expand-lg navbar-light bg-light animate__animated animate__fadeInDown ${scrolled ? 'scrolled' : ''}`}>
       <div className="container-fluid">
         <Link className="navbar-brand" href="/" onClick={closeMenu}>
+          <img 
+            src="/favicon.svg" 
+            alt="Printer Support Icon" 
+            width="32" 
+            height="32"
+            className="navbar-brand-icon"
+            style={{ marginRight: '8px', verticalAlign: 'middle' }}
+          />
           Printer Support
         </Link>
         <button 
