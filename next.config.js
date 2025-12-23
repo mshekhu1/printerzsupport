@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export', // Generate static HTML files for traditional hosting
+  outputFileTracingRoot: __dirname, // Set workspace root to silence lockfile warning
   // Disable pages directory to use only app directory
   pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
   images: {
