@@ -376,6 +376,19 @@
   color: var(--gray-500);
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-3);
+  margin-bottom: var(--spacing-4);
+  flex-wrap: wrap;
+}
+
+.footer-links span {
+  color: var(--gray-600);
+}
+
 .footer-bottom p {
   margin: 0;
   font-size: var(--font-size-sm);
@@ -384,6 +397,7 @@
 .footer-bottom a {
   color: var(--gray-400);
   transition: color var(--transition-fast);
+  text-decoration: none;
 }
 
 .footer-bottom a:hover {

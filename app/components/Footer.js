@@ -33,6 +33,13 @@ export default function Footer({ style }) {
         </div>
         
         <div className="footer-bottom">
+          <div className="footer-links">
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <span>|</span>
+            <Link href="/terms-conditions">Terms & Conditions</Link>
+            <span>|</span>
+            <Link href="/refund-policy">Refund Policy</Link>
+          </div>
           <p>&copy; 2024 Printer Support. All rights reserved.</p>
         </div>
       </div>
