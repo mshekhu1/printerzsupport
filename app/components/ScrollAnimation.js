@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import '../../src/components/ScrollAnimation.css';
+import '../../styles/components/ScrollAnimation.css';
 
 export default function ScrollAnimation({ children, animation = 'fadeInUp', delay = 0 }) {
   const [isVisible, setIsVisible] = useState(false);

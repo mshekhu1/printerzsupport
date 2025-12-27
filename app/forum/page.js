@@ -3,9 +3,9 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
-import { forumDiscussions, categories } from '../data/forumDiscussions';
-import { getOrganizationSchema } from '../../src/utils/structuredData';
-import '../../src/page-styles/Forum.css';
+import { forumDiscussions, categories } from '../../lib/data/forumDiscussions';
+import { getOrganizationSchema } from '../../lib/utils/structuredData';
+import '../../styles/pages/Forum.css';
 
 export default function ForumPage() {
   const [selectedCategory, setSelectedCategory] = useState('All Categories');

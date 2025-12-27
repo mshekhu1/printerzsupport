@@ -1,9 +1,9 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumb from '../../components/Breadcrumb';
-import { forumDiscussions, getDiscussionById } from '../../data/forumDiscussions';
-import { getOrganizationSchema } from '../../../src/utils/structuredData';
-import '../../../src/page-styles/Forum.css';
+import { forumDiscussions, getDiscussionById } from '../../../lib/data/forumDiscussions';
+import { getOrganizationSchema } from '../../../lib/utils/structuredData';
+import '../../../styles/pages/Forum.css';
 
 export async function generateStaticParams() {
   return forumDiscussions.map((discussion) => ({

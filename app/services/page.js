@@ -2,7 +2,7 @@
 
 import ScrollAnimation from '../components/ScrollAnimation';
 import AnimatedCounter from '../components/AnimatedCounter';
-import '../../src/page-styles/Services.css';
+import '../../styles/pages/Services.css';
 
 export default function ServicesPage() {
   const services = [

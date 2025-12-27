@@ -1,8 +1,8 @@
-import { blogPosts } from './data/blogPosts';
-import { usStates } from './data/usStates';
-import { canadaProvinces } from './data/canadaProvinces';
-import { printerBrands } from './data/printerBrands';
-import { forumDiscussions } from './data/forumDiscussions';
+import { blogPosts } from '../lib/data/blogPosts';
+import { usStates } from '../lib/data/usStates';
+import { canadaProvinces } from '../lib/data/canadaProvinces';
+import { printerBrands } from '../lib/data/printerBrands';
+import { forumDiscussions } from '../lib/data/forumDiscussions';
 
 export const dynamic = 'force-static';
 

@@ -1,8 +1,8 @@
 import { Inter, Poppins } from 'next/font/google';
 import Script from 'next/script';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../src/index.css';
-import '../src/App.css';
+import '../styles/globals/index.css';
+import '../styles/globals/App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 

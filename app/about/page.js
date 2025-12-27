@@ -1,5 +1,5 @@
-import { getOrganizationSchema } from '../../src/utils/structuredData';
-import '../../src/page-styles/About.css';
+import { getOrganizationSchema } from '../../lib/utils/structuredData';
+import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'About Us - Printer Support | Expert Team & Services',

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import '../../src/components/Breadcrumb.css';
+import '../../styles/components/Breadcrumb.css';
 
 export default function Breadcrumb({ items }) {
   const breadcrumbSchema = {

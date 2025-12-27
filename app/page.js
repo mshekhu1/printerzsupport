@@ -1,5 +1,5 @@
 import Home from './components/Home';
-import { getLocalBusinessSchema, getOrganizationSchema, getReviewSchema } from '../src/utils/structuredData';
+import { getLocalBusinessSchema, getOrganizationSchema, getReviewSchema } from '../lib/utils/structuredData';
 
 export const metadata = {
   title: 'Expert Printer Support - Fast & Reliable Help for All Printer Brands',

@@ -1,5 +1,5 @@
 import Breadcrumb from '../components/Breadcrumb';
-import '../../src/page-styles/About.css';
+import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'Privacy Policy - Printer Support | Data Protection & Privacy',

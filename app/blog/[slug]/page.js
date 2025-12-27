@@ -1,8 +1,9 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumb from '../../components/Breadcrumb';
-import { blogPosts } from '../../data/blogPosts';
-import '../../data/BlogPost.css';
+import BrandLinks from '../../components/BrandLinks';
+import { blogPosts } from '../../../lib/data/blogPosts';
+import '../../../styles/blog/BlogPost.css';
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -126,6 +127,7 @@ export default async function BlogPostPage({ params }) {
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
+            <BrandLinks />
             {relatedPosts.length > 0 && (
               <div className="related-posts">
                 <h2>Related Articles</h2>

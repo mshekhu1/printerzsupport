@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
-import { printerBrands } from '../data/printerBrands';
-import { getOrganizationSchema } from '../../src/utils/structuredData';
-import '../../src/page-styles/About.css';
+import { printerBrands } from '../../lib/data/printerBrands';
+import { getOrganizationSchema } from '../../lib/utils/structuredData';
+import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'Printer Brand Support - Expert Support for All Printer Brands',

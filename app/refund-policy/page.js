@@ -1,5 +1,5 @@
 import Breadcrumb from '../components/Breadcrumb';
-import '../../src/page-styles/About.css';
+import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'Refund Policy - Printer Support | Money-Back Guarantee & Returns',

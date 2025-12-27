@@ -1,5 +1,5 @@
-import '../../src/page-styles/Contact.css';
-import { getLocalBusinessSchema } from '../../src/utils/structuredData';
+import '../../styles/pages/Contact.css';
+import { getLocalBusinessSchema } from '../../lib/utils/structuredData';
 
 export const metadata = {
   title: 'Contact Us - Printer Support | Get Help Now',

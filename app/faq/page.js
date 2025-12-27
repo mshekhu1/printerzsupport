@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import Breadcrumb from '../components/Breadcrumb';
-import { getFAQSchema } from '../../src/utils/structuredData';
-import '../../src/page-styles/FAQ.css';
+import { getFAQSchema } from '../../lib/utils/structuredData';
+import '../../styles/pages/FAQ.css';
 
 export default function FAQPage() {
   const breadcrumbItems = [

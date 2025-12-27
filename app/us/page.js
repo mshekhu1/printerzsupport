@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
-import { usStates } from '../data/usStates';
-import { getOrganizationSchema } from '../../src/utils/structuredData';
-import '../../src/page-styles/About.css';
+import { usStates } from '../../lib/data/usStates';
+import { getOrganizationSchema } from '../../lib/utils/structuredData';
+import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'Online Printer Support in United States - Expert Remote Printer Services',

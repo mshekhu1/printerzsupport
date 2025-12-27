@@ -1,8 +1,8 @@
 import { notFound } from 'next/navigation';
 import Breadcrumb from '../../components/Breadcrumb';
-import { usStates, getStateBySlug, generateStateContent } from '../../data/usStates';
-import { getOrganizationSchema } from '../../../src/utils/structuredData';
-import '../../../src/page-styles/About.css';
+import { usStates, getStateBySlug, generateStateContent } from '../../../lib/data/usStates';
+import { getOrganizationSchema } from '../../../lib/utils/structuredData';
+import '../../../styles/pages/About.css';
 
 export async function generateStaticParams() {
   return usStates.map((state) => ({

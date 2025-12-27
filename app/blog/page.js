@@ -3,8 +3,8 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
-import { blogPosts } from '../data/blogPosts';
-import '../../src/page-styles/Blog.css';
+import { blogPosts } from '../../lib/data/blogPosts';
+import '../../styles/pages/Blog.css';
 
 
 export default function BlogPage() {

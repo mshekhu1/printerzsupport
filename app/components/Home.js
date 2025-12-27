@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ScrollAnimation from './ScrollAnimation';
 import AnimatedCounter from './AnimatedCounter';
-import '../../src/page-styles/Home.css';
+import '../../styles/pages/Home.css';
 
 export default function Home() {
   const features = [

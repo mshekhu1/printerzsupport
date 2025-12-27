@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
-import { canadaProvinces } from '../data/canadaProvinces';
-import { getOrganizationSchema } from '../../src/utils/structuredData';
-import '../../src/page-styles/About.css';
+import { canadaProvinces } from '../../lib/data/canadaProvinces';
+import { getOrganizationSchema } from '../../lib/utils/structuredData';
+import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'Online Printer Support in Canada - Expert Remote Printer Services',
