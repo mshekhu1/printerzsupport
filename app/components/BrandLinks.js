@@ -14,7 +14,8 @@ export default function BrandLinks({ brands = null }) {
   return (
     <div className="brand-links-section" style={{ 
       marginTop: '3rem', 
-      padding: '2rem', 
+      marginBottom: '3rem',
+      padding: '4rem 2rem', 
       background: '#f8f9fa', 
       borderRadius: '12px',
       border: '1px solid #e9ecef'

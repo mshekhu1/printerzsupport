@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
 import Breadcrumb from '../../components/Breadcrumb';
-import BrandLinks from '../../components/BrandLinks';
+import BlogPostSidebars from '../../components/BlogPostSidebars';
 import { blogPosts } from '../../../lib/data/blogPosts';
 import '../../../styles/blog/BlogPost.css';
 
@@ -63,7 +62,7 @@ export default async function BlogPostPage({ params }) {
 
   const relatedPosts = blogPosts
     .filter(p => p.category === post.category && p.id !== post.id)
-    .slice(0, 3);
+    .slice(0, 5);
 
   const breadcrumbItems = [
     { name: 'Home', url: 'https://www.printerzsupport.com/' },
@@ -123,26 +122,16 @@ export default async function BlogPostPage({ params }) {
                 <span>{post.author}</span>
               </div>
             </div>
+          </div>
+        </article>
+        <BlogPostSidebars relatedPosts={relatedPosts}>
+          <div className="blog-post-content-wrapper">
             <div 
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
-            <BrandLinks />
-            {relatedPosts.length > 0 && (
-              <div className="related-posts">
-                <h2>Related Articles</h2>
-                <div className="related-posts-grid">
-                  {relatedPosts.map(relatedPost => (
-                    <Link key={relatedPost.id} href={`/blog/${relatedPost.slug}`} className="related-post-card">
-                      <h3>{relatedPost.title}</h3>
-                      <p>{relatedPost.excerpt}</p>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            )}
           </div>
-        </article>
+        </BlogPostSidebars>
       </div>
     </>
   );

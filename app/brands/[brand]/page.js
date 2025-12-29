@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import Breadcrumb from '../../components/Breadcrumb';
+import BlogPostSidebars from '../../components/BlogPostSidebars';
 import { printerBrands, getBrandBySlug, generateBrandContent } from '../../../lib/data/printerBrands';
 import { getOrganizationSchema } from '../../../lib/utils/structuredData';
 import '../../../styles/pages/About.css';
@@ -79,14 +80,14 @@ export default async function BrandPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <div className="about-container animate__animated animate__fadeIn">
-        <div className="container">
-          <Breadcrumb items={breadcrumbItems} />
+        <Breadcrumb items={breadcrumbItems} />
+        <BlogPostSidebars brand={brandData.name}>
           <div 
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: content }}
             style={{ marginTop: '2rem' }}
           />
-        </div>
+        </BlogPostSidebars>
       </div>
     </>
   );

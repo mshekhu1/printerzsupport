@@ -27,6 +27,8 @@ const nextConfig = {
   generateEtags: true,
   // Optimize production builds
   productionBrowserSourceMaps: false,
+  // Increase timeout for build process to prevent socket hangup errors
+  staticPageGenerationTimeout: 600,
   // Headers removed for static export - configure on server instead
 };
 
