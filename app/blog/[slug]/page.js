@@ -70,6 +70,13 @@ export default async function BlogPostPage({ params }) {
     { name: post.title, url: `https://www.printerzsupport.com/blog/${post.slug}` }
   ];
 
+  const categories = {
+    'troubleshooting': 'Troubleshooting',
+    'setup': 'Setup & Installation',
+    'maintenance': 'Maintenance',
+    'installation': 'Installation'
+  };
+
   const blogPostSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -93,14 +100,10 @@ export default async function BlogPostPage({ params }) {
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `https://www.printerzsupport.com/blog/${post.slug}`
-    }
-  };
-
-  const categories = {
-    'troubleshooting': 'Troubleshooting',
-    'setup': 'Setup & Installation',
-    'maintenance': 'Maintenance',
-    'installation': 'Installation'
+    },
+    "articleSection": categories[post.category] || post.category,
+    "keywords": post.keywords ? (Array.isArray(post.keywords) ? post.keywords.join(', ') : post.keywords) : '',
+    "inLanguage": "en-US"
   };
 
   return (
@@ -112,8 +115,8 @@ export default async function BlogPostPage({ params }) {
       <div className="blog-post-container">
         <Breadcrumb items={breadcrumbItems} />
         <article className="blog-post">
-          <div className="container">
-            <div className="blog-post-header">
+          <div className="blog-post-header">
+            <div className="container">
               <div className="post-category">{categories[post.category] || post.category}</div>
               <h1>{post.title}</h1>
               <div className="post-meta">

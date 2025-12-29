@@ -14,8 +14,13 @@
 .blog-post-header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 60px 40px;
+  padding: 60px 0;
   text-align: center;
+  width: 100%;
+}
+
+.blog-post-header .container {
+  padding: 0 40px;
 }
 
 .blog-post-meta {
