@@ -97,6 +97,9 @@ export default function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" href="/brands" onClick={closeMenu}>Printer Brands</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="/drivers" onClick={closeMenu}>Drivers & Manuals</Link>
+            </li>
             <li 
               className="nav-item dropdown branches"
               onMouseEnter={() => {
