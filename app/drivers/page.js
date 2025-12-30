@@ -56,14 +56,14 @@ export default function DriversPage() {
       'Canon': `https://www.usa.canon.com/internet/portal/us/home/support/drivers-downloads`,
       'Epson': `https://epson.com/Support/Printers/sh/s1`,
       'Brother': `https://support.brother.com/g/b/productsearch.aspx?c=us&lang=en&content=dl`,
-      'Lexmark': `https://support.lexmark.com/en_us/drivers`,
-      'Xerox': `https://www.xerox.com/en-us/support/find-product`,
+      'Lexmark': `https://support.lexmark.com/en_us/drivers-downloads.html`,
+      'Xerox': `https://www.support.xerox.com/en-us`,
       'Samsung': `https://www.samsung.com/us/support/search`,
       'Dell': `https://www.dell.com/support/home/en-us/product-support/product-finder`,
-      'Ricoh': `https://support.ricoh.com/bb/html/dr_ut_e/rc/model/index.html`,
-      'Konica Minolta': `https://www.konicaminolta.com/usa-en/support/download.html`,
+      'Ricoh': `https://support.ricoh.com/`,
+      'Konica Minolta': `https://www.konicaminolta.com/in-en/support/index.html`,
       'OKI': `https://www.oki.com/us/printing/support/drivers-and-utilities/`,
-      'Kyocera': `https://www.kyoceradocumentsolutions.com/en/support/downloads.html`
+      'Kyocera': `https://www.kyoceradocumentsolutions.com/global/en/support-and-download.html`
     };
 
     return urls[brand] || `https://www.google.com/search?q=${encodeURIComponent(brand + ' ' + model + ' driver download')}`;
@@ -76,14 +76,14 @@ export default function DriversPage() {
       'Canon': `https://www.usa.canon.com/internet/portal/us/home/support/drivers-downloads`,
       'Epson': `https://epson.com/Support/Printers/sh/s1`,
       'Brother': `https://support.brother.com/g/b/productsearch.aspx?c=us&lang=en&content=dl`,
-      'Lexmark': `https://support.lexmark.com/en_us/drivers`,
-      'Xerox': `https://www.xerox.com/en-us/support/find-product`,
+      'Lexmark': `https://support.lexmark.com/en_us/drivers-downloads.html`,
+      'Xerox': `https://www.support.xerox.com/en-us`,
       'Samsung': `https://www.samsung.com/us/support/search`,
       'Dell': `https://www.dell.com/support/home/en-us/product-support/product-finder`,
-      'Ricoh': `https://support.ricoh.com/bb/html/dr_ut_e/rc/model/index.html`,
-      'Konica Minolta': `https://www.konicaminolta.com/usa-en/support/download.html`,
+      'Ricoh': `https://support.ricoh.com/`,
+      'Konica Minolta': `https://www.konicaminolta.com/in-en/support/index.html`,
       'OKI': `https://www.oki.com/us/printing/support/drivers-and-utilities/`,
-      'Kyocera': `https://www.kyoceradocumentsolutions.com/en/support/downloads.html`
+      'Kyocera': `https://www.kyoceradocumentsolutions.com/global/en/support-and-download.html`
     };
 
     return urls[brand] || `https://www.google.com/search?q=${encodeURIComponent(brand + ' ' + model + ' instruction manual')}`;
