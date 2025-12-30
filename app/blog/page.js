@@ -1,18 +1,20 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, Suspense } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import Breadcrumb from '../components/Breadcrumb';
 import { blogPosts } from '../../lib/data/blogPosts';
 import '../../styles/pages/Blog.css';
 
-
-export default function BlogPage() {
+function BlogPageContent() {
+  const searchParams = useSearchParams();
   const breadcrumbItems = [
     { name: 'Home', url: 'https://www.printerzsupport.com/' },
     { name: 'Blog', url: 'https://www.printerzsupport.com/blog' }
   ];
   const [selectedCategory, setSelectedCategory] = useState('all');
+  const [searchQuery, setSearchQuery] = useState('');
 
   const categories = [
     { id: 'all', name: 'All Posts' },
@@ -22,11 +24,35 @@ export default function BlogPage() {
     { id: 'installation', name: 'Installation' }
   ];
 
+  useEffect(() => {
+    const searchParam = searchParams.get('search');
+    if (searchParam) {
+      setSearchQuery(searchParam);
+    }
+  }, [searchParams]);
+
   const filteredPosts = useMemo(() => {
-    return selectedCategory === 'all' 
+    let posts = selectedCategory === 'all' 
       ? blogPosts 
       : blogPosts.filter(post => post.category === selectedCategory);
-  }, [selectedCategory]);
+    
+    // Apply search filter
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase().trim();
+      posts = posts.filter(post => {
+        // Remove HTML tags from content for searching
+        const contentText = post.content ? post.content.replace(/<[^>]*>/g, '').toLowerCase() : '';
+        return (
+          post.title.toLowerCase().includes(query) ||
+          post.excerpt.toLowerCase().includes(query) ||
+          (post.keywords && post.keywords.toLowerCase().includes(query)) ||
+          contentText.includes(query)
+        );
+      });
+    }
+    
+    return posts;
+  }, [selectedCategory, searchQuery]);
 
   const blogSchema = {
     "@context": "https://schema.org",
@@ -64,6 +90,30 @@ export default function BlogPage() {
           <p>Expert guides, tips, and tutorials for all your printer needs</p>
         </div>
 
+        <div className="blog-search-container" role="search" aria-label="Blog search">
+          <div className="blog-search-wrapper">
+            <label htmlFor="blog-search-input" className="sr-only">
+              Search all blog posts by title, keywords, or content
+            </label>
+            <input
+              id="blog-search-input"
+              type="search"
+              className="blog-search-input"
+              placeholder="Search all blog posts by title, keywords, or content..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              aria-label="Search all blog posts"
+              aria-describedby={searchQuery ? "search-results-count" : undefined}
+            />
+            <span className="blog-search-icon" aria-hidden="true">🔍</span>
+          </div>
+          {searchQuery && (
+            <div id="search-results-count" className="blog-search-results-count" role="status" aria-live="polite">
+              Found {filteredPosts.length} {filteredPosts.length === 1 ? 'post' : 'posts'} for "{searchQuery}"
+            </div>
+          )}
+        </div>
+
         <div className="blog-filters">
           {categories.map(category => (
             <button
@@ -98,6 +148,25 @@ export default function BlogPage() {
         </div>
       </div>
     </>
+  );
+}
+
+export default function BlogPage() {
+  return (
+    <Suspense fallback={
+      <div className="blog-container">
+        <Breadcrumb items={[
+          { name: 'Home', url: 'https://www.printerzsupport.com/' },
+          { name: 'Blog', url: 'https://www.printerzsupport.com/blog' }
+        ]} />
+        <div className="blog-header">
+          <h1>Printer Support Blog</h1>
+          <p>Expert guides, tips, and tutorials for all your printer needs</p>
+        </div>
+      </div>
+    }>
+      <BlogPageContent />
+    </Suspense>
   );
 }
 

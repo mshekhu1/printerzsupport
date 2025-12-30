@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { blogPosts } from '../../lib/data/blogPosts';
 import '../../styles/components/BlogPostSidebars.css';
 
 // All FAQs for non-brand pages
@@ -299,6 +300,7 @@ const brandSpecificFAQs = {
 export default function BlogPostSidebars({ children, brand = null, relatedPosts = [] }) {
   const [headings, setHeadings] = useState([]);
   const [activeHeading, setActiveHeading] = useState('');
+  const [searchQuery, setSearchQuery] = useState('');
   const contentRef = useRef(null);
 
   useEffect(() => {
@@ -421,17 +423,74 @@ export default function BlogPostSidebars({ children, brand = null, relatedPosts 
               {relatedPosts.length > 0 && (
                 <div className="blog-related-articles-sidebar">
                   <h3 className="blog-related-articles-title">Related Articles</h3>
+                  <div className="blog-related-articles-search" role="search" aria-label="Search related articles">
+                    <label htmlFor="sidebar-search-input" className="sr-only">
+                      Search all articles
+                    </label>
+                    <input
+                      id="sidebar-search-input"
+                      type="search"
+                      className="blog-related-articles-search-input"
+                      placeholder="Search all articles..."
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      aria-label="Search all articles"
+                    />
+                    <span className="blog-related-articles-search-icon" aria-hidden="true">🔍</span>
+                  </div>
                   <div className="blog-related-articles-list">
-                    {relatedPosts.map((relatedPost) => (
+                    {(() => {
+                      // If search query exists, search all blog posts; otherwise show related posts
+                      const postsToShow = searchQuery.trim() 
+                        ? blogPosts.filter(post => {
+                            const query = searchQuery.toLowerCase().trim();
+                            // Remove HTML tags from content for searching
+                            const contentText = post.content ? post.content.replace(/<[^>]*>/g, '').toLowerCase() : '';
+                            return (
+                              post.title.toLowerCase().includes(query) ||
+                              post.excerpt.toLowerCase().includes(query) ||
+                              (post.keywords && post.keywords.toLowerCase().includes(query)) ||
+                              contentText.includes(query)
+                            );
+                          }).slice(0, 10) // Limit to 10 results for sidebar
+                        : relatedPosts;
+
+                      if (postsToShow.length === 0 && searchQuery.trim()) {
+                        return (
+                          <div id="sidebar-no-results" className="blog-related-articles-no-results" role="status" aria-live="polite">
+                            No articles found matching "{searchQuery}"
+                          </div>
+                        );
+                      }
+
+                      return postsToShow.map((post) => (
+                        <Link 
+                          key={post.id} 
+                          href={`/blog/${post.slug}`} 
+                          className="blog-related-article-item"
+                        >
+                          <h4>{post.title}</h4>
+                          <p>{post.excerpt}</p>
+                        </Link>
+                      ));
+                    })()}
+                    {searchQuery.trim() && blogPosts.filter(post => {
+                      const query = searchQuery.toLowerCase().trim();
+                      const contentText = post.content ? post.content.replace(/<[^>]*>/g, '').toLowerCase() : '';
+                      return (
+                        post.title.toLowerCase().includes(query) ||
+                        post.excerpt.toLowerCase().includes(query) ||
+                        (post.keywords && post.keywords.toLowerCase().includes(query)) ||
+                        contentText.includes(query)
+                      );
+                    }).length > 10 && (
                       <Link 
-                        key={relatedPost.id} 
-                        href={`/blog/${relatedPost.slug}`} 
-                        className="blog-related-article-item"
+                        href={`/blog?search=${encodeURIComponent(searchQuery)}`}
+                        className="blog-related-articles-view-all"
                       >
-                        <h4>{relatedPost.title}</h4>
-                        <p>{relatedPost.excerpt}</p>
+                        View All Results →
                       </Link>
-                    ))}
+                    )}
                   </div>
                 </div>
               )}
