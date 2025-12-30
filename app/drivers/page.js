@@ -70,20 +70,20 @@ export default function DriversPage() {
   };
 
   const getManualDownloadUrl = (brand, model) => {
-    // Point to brand product search pages for manuals
+    // Point to the same URLs as driver download (product search pages)
     const urls = {
-      'HP': `https://support.hp.com/us-en/manuals`,
-      'Canon': `https://www.usa.canon.com/internet/portal/us/home/support`,
+      'HP': `https://support.hp.com/us-en/drivers/printers`,
+      'Canon': `https://www.usa.canon.com/internet/portal/us/home/support/drivers-downloads`,
       'Epson': `https://epson.com/Support/Printers/sh/s1`,
-      'Brother': `https://support.brother.com/g/b/productsearch.aspx?c=us&lang=en&content=manual`,
-      'Lexmark': `https://support.lexmark.com/en_us/manuals`,
+      'Brother': `https://support.brother.com/g/b/productsearch.aspx?c=us&lang=en&content=dl`,
+      'Lexmark': `https://support.lexmark.com/en_us/drivers`,
       'Xerox': `https://www.xerox.com/en-us/support/find-product`,
       'Samsung': `https://www.samsung.com/us/support/search`,
       'Dell': `https://www.dell.com/support/home/en-us/product-support/product-finder`,
       'Ricoh': `https://support.ricoh.com/bb/html/dr_ut_e/rc/model/index.html`,
-      'Konica Minolta': `https://www.konicaminolta.com/usa-en/support/manuals.html`,
-      'OKI': `https://www.oki.com/us/printing/support/manuals/`,
-      'Kyocera': `https://www.kyoceradocumentsolutions.com/en/support/manuals.html`
+      'Konica Minolta': `https://www.konicaminolta.com/usa-en/support/download.html`,
+      'OKI': `https://www.oki.com/us/printing/support/drivers-and-utilities/`,
+      'Kyocera': `https://www.kyoceradocumentsolutions.com/en/support/downloads.html`
     };
 
     return urls[brand] || `https://www.google.com/search?q=${encodeURIComponent(brand + ' ' + model + ' instruction manual')}`;
