@@ -94,7 +94,7 @@ export default async function BlogPostPage({ params }) {
       "name": "Printer Support",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.printerzsupport.com/logo512.png"
+        "url": "https://www.printerzsupport.com/favicon.svg"
       }
     },
     "mainEntityOfPage": {
