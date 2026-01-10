@@ -52,7 +52,7 @@
 
 .blog-post-title,
 .blog-post-header h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   margin: 20px 0 10px;
   line-height: 1.2;
@@ -306,7 +306,7 @@
 
   .blog-post-title,
   .blog-post-header h1 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
@@ -352,7 +352,7 @@
 
   .blog-post-title,
   .blog-post-header h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1.4;
     margin: 15px 0 8px;
   }
