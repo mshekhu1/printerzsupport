@@ -1,8 +1,11 @@
 import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
-import { printerBrands } from '../../lib/data/printerBrands';
+import fs from 'fs';
+import path from 'path';
 import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
+
+const printerBrands = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'printerBrands.json'), 'utf8'));
 
 export const metadata = {
   title: 'Printer Brand Support - Expert Support for All Printer Brands',

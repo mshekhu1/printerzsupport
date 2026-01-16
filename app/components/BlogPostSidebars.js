@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { blogPosts } from '../../lib/data/blogPosts';
 import '../../styles/components/BlogPostSidebars.css';
 
 // All FAQs for non-brand pages
@@ -298,10 +297,17 @@ const brandSpecificFAQs = {
 };
 
 export default function BlogPostSidebars({ children, brand = null, relatedPosts = [] }) {
+  const [blogPosts, setBlogPosts] = useState([]);
   const [headings, setHeadings] = useState([]);
   const [activeHeading, setActiveHeading] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
   const contentRef = useRef(null);
+
+  useEffect(() => {
+    fetch('/data/blogPosts.json')
+      .then(res => res.json())
+      .then(setBlogPosts);
+  }, []);
 
   useEffect(() => {
     // Extract headings from the blog post content

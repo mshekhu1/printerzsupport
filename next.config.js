@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  turbopack: {}, // Silence Turbopack warning with webpack config
+  reactStrictMode: true,
   output: 'export', // Generate static HTML files for traditional hosting
   outputFileTracingRoot: __dirname, // Set workspace root to silence lockfile warning
   // Disable pages directory to use only app directory

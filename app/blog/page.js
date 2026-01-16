@@ -4,7 +4,6 @@ import { useState, useMemo, useEffect, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import Breadcrumb from '../components/Breadcrumb';
-import { blogPosts } from '../../lib/data/blogPosts';
 import '../../styles/pages/Blog.css';
 
 function BlogPageContent() {
@@ -23,6 +22,14 @@ function BlogPageContent() {
     { id: 'maintenance', name: 'Maintenance' },
     { id: 'installation', name: 'Installation' }
   ];
+
+  const [blogPosts, setBlogPosts] = useState([]);
+
+  useEffect(() => {
+    fetch('/data/blogPosts.json')
+      .then(res => res.json())
+      .then(setBlogPosts);
+  }, []);
 
   useEffect(() => {
     const searchParam = searchParams.get('search');
@@ -119,7 +126,12 @@ function BlogPageContent() {
             <button
               key={category.id}
               className={`filter-btn ${selectedCategory === category.id ? 'active' : ''}`}
-              onClick={() => setSelectedCategory(category.id)}
+              onClick={() => {
+                setSelectedCategory(category.id);
+                if (category.id === 'all') {
+                  setSearchQuery('');
+                }
+              }}
             >
               <span>{category.name}</span>
             </button>
@@ -128,7 +140,7 @@ function BlogPageContent() {
 
         <div className="blog-posts">
           {filteredPosts.map((post, index) => (
-            <article key={post.id} className="blog-card" style={{ animationDelay: `${index * 0.1}s` }}>
+            <article key={post.slug} className="blog-card" style={{ animationDelay: `${index * 0.1}s` }}>
               <div className="blog-card-header">
                 <span className="blog-category">{post.category.charAt(0).toUpperCase() + post.category.slice(1)}</span>
                 <span className="blog-date">{post.date}</span>

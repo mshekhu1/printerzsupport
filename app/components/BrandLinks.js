@@ -1,9 +1,15 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { printerBrands } from '../../lib/data/printerBrands';
 
 export default function BrandLinks({ brands = null }) {
+  const [printerBrands, setPrinterBrands] = useState([]);
+
+  useEffect(() => {
+    fetch('/data/printerBrands.json').then(r => r.json()).then(setPrinterBrands);
+  }, []);
+
   // If specific brands provided, use those; otherwise show all major brands
   const displayBrands = brands 
     ? printerBrands.filter(b => brands.includes(b.name.toLowerCase()))

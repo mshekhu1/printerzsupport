@@ -1,8 +1,11 @@
 import { notFound } from 'next/navigation';
 import Breadcrumb from '../../components/Breadcrumb';
 import BlogPostSidebars from '../../components/BlogPostSidebars';
-import { blogPosts } from '../../../lib/data/blogPosts';
+import fs from 'fs';
+import path from 'path';
 import '../../../styles/blog/BlogPost.css';
+
+const blogPosts = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'blogPosts.json'), 'utf8'));
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({

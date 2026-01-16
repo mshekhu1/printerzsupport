@@ -1,8 +1,11 @@
-import { blogPosts } from '../lib/data/blogPosts';
-import { usStates } from '../lib/data/usStates';
-import { canadaProvinces } from '../lib/data/canadaProvinces';
-import { printerBrands } from '../lib/data/printerBrands';
-import { forumDiscussions } from '../lib/data/forumDiscussions';
+import fs from 'fs';
+import path from 'path';
+
+const blogPosts = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'blogPosts.json'), 'utf8'));
+const usStates = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'usStates.json'), 'utf8'));
+const canadaProvinces = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'canadaProvinces.json'), 'utf8'));
+const printerBrands = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'printerBrands.json'), 'utf8'));
+const forumDiscussions = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public', 'data', 'forumDiscussions.json'), 'utf8'));
 
 export const dynamic = 'force-static';
 

@@ -1,0 +1,289 @@
+[
+  {
+    "name": "HP",
+    "fullName": "Hewlett-Packard",
+    "slug": "hp",
+    "description": "HP Printer Support - Expert help for HP LaserJet, OfficeJet, DeskJet, and Envy printers",
+    "series": [
+      "LaserJet",
+      "OfficeJet",
+      "DeskJet",
+      "Envy",
+      "PageWide",
+      "DesignJet"
+    ],
+    "commonIssues": [
+      "HP printer offline",
+      "HP printer not printing",
+      "HP error codes",
+      "HP driver issues",
+      "HP wireless setup"
+    ],
+    "supportTools": [
+      "HP Smart",
+      "HP Printer Assistant",
+      "HP Support Assistant"
+    ]
+  },
+  {
+    "name": "Canon",
+    "fullName": "Canon",
+    "slug": "canon",
+    "description": "Canon Printer Support - Professional help for Canon PIXMA, imageCLASS, and MAXIFY printers",
+    "series": [
+      "PIXMA",
+      "imageCLASS",
+      "MAXIFY",
+      "SELPHY",
+      "imagePROGRAF"
+    ],
+    "commonIssues": [
+      "Canon printer offline",
+      "Canon printer not printing",
+      "Canon error codes",
+      "Canon driver installation",
+      "Canon wireless setup"
+    ],
+    "supportTools": [
+      "Canon PRINT",
+      "Canon Easy-WebPrint EX",
+      "Canon IJ Printer Utility"
+    ]
+  },
+  {
+    "name": "Epson",
+    "fullName": "Epson",
+    "slug": "epson",
+    "description": "Epson Printer Support - Expert assistance for Epson EcoTank, Expression, and WorkForce printers",
+    "series": [
+      "EcoTank",
+      "Expression",
+      "WorkForce",
+      "SureColor",
+      "Stylus"
+    ],
+    "commonIssues": [
+      "Epson printer offline",
+      "Epson error codes",
+      "Epson waste ink pad",
+      "Epson driver issues",
+      "Epson wireless setup"
+    ],
+    "supportTools": [
+      "Epson Connect",
+      "Epson Printer Utility",
+      "Epson Service Utility"
+    ]
+  },
+  {
+    "name": "Brother",
+    "fullName": "Brother",
+    "slug": "brother",
+    "description": "Brother Printer Support - Professional help for Brother MFC, HL, and DCP printers",
+    "series": [
+      "MFC",
+      "HL",
+      "DCP",
+      "QL",
+      "PT"
+    ],
+    "commonIssues": [
+      "Brother printer offline",
+      "Brother printer not printing",
+      "Brother error codes",
+      "Brother driver issues",
+      "Brother network setup"
+    ],
+    "supportTools": [
+      "Brother iPrint&Scan",
+      "Brother Printer Utility",
+      "Brother ControlCenter"
+    ]
+  },
+  {
+    "name": "Lexmark",
+    "fullName": "Lexmark",
+    "slug": "lexmark",
+    "description": "Lexmark Printer Support - Expert help for Lexmark office and home printers",
+    "series": [
+      "MS",
+      "CS",
+      "MX",
+      "XC",
+      "XC8000"
+    ],
+    "commonIssues": [
+      "Lexmark printer offline",
+      "Lexmark printer not printing",
+      "Lexmark error codes",
+      "Lexmark driver issues",
+      "Lexmark network setup"
+    ],
+    "supportTools": [
+      "Lexmark Print Release",
+      "Lexmark Printer Software",
+      "Lexmark Smart Solutions"
+    ]
+  },
+  {
+    "name": "Xerox",
+    "fullName": "Xerox",
+    "slug": "xerox",
+    "description": "Xerox Printer Support - Professional assistance for Xerox office and enterprise printers",
+    "series": [
+      "VersaLink",
+      "WorkCentre",
+      "Phaser",
+      "AltaLink",
+      "Brenva"
+    ],
+    "commonIssues": [
+      "Xerox printer offline",
+      "Xerox printer not printing",
+      "Xerox error codes",
+      "Xerox driver issues",
+      "Xerox network configuration"
+    ],
+    "supportTools": [
+      "Xerox Print Drivers",
+      "Xerox CentreWare",
+      "Xerox Mobile Print"
+    ]
+  },
+  {
+    "name": "Samsung",
+    "fullName": "Samsung",
+    "slug": "samsung",
+    "description": "Samsung Printer Support - Expert help for Samsung laser and inkjet printers",
+    "series": [
+      "Xpress",
+      "ProXpress",
+      "CLP",
+      "ML"
+    ],
+    "commonIssues": [
+      "Samsung printer offline",
+      "Samsung printer not printing",
+      "Samsung error codes",
+      "Samsung driver issues",
+      "Samsung wireless setup"
+    ],
+    "supportTools": [
+      "Samsung Printer Software",
+      "Samsung Mobile Print",
+      "Samsung Easy Printer Manager"
+    ]
+  },
+  {
+    "name": "Dell",
+    "fullName": "Dell",
+    "slug": "dell",
+    "description": "Dell Printer Support - Professional assistance for Dell laser and inkjet printers",
+    "series": [
+      "B1160",
+      "B1260",
+      "C1760nw",
+      "S2825cdn"
+    ],
+    "commonIssues": [
+      "Dell printer offline",
+      "Dell printer not printing",
+      "Dell error codes",
+      "Dell driver issues",
+      "Dell network setup"
+    ],
+    "supportTools": [
+      "Dell Printer Software",
+      "Dell SupportAssist"
+    ]
+  },
+  {
+    "name": "Ricoh",
+    "fullName": "Ricoh",
+    "slug": "ricoh",
+    "description": "Ricoh Printer Support - Expert help for Ricoh office and multifunction printers",
+    "series": [
+      "SP",
+      "MP",
+      "Aficio",
+      "IM"
+    ],
+    "commonIssues": [
+      "Ricoh printer offline",
+      "Ricoh printer not printing",
+      "Ricoh error codes",
+      "Ricoh driver issues",
+      "Ricoh network configuration"
+    ],
+    "supportTools": [
+      "Ricoh Printer Drivers",
+      "Ricoh SmartDeviceMonitor",
+      "Ricoh Print&Scan"
+    ]
+  },
+  {
+    "name": "Konica Minolta",
+    "fullName": "Konica Minolta",
+    "slug": "konica-minolta",
+    "description": "Konica Minolta Printer Support - Professional assistance for Konica Minolta office printers",
+    "series": [
+      "bizhub",
+      "Accurio",
+      "magicolor"
+    ],
+    "commonIssues": [
+      "Konica Minolta printer offline",
+      "Konica Minolta printer not printing",
+      "Konica Minolta error codes",
+      "Konica Minolta driver issues"
+    ],
+    "supportTools": [
+      "Konica Minolta Printer Drivers",
+      "Konica Minolta PageScope"
+    ]
+  },
+  {
+    "name": "OKI",
+    "fullName": "OKI",
+    "slug": "oki",
+    "description": "OKI Printer Support - Expert help for OKI color and monochrome printers",
+    "series": [
+      "B400",
+      "B600",
+      "C800",
+      "MC"
+    ],
+    "commonIssues": [
+      "OKI printer offline",
+      "OKI printer not printing",
+      "OKI error codes",
+      "OKI driver issues",
+      "OKI network setup"
+    ],
+    "supportTools": [
+      "OKI Printer Drivers",
+      "OKI Printer Utility"
+    ]
+  },
+  {
+    "name": "Kyocera",
+    "fullName": "Kyocera",
+    "slug": "kyocera",
+    "description": "Kyocera Printer Support - Professional assistance for Kyocera office printers",
+    "series": [
+      "ECOSYS",
+      "TASKalfa",
+      "FS"
+    ],
+    "commonIssues": [
+      "Kyocera printer offline",
+      "Kyocera printer not printing",
+      "Kyocera error codes",
+      "Kyocera driver issues"
+    ],
+    "supportTools": [
+      "Kyocera Printer Drivers",
+      "Kyocera Print&Scan"
+    ]
+  }
+]
