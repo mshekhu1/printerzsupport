@@ -30,6 +30,7 @@ export async function generateMetadata({ params }) {
       url: `https://www.printerzsupport.com/blog/${post.slug}`,
       type: 'article',
       publishedTime: post.date,
+      modifiedTime: post.modified,
       authors: [post.author],
       images: [
         {
@@ -84,7 +85,7 @@ export default async function BlogPostPage({ params }) {
     "description": post.excerpt,
     "image": "https://www.printerzsupport.com/hero-printer.svg",
     "datePublished": post.date,
-    "dateModified": post.date,
+    "dateModified": post.modified,
     "author": {
       "@type": "Organization",
       "name": post.author
@@ -120,7 +121,7 @@ export default async function BlogPostPage({ params }) {
               <div className="post-category">{categories[post.category] || post.category}</div>
               <h1>{post.title}</h1>
               <div className="post-meta">
-                <span>{post.date}</span>
+                <span>{post.modified}</span>
                 <span>•</span>
                 <span>{post.author}</span>
               </div>
