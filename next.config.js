@@ -72,6 +72,19 @@ const nextConfig = {
   },
   
   // Headers removed for static export - configure on server instead
+
+  // 301: blog alias → canonical (from lib/data/blogAliases.js)
+  async redirects() {
+    const path = require('path');
+    const { pathToFileURL } = require('url');
+    const fileUrl = pathToFileURL(path.join(__dirname, 'lib', 'data', 'blogAliases.js')).href;
+    const { blogSlugAliases } = await import(fileUrl);
+    return Object.entries(blogSlugAliases).map(([alias, canonical]) => ({
+      source: `/blog/${alias}`,
+      destination: `/blog/${canonical}`,
+      permanent: true, // 301
+    }));
+  },
 };
 
 module.exports = nextConfig;
