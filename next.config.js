@@ -79,11 +79,14 @@ const nextConfig = {
     const { pathToFileURL } = require('url');
     const fileUrl = pathToFileURL(path.join(__dirname, 'lib', 'data', 'blogAliases.js')).href;
     const { blogSlugAliases } = await import(fileUrl);
-    return Object.entries(blogSlugAliases).map(([alias, canonical]) => ({
-      source: `/blog/${alias}`,
-      destination: `/blog/${canonical}`,
-      permanent: true, // 301
-    }));
+    // Skip alias === canonical (identity rows); same-path 301s cause redirect loops.
+    return Object.entries(blogSlugAliases)
+      .filter(([alias, canonical]) => alias !== canonical)
+      .map(([alias, canonical]) => ({
+        source: `/blog/${alias}`,
+        destination: `/blog/${canonical}`,
+        permanent: true, // 301
+      }));
   },
 };
 
