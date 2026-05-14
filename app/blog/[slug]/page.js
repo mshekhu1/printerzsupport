@@ -2,24 +2,23 @@ import { notFound } from 'next/navigation';
 import Breadcrumb from '../../components/Breadcrumb';
 import BlogPostSidebars from '../../components/BlogPostSidebars';
 import { blogPosts } from '../../../lib/data/blogPosts';
+import { getCanonicalSlug, getAllBlogSlugs } from '../../../lib/data/blogAliases';
 import '../../../styles/blog/BlogPost.css';
 
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({
-    slug: post.slug,
-  }));
+  return getAllBlogSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const post = blogPosts.find(p => p.slug === slug);
-  
-  if (!post) {
-    return {
-      title: 'Post Not Found',
-    };
+  const canonicalSlug = getCanonicalSlug(slug);
+  if (!canonicalSlug) {
+    return { title: 'Post Not Found' };
   }
+  const post = blogPosts.find(p => p.slug === canonicalSlug);
+  if (!post) return { title: 'Post Not Found' };
 
+  const canonicalUrl = `https://www.printerzsupport.com/blog/${post.slug}`;
   return {
     title: post.title,
     description: post.excerpt,
@@ -27,7 +26,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `https://www.printerzsupport.com/blog/${post.slug}`,
+      url: canonicalUrl,
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
@@ -47,27 +46,27 @@ export async function generateMetadata({ params }) {
       images: ['https://www.printerzsupport.com/hero-printer.svg'],
     },
     alternates: {
-      canonical: `https://www.printerzsupport.com/blog/${post.slug}`,
+      canonical: canonicalUrl,
     },
   };
 }
 
 export default async function BlogPostPage({ params }) {
   const { slug } = await params;
-  const post = blogPosts.find(p => p.slug === slug);
-
-  if (!post) {
-    notFound();
-  }
+  const canonicalSlug = getCanonicalSlug(slug);
+  if (!canonicalSlug) notFound();
+  const post = blogPosts.find(p => p.slug === canonicalSlug);
+  if (!post) notFound();
 
   const relatedPosts = blogPosts
     .filter(p => p.category === post.category && p.id !== post.id)
     .slice(0, 5);
 
+  const canonicalBlogUrl = `https://www.printerzsupport.com/blog/${post.slug}`;
   const breadcrumbItems = [
     { name: 'Home', url: 'https://www.printerzsupport.com/' },
     { name: 'Blog', url: 'https://www.printerzsupport.com/blog' },
-    { name: post.title, url: `https://www.printerzsupport.com/blog/${post.slug}` }
+    { name: post.title, url: canonicalBlogUrl }
   ];
 
   const categories = {
@@ -99,7 +98,7 @@ export default async function BlogPostPage({ params }) {
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://www.printerzsupport.com/blog/${post.slug}`
+      "@id": canonicalBlogUrl
     },
     "articleSection": categories[post.category] || post.category,
     "keywords": post.keywords ? (Array.isArray(post.keywords) ? post.keywords.join(', ') : post.keywords) : '',
