@@ -168,6 +168,9 @@ export default function RefundPolicyPage() {
           <ul>
             <li><strong>Email:</strong> <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></li>
             <li><strong>Phone:</strong> <a href="tel:+1-888-423-7757">+1-888-423-7757</a></li>
+            <li>
+              <strong>Mailing address:</strong> 3758 Wedgewood Dr, Bloomfield Hills, MI 48301, United States
+            </li>
             <li><strong>Hours:</strong> 24/7 Support Available</li>
           </ul>
           <p>We are committed to resolving refund requests fairly and promptly. Our customer service team is available to assist you with any questions or concerns.</p>

@@ -31,6 +31,16 @@ export default function ContactPage() {
         <div className="contact-info">
           <p>Email: <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></p>
           <p>Phone: <a href="tel:+1-888-423-7757">+1-888-423-7757</a></p>
+          <p>
+            Address:{' '}
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=3758+Wedgewood+Dr%2C+Bloomfield+Hills%2C+MI+48301"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              3758 Wedgewood Dr, Bloomfield Hills, MI 48301
+            </a>
+          </p>
         </div>
         <form className="contact-form">
           <div className="form-group">

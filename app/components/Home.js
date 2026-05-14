@@ -95,7 +95,7 @@ export default function Home() {
                   Expert Printer Support
                 </h1>
                 <p className="hero-subtitle">
-                  Fast, friendly, and reliable help to install, repair, and optimize your printers.
+                  HP printer support for LaserJet, OfficeJet, DeskJet, and Envy—HP Smart, wireless setup, drivers, offline and error-code fixes, and print-quality issues—with experts available 24/7.
                 </p>
                 <div className="hero-actions">
                   <a href="tel:+1-888-423-7757" className="hero-phone">
