@@ -2,11 +2,14 @@ import { notFound } from 'next/navigation';
 import Breadcrumb from '../../components/Breadcrumb';
 import BlogPostSidebars from '../../components/BlogPostSidebars';
 import { blogPosts } from '../../../lib/data/blogPosts';
-import { getCanonicalSlug, getAllBlogSlugs } from '../../../lib/data/blogAliases';
+import { getCanonicalSlug, getCanonicalBlogSlugs, isBlogAlias } from '../../../lib/data/blogAliases';
 import '../../../styles/blog/BlogPost.css';
 
+// Only pre-built canonical URLs exist in static export; aliases rely on _redirects/.htaccess.
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
-  return getAllBlogSlugs().map((slug) => ({ slug }));
+  return getCanonicalBlogSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }) {
@@ -19,10 +22,19 @@ export async function generateMetadata({ params }) {
   if (!post) return { title: 'Post Not Found' };
 
   const canonicalUrl = `https://www.printerzsupport.com/blog/${post.slug}`;
+  const isAlternateUrl = slug !== post.slug || isBlogAlias(slug);
+
   return {
     title: post.title,
     description: post.excerpt,
     keywords: post.keywords,
+    robots: isAlternateUrl
+      ? { index: false, follow: true, googleBot: { index: false, follow: true } }
+      : {
+          index: true,
+          follow: true,
+          googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
+        },
     openGraph: {
       title: post.title,
       description: post.excerpt,

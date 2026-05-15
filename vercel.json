@@ -1,0 +1,1869 @@
+{
+  "redirects": [
+    {
+      "source": "/blog/247-customer-service",
+      "destination": "/blog/printer-customer-support-phone-number",
+      "permanent": true
+    },
+    {
+      "source": "/blog/brother-mfc-l2750dw-driver-wifi-setup-guide",
+      "destination": "/blog/brother-printer-not-printing-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/blog/brother-printer-not-printing-fix",
+      "destination": "/blog/brother-printer-not-printing-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/blog/brother-printer-not-printing-fixes",
+      "destination": "/blog/brother-printer-not-printing-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/blog/brother-printer-not-printing-troubleshooting-guide",
+      "destination": "/blog/brother-printer-not-printing-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/blog/brother-printer-not-printing-troubleshooting-solutions",
+      "destination": "/blog/brother-printer-not-printing-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/blog/brother-printer-printing",
+      "destination": "/blog/brother-printer-not-printing-solutions",
+      "permanent": true
+    },
+    {
+      "source": "/blog/canon-pixma-tr8620-driver-wifi-setup-guide",
+      "destination": "/blog/canon-printer-installation-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/canon-printer-installation",
+      "destination": "/blog/canon-printer-installation-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/canon-printer-installation-troubleshooting-guide",
+      "destination": "/blog/canon-printer-installation-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/connect-printer-wifi-setup-guide",
+      "destination": "/blog/wireless-printer-setup-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/customer-service",
+      "destination": "/blog/printer-customer-support-phone-number",
+      "permanent": true
+    },
+    {
+      "source": "/blog/epson-ecotank-et-2720-driver-wifi-setup-guide",
+      "destination": "/blog/epson-printer-error-codes-troubleshooting-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/epson-printer-error-codes",
+      "destination": "/blog/epson-printer-error-codes-troubleshooting-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/epson-printer-error-codes-fix-guide",
+      "destination": "/blog/epson-printer-error-codes-troubleshooting-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/epson-printer-error-codes-guide",
+      "destination": "/blog/epson-printer-error-codes-troubleshooting-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/epson-printer-errors",
+      "destination": "/blog/epson-printer-error-codes-troubleshooting-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fix-printer-offline-windows-mac-wireless",
+      "destination": "/blog/how-to-fix-printer-offline-issues-troubleshooting",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-fix-printer-offline-issues",
+      "destination": "/blog/how-to-fix-printer-offline-issues-troubleshooting",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-fix-printer-offline-issues-troubleshooting-guide",
+      "destination": "/blog/how-to-fix-printer-offline-issues-troubleshooting",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-2700-setup",
+      "destination": "/blog/hp-deskjet-2700-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-2720-setup",
+      "destination": "/blog/hp-deskjet-2720-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-3755-setup",
+      "destination": "/blog/hp-deskjet-3755-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-4100-setup",
+      "destination": "/blog/hp-deskjet-4100-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-4100e-setup",
+      "destination": "/blog/hp-deskjet-plus-4100e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-4102e-setup",
+      "destination": "/blog/hp-deskjet-plus-4102e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-4155e-setup",
+      "destination": "/blog/hp-deskjet-4155e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-6978-setup",
+      "destination": "/blog/hp-officejet-pro-6978-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-8025e-setup",
+      "destination": "/blog/hp-officejet-pro-8025e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-8035e-setup",
+      "destination": "/blog/hp-officejet-pro-8035e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-8045e-setup",
+      "destination": "/blog/hp-officejet-pro-8045e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-8210-setup",
+      "destination": "/blog/hp-officejet-pro-8210-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-8710-setup",
+      "destination": "/blog/hp-officejet-pro-8710-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-9015e-setup",
+      "destination": "/blog/hp-officejet-pro-9015e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-9020-setup",
+      "destination": "/blog/hp-officejet-pro-9020-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-9025-setup",
+      "destination": "/blog/hp-officejet-pro-9025-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-2700-driver-download-install",
+      "destination": "/blog/hp-deskjet-2700-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-2700-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-2700-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-2700-driver-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-2700-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-2700-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-deskjet-2700-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-2720-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-2720-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-2720-driver-wifi-setup",
+      "destination": "/blog/hp-deskjet-2720-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-2720-driver-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-2720-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-3755-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-3755-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-3755-driver-wifi-setup",
+      "destination": "/blog/hp-deskjet-3755-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-3755-driver-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-3755-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-3755-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-deskjet-3755-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-4100-driver-download-install",
+      "destination": "/blog/hp-deskjet-4100-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-4100-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-4100-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-4100-driver-wifi-setup",
+      "destination": "/blog/hp-deskjet-4100-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-4100-driver-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-4100-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-4100-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-deskjet-4100-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-4155e-driver-download-install",
+      "destination": "/blog/hp-deskjet-4155e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-4155e-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-4155e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-4155e-driver-wifi-setup",
+      "destination": "/blog/hp-deskjet-4155e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-4155e-driver-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-4155e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-4155e-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-deskjet-4155e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-plus-4100e-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-plus-4100e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-plus-4100e-driver-wifi-setup",
+      "destination": "/blog/hp-deskjet-plus-4100e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-plus-4100e-driver-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-plus-4100e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-plus-4100e-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-deskjet-plus-4100e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-plus-4102e-driver-download-install",
+      "destination": "/blog/hp-deskjet-plus-4102e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-plus-4102e-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-plus-4102e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-plus-4102e-driver-wifi-setup",
+      "destination": "/blog/hp-deskjet-plus-4102e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-plus-4102e-driver-wifi-setup-guide",
+      "destination": "/blog/hp-deskjet-plus-4102e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-deskjet-plus-4102e-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-deskjet-plus-4102e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-4520-driver-download-install",
+      "destination": "/blog/hp-envy-4520-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-4520-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-envy-4520-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-4520-driver-wifi-setup",
+      "destination": "/blog/hp-envy-4520-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-4520-driver-wifi-setup-guide",
+      "destination": "/blog/hp-envy-4520-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-4520-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-envy-4520-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-4520-setup",
+      "destination": "/blog/hp-envy-4520-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5000-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-envy-5000-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5000-driver-wifi-setup",
+      "destination": "/blog/hp-envy-5000-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5000-driver-wifi-setup-guide",
+      "destination": "/blog/hp-envy-5000-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5000-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-envy-5000-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5000-setup",
+      "destination": "/blog/hp-envy-5000-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5010-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-envy-5010-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5010-driver-wifi-setup",
+      "destination": "/blog/hp-envy-5010-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5010-driver-wifi-setup-guide",
+      "destination": "/blog/hp-envy-5010-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5010-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-envy-5010-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5010-setup",
+      "destination": "/blog/hp-envy-5010-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5020-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-envy-5020-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5020-driver-wifi-setup",
+      "destination": "/blog/hp-envy-5020-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5020-driver-wifi-setup-guide",
+      "destination": "/blog/hp-envy-5020-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5020-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-envy-5020-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-5020-setup",
+      "destination": "/blog/hp-envy-5020-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-6000-driver-download-install",
+      "destination": "/blog/hp-envy-6000-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-6000-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-envy-6000-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-6000-driver-wifi-setup",
+      "destination": "/blog/hp-envy-6000-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-6000-driver-wifi-setup-guide",
+      "destination": "/blog/hp-envy-6000-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-6000-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-envy-6000-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-6000-setup",
+      "destination": "/blog/hp-envy-6000-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-6055-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-envy-6055-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-6055-driver-wifi-setup",
+      "destination": "/blog/hp-envy-6055-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-6055-driver-wifi-setup-guide",
+      "destination": "/blog/hp-envy-6055-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-6055-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-envy-6055-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-6055-setup",
+      "destination": "/blog/hp-envy-6055-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-7855-driver-download-install",
+      "destination": "/blog/hp-envy-7855-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-7855-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-envy-7855-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-7855-driver-wifi-setup-guide",
+      "destination": "/blog/hp-envy-7855-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-7855-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-envy-7855-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-envy-7855-setup",
+      "destination": "/blog/hp-envy-7855-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15-series-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m15w-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15-w-a-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m15w-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15a-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m15a-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15a-driver-usb-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m15a-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15a-driver-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m15a-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15a-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m15a-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15a-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m15a-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15w-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m15w-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15w-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-m15w-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15w-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m15w-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15w-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m15w-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m15w-m15a-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m15w-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m201-m202-m203-driver-setup",
+      "destination": "/blog/hp-laserjet-pro-m201dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m201dw-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m201dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m201dw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-m201dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m201dw-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m201dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m201dw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m201dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m201dw-m202dw-m203dw-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m201dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m202dw-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m202dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m202dw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-m202dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m202dw-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m202dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m202dw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m202dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m203dw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-m203dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m203dw-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m203dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m203dw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m203dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m227-series-driver-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234-dn-dw-nw-sdw-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m234dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234-series-driver-setup",
+      "destination": "/blog/hp-laserjet-pro-m234sdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234dn-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m234dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234dn-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-m234dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234dn-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m234dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234dn-m234dw-m234nw-m234sdw-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m234dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234dw-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m234dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234dw-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m234dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234dw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-m234dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234dw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m234dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234nw-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m234nw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234nw-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m234nw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234nw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-m234nw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234nw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m234nw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234sdw-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m234sdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234sdw-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m234sdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m234sdw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m234sdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401-dn-n-driver-installation-wifi-usb-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m401dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401dn-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m401dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401dn-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-m401dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401dn-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m401dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401dn-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m401dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401dn-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m401dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401dn-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m401dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401n-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m401n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401n-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-m401n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401n-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m401n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401n-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m401n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401n-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m401n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m401n-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m401n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402-dn-n-driver-installation-wifi-usb-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m402dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402dn-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m402dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402dn-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-m402dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402dn-driver-installation-troubleshooting",
+      "destination": "/blog/hp-laserjet-pro-m402dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402dn-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m402dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402dn-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m402dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402dn-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m402dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402dn-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m402dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402dn-m402n-driver-installation-wifi-usb-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m402dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402n-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m402n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402n-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-m402n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402n-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m402n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402n-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m402n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402n-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m402n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m402n-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m402n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403-dn-n-driver-installation-wifi-usb-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m403dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403dn-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m403dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403dn-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-m403dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403dn-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m403dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403dn-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m403dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403dn-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m403dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403dn-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m403dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403dn-m403n-driver-installation-wifi-usb-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m403dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403n-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m403n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403n-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m403n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403n-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-m403n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403n-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m403n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m403n-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m403n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404-dn-n-driver-installation-wifi-usb-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404dn-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404dn-driver-installation-troubleshooting",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404dn-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404dn-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404dn-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404dn-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404dn-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404dn-m404n-driver-installation-wifi-usb-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404dn-paper-jam-fix-troubleshooting",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404dn-toner-issues-replacement-guide",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404dn-wifi-setup-wireless-connection",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404n-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-m404n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404n-driver-installation-troubleshooting",
+      "destination": "/blog/hp-laserjet-pro-m404n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404n-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-m404n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404n-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-m404n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m404n-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m404n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m428-series-driver-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-m477-series-driver-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227-fdw-sdn-fdn-sdw-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227-series-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227fdw-m227sdn-m227fdn-m227sdw-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227sdw-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227sdw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227sdw-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m227sdw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m234-series-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-m234sdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m283-series-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428-fdw-fdn-fnw-dw-dn-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428-series-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428dn-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428dn-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428dn-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428dn-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428dn-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428dw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428dw-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428dw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fdn-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fdn-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fdn-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fdn-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fdn-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fdn-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fdw-m428fdn-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fdw-m428fdn-m428fnw-m428dw-m428dn-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fnw-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fnw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fnw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fnw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fnw-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fnw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m428fnw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fnw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477-fdw-fdn-fnw-dw-dn-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477-series-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477dn-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477dn-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477dn-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477dn-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477dn-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477dn-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477dw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477dw-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477dw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-ethernet-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-network-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-network-usb-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-wifi-network-usb-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fdw-m477fdn-m477fnw-m477dw-m477dn-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fnw-driver-download-install",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fnw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fnw-driver-wifi-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fnw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fnw-driver-wifi-setup-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fnw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-laserjet-pro-mfp-m477fnw-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fnw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m15a-setup",
+      "destination": "/blog/hp-laserjet-pro-m15a-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m15w-setup",
+      "destination": "/blog/hp-laserjet-pro-m15w-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m201dw-setup",
+      "destination": "/blog/hp-laserjet-pro-m201dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m202dw-setup",
+      "destination": "/blog/hp-laserjet-pro-m202dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m203dw-setup",
+      "destination": "/blog/hp-laserjet-pro-m203dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m227fdn-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m227fdw-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m227sdn-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m227sdw-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m227sdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m401dn-setup",
+      "destination": "/blog/hp-laserjet-pro-m401dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m401n-setup",
+      "destination": "/blog/hp-laserjet-pro-m401n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m402dn-setup",
+      "destination": "/blog/hp-laserjet-pro-m402dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m402n-setup",
+      "destination": "/blog/hp-laserjet-pro-m402n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m403dn-setup",
+      "destination": "/blog/hp-laserjet-pro-m403dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m403n-setup",
+      "destination": "/blog/hp-laserjet-pro-m403n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m404dn-setup",
+      "destination": "/blog/hp-laserjet-pro-m404dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m404n-setup",
+      "destination": "/blog/hp-laserjet-pro-m404n-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m428dn-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m428dw-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m428fdn-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m428fdw-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m428fnw-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m428fnw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m477dn-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477dn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m477dw-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477dw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m477fdn-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdn-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m477fdw-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fdw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-m477fnw-setup",
+      "destination": "/blog/hp-laserjet-pro-mfp-m477fnw-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-6978-driver-download-install",
+      "destination": "/blog/hp-officejet-pro-6978-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-6978-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-6978-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-6978-driver-wifi-setup",
+      "destination": "/blog/hp-officejet-pro-6978-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-6978-driver-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-6978-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-6978-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-officejet-pro-6978-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8025e-driver-download-install",
+      "destination": "/blog/hp-officejet-pro-8025e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8025e-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-8025e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8025e-driver-wifi-setup",
+      "destination": "/blog/hp-officejet-pro-8025e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8025e-driver-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-8025e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8025e-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-officejet-pro-8025e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8035e-driver-download-install",
+      "destination": "/blog/hp-officejet-pro-8035e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8035e-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-8035e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8035e-driver-wifi-setup",
+      "destination": "/blog/hp-officejet-pro-8035e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8035e-driver-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-8035e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8035e-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-officejet-pro-8035e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8045e-driver-download-install",
+      "destination": "/blog/hp-officejet-pro-8045e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8045e-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-8045e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8045e-driver-wifi-setup",
+      "destination": "/blog/hp-officejet-pro-8045e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8045e-driver-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-8045e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8045e-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-officejet-pro-8045e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8130e-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-8130e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8130e-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-officejet-pro-8130e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8210-driver-download-install",
+      "destination": "/blog/hp-officejet-pro-8210-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8210-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-8210-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8210-driver-wifi-setup",
+      "destination": "/blog/hp-officejet-pro-8210-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8210-driver-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-8210-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8210-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-officejet-pro-8210-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8710-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-8710-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8710-driver-wifi-setup",
+      "destination": "/blog/hp-officejet-pro-8710-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8710-driver-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-8710-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-8710-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-officejet-pro-8710-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9015e-driver-download-install",
+      "destination": "/blog/hp-officejet-pro-9015e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9015e-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-9015e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9015e-driver-wifi-setup",
+      "destination": "/blog/hp-officejet-pro-9015e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9015e-driver-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-9015e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9015e-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-officejet-pro-9015e-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9020-driver-download-install",
+      "destination": "/blog/hp-officejet-pro-9020-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9020-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-9020-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9020-driver-wifi-setup",
+      "destination": "/blog/hp-officejet-pro-9020-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9020-driver-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-9020-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9020-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-officejet-pro-9020-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9025-driver-installation-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-9025-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9025-driver-wifi-setup",
+      "destination": "/blog/hp-officejet-pro-9025-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9025-driver-wifi-setup-guide",
+      "destination": "/blog/hp-officejet-pro-9025-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-officejet-pro-9025-driver-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/hp-officejet-pro-9025-driver-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-printer-customer-service-technical-support-phone-number",
+      "destination": "/blog/printer-customer-support-phone-number",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hp-printer-troubleshooting",
+      "destination": "/blog/hp-printer-troubleshooting-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/install-printer-drivers-windows-11",
+      "destination": "/blog/install-printer-drivers-windows-11-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/install-printer-drivers-windows-11-troubleshooting",
+      "destination": "/blog/install-printer-drivers-windows-11-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-customer-support-phone-number-hp",
+      "destination": "/blog/printer-customer-support-phone-number",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-customer-support-phone-number-hp-printer-support-troubleshooting",
+      "destination": "/blog/printer-customer-support-phone-number",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-customer-support-phone-number-hp-tech-service-troubleshooting",
+      "destination": "/blog/printer-customer-support-phone-number",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-maintenance-tips-clean-extend-life",
+      "destination": "/blog/printer-maintenance-tips",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-maintenance-tips-guide",
+      "destination": "/blog/printer-maintenance-tips",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-offline-fix",
+      "destination": "/blog/how-to-fix-printer-offline-issues-troubleshooting",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-offline-fix-troubleshooting-guide",
+      "destination": "/blog/how-to-fix-printer-offline-issues-troubleshooting",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-offline-issues-troubleshooting-guide",
+      "destination": "/blog/how-to-fix-printer-offline-issues-troubleshooting",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-setup-windows11",
+      "destination": "/blog/install-printer-drivers-windows-11-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-support-phone",
+      "destination": "/blog/printer-customer-support-phone-number",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-support-phone-guide",
+      "destination": "/blog/printer-customer-support-phone-number",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-wifi-setup",
+      "destination": "/blog/wireless-printer-setup-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/printer-wifi-setup-troubleshooting-guide",
+      "destination": "/blog/wireless-printer-setup-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/windows-11-printer-drivers-install-guide",
+      "destination": "/blog/install-printer-drivers-windows-11-setup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/wireless-printer-setup-troubleshooting-guide",
+      "destination": "/blog/wireless-printer-setup-guide",
+      "permanent": true
+    }
+  ]
+}
