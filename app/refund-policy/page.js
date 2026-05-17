@@ -85,7 +85,7 @@ export default function RefundPolicyPage() {
                 <li>Any supporting documentation</li>
               </ul>
             </li>
-            <li><strong>Phone:</strong> Call us at <a href="tel:+1-888-423-7757">+1-888-423-7757</a> and speak with our customer service team</li>
+            <li><strong>Phone:</strong> Call us at <a href="tel:+18884237757">(888) 423-7757</a> and speak with our customer service team</li>
             <li><strong>Online:</strong> Use our contact form on the website</li>
           </ul>
           <p>Please include as much detail as possible to help us process your request quickly.</p>
@@ -167,7 +167,7 @@ export default function RefundPolicyPage() {
           <p>If you have questions about our Refund Policy or need to request a refund, please contact us:</p>
           <ul>
             <li><strong>Email:</strong> <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></li>
-            <li><strong>Phone:</strong> <a href="tel:+1-888-423-7757">+1-888-423-7757</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+18884237757">(888) 423-7757</a></li>
             <li>
               <strong>Mailing address:</strong> 3758 Wedgewood Dr, Bloomfield Hills, MI 48301, United States
             </li>

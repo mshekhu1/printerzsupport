@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 import Image from 'next/image';
 import ScrollAnimation from './ScrollAnimation';
 import AnimatedCounter from './AnimatedCounter';
@@ -98,8 +99,8 @@ export default function Home() {
                   HP printer support for LaserJet, OfficeJet, DeskJet, and Envy—HP Smart, wireless setup, drivers, offline and error-code fixes, and print-quality issues—with experts available 24/7.
                 </p>
                 <div className="hero-actions">
-                  <a href="tel:+1-888-423-7757" className="hero-phone">
-                    📞 Call Now: +1-888-423-7757
+                  <a href={PHONE_TEL_HREF} className="hero-phone">
+                    📞 Call Now: {PHONE_DISPLAY}
                   </a>
                 </div>
               </div>
@@ -243,8 +244,8 @@ export default function Home() {
               <h2 className="cta-title">Ready to Get Started?</h2>
               <p className="cta-subtitle">Contact us today and experience the best printer support service!</p>
               <div className="cta-buttons">
-                <a href="tel:+1-888-423-7757" className="btn-cta-primary">
-                  📞 Call Now: +1-888-423-7757
+                <a href={PHONE_TEL_HREF} className="btn-cta-primary">
+                  📞 Call Now: {PHONE_DISPLAY}
                 </a>
                 <Link href="/contact" className="btn-cta-secondary">
                   Get in Touch

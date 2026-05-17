@@ -92,7 +92,7 @@ export default function PrivacyPolicyPage() {
             <li><strong>Data Portability:</strong> Request transfer of your data to another service provider</li>
             <li><strong>Objection:</strong> Object to processing of your personal information for certain purposes</li>
           </ul>
-          <p>To exercise these rights, please contact us at <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a> or call us at <a href="tel:+1-888-423-7757">+1-888-423-7757</a>.</p>
+          <p>To exercise these rights, please contact us at <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a> or call us at <a href="tel:+18884237757">(888) 423-7757</a>.</p>
 
           <h2>7. Children's Privacy</h2>
           <p>Our services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children. If you believe we have inadvertently collected information from a child, please contact us immediately.</p>
@@ -113,7 +113,7 @@ export default function PrivacyPolicyPage() {
           <p>If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
           <ul>
             <li><strong>Email:</strong> <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></li>
-            <li><strong>Phone:</strong> <a href="tel:+1-888-423-7757">+1-888-423-7757</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+18884237757">(888) 423-7757</a></li>
             <li>
               <strong>Mailing address:</strong> 3758 Wedgewood Dr, Bloomfield Hills, MI 48301, United States
             </li>

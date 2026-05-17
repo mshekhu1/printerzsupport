@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { blogPosts } from '../../lib/data/blogPosts';
+import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 import '../../styles/components/BlogPostSidebars.css';
 
 // All FAQs for non-brand pages
@@ -39,7 +40,7 @@ const allFAQs = [
   },
   {
     question: "Can I get help with printer setup over the phone?",
-    answer: "Yes! Our expert technicians are available 24/7 to help you with printer setup, installation, troubleshooting, and any other printer-related issues. Call us at +1-888-423-7757 for immediate assistance. We can guide you through wireless setup, driver installation, network configuration, and resolve any printer problems you're experiencing.",
+    answer: `Yes! Our expert technicians are available 24/7 to help you with printer setup, installation, troubleshooting, and any other printer-related issues. Call us at ${PHONE_DISPLAY} for immediate assistance. We can guide you through wireless setup, driver installation, network configuration, and resolve any printer problems you're experiencing.`,
     link: "/faq"
   },
   {
@@ -54,7 +55,7 @@ const allFAQs = [
   },
   {
     question: "How much does printer support cost?",
-    answer: "Our printer support services are competitively priced and vary based on the specific service needed. We offer affordable solutions for printer setup, installation, troubleshooting, and repairs. Contact us at +1-888-423-7757 or email support@printerzsupport.com for a quote. We provide transparent pricing with no hidden fees, and our goal is to get your printer working quickly and affordably.",
+    answer: `Our printer support services are competitively priced and vary based on the specific service needed. We offer affordable solutions for printer setup, installation, troubleshooting, and repairs. Contact us at ${PHONE_DISPLAY} or email support@printerzsupport.com for a quote. We provide transparent pricing with no hidden fees, and our goal is to get your printer working quickly and affordably.`,
     link: "/faq"
   },
   {
@@ -522,8 +523,8 @@ export default function BlogPostSidebars({ children, brand = null, relatedPosts 
                 <Link href="/faq" className="btn btn-primary">
                   View All FAQs
                 </Link>
-                <a href="tel:+1-888-423-7757" className="btn btn-outline-primary">
-                  Call Support: +1-888-423-7757
+                <a href={PHONE_TEL_HREF} className="btn btn-outline-primary">
+                  Call Support: {PHONE_DISPLAY}
                 </a>
               </div>
             </div>

@@ -56,7 +56,7 @@ export default async function StatePage({ params }) {
     "availableChannel": {
       "@type": "ServiceChannel",
       "serviceUrl": `https://www.printerzsupport.com/us/${stateData.slug}`,
-      "servicePhone": "+1-888-423-7757"
+      "servicePhone": "+18884237757"
     }
   };
 

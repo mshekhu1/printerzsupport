@@ -86,7 +86,7 @@ export default function USPage() {
             Don't let printer problems disrupt your work or business. Our expert online printer support team is ready to help you resolve any printer issue quickly and efficiently. Contact us today:
           </p>
           <p className="animate__animated animate__fadeInUp">
-            <strong>Call us at <a href="tel:+1-888-423-7757" style={{ color: '#007bff' }}>+1-888-423-7757</a></strong> - Available 24/7
+            <strong>Call us at <a href="tel:+18884237757" style={{ color: '#007bff' }}>(888) 423-7757</a></strong> - Available 24/7
           </p>
         </div>
       </div>

@@ -1,9 +1,10 @@
 import '../../styles/pages/Contact.css';
 import { getLocalBusinessSchema } from '../../lib/utils/structuredData';
+import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 
 export const metadata = {
   title: 'Contact Us | Get Help Now',
-  description: 'Contact Printer Support for expert help with your printer. Call us at +1-888-423-7757 or email support@printerzsupport.com. 24/7 support available.',
+  description: `Contact Printer Support for expert help with your printer. Call us at ${PHONE_DISPLAY} or email support@printerzsupport.com. 24/7 support available.`,
   keywords: 'Contact Printer Support, Printer Help, Printer Support Phone Number, Printer Support Email',
   openGraph: {
     title: 'Contact Us | Printerz Support',
@@ -30,7 +31,7 @@ export default function ContactPage() {
         <p>If you have any questions or need support, please contact us at:</p>
         <div className="contact-info">
           <p>Email: <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></p>
-          <p>Phone: <a href="tel:+1-888-423-7757">+1-888-423-7757</a></p>
+          <p>Phone: <a href={PHONE_TEL_HREF}>{PHONE_DISPLAY}</a></p>
           <p>
             Address:{' '}
             <a

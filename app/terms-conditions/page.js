@@ -162,7 +162,7 @@ export default function TermsConditionsPage() {
           <p>If you have questions about these Terms and Conditions, please contact us:</p>
           <ul>
             <li><strong>Email:</strong> <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></li>
-            <li><strong>Phone:</strong> <a href="tel:+1-888-423-7757">+1-888-423-7757</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+18884237757">(888) 423-7757</a></li>
             <li>
               <strong>Mailing address:</strong> 3758 Wedgewood Dr, Bloomfield Hills, MI 48301, United States
             </li>

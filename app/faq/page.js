@@ -39,7 +39,7 @@ export default function FAQPage() {
     },
     {
       question: "Can I get help with printer setup over the phone?",
-      answer: "Yes! Our expert technicians are available 24/7 to help you with printer setup, installation, troubleshooting, and any other printer-related issues. Call us at +1-888-423-7757 for immediate assistance. We can guide you through wireless setup, driver installation, network configuration, and resolve any printer problems you're experiencing."
+      answer: "Yes! Our expert technicians are available 24/7 to help you with printer setup, installation, troubleshooting, and any other printer-related issues. Call us at (888) 423-7757 for immediate assistance. We can guide you through wireless setup, driver installation, network configuration, and resolve any printer problems you're experiencing."
     },
     {
       question: "How do I set up a wireless printer on Mac?",
@@ -51,7 +51,7 @@ export default function FAQPage() {
     },
     {
       question: "How much does printer support cost?",
-      answer: "Our printer support services are competitively priced and vary based on the specific service needed. We offer affordable solutions for printer setup, installation, troubleshooting, and repairs. Contact us at +1-888-423-7757 or email support@printerzsupport.com for a quote. We provide transparent pricing with no hidden fees, and our goal is to get your printer working quickly and affordably."
+      answer: "Our printer support services are competitively priced and vary based on the specific service needed. We offer affordable solutions for printer setup, installation, troubleshooting, and repairs. Contact us at (888) 423-7757 or email support@printerzsupport.com for a quote. We provide transparent pricing with no hidden fees, and our goal is to get your printer working quickly and affordably."
     },
     {
       question: "Do you offer remote printer support?",

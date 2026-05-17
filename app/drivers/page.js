@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
 import { printerModels } from '../../lib/data/printerModels';
 import { printerBrands } from '../../lib/data/printerBrands';
+import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 import '../../styles/pages/Drivers.css';
 
 export default function DriversPage() {
@@ -213,8 +214,8 @@ export default function DriversPage() {
           <h2>Need Help Finding Your Driver?</h2>
           <p>If you can't find your printer model, our expert technicians can help you locate and install the correct drivers.</p>
           <div className="drivers-help-actions">
-            <a href="tel:+1-888-423-7757" className="driver-help-btn">
-              Call +1-888-423-7757
+            <a href={PHONE_TEL_HREF} className="driver-help-btn">
+              Call {PHONE_DISPLAY}
             </a>
             <Link href="/contact" className="driver-help-btn driver-help-btn-secondary">
               Contact Support

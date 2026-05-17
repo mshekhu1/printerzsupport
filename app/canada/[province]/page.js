@@ -56,7 +56,7 @@ export default async function ProvincePage({ params }) {
     "availableChannel": {
       "@type": "ServiceChannel",
       "serviceUrl": `https://www.printerzsupport.com/canada/${provinceData.slug}`,
-      "servicePhone": "+1-888-423-7757"
+      "servicePhone": "+18884237757"
     }
   };
 

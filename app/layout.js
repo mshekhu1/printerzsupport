@@ -5,6 +5,7 @@ import '../styles/globals/index.css';
 import '../styles/globals/App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import { PHONE_DISPLAY } from '../lib/constants/phone';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -72,7 +73,7 @@ export const metadata = {
   category: 'Technology',
   classification: 'Business',
   other: {
-    'phone': '+1-888-423-7757',
+    'phone': PHONE_DISPLAY,
     'geo.region': 'US',
     'geo.placename': 'United States',
   },

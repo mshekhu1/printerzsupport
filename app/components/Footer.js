@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 
 export default function Footer({ style }) {
   return (
@@ -60,7 +61,7 @@ export default function Footer({ style }) {
               <h4>Contact Info</h4>
               <div className="contact-info">
                 <p>📧 <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></p>
-                <p>📞 <a href="tel:+1-888-423-7757">+1-888-423-7757</a></p>
+                <p>📞 <a href={PHONE_TEL_HREF}>{PHONE_DISPLAY}</a></p>
                 <p>
                   📍{' '}
                   <a
