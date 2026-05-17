@@ -7,7 +7,7 @@ export const metadata = {
   description: `Contact Printer Support for expert help with your printer. Call us at ${PHONE_DISPLAY} or email support@printerzsupport.com. 24/7 support available.`,
   keywords: 'Contact Printer Support, Printer Help, Printer Support Phone Number, Printer Support Email',
   openGraph: {
-    title: 'Contact Us | Printerz Support',
+    title: 'Contact Us | Printer Support',
     description: 'Get in touch with Printer Support for expert printer help.',
     url: 'https://www.printerzsupport.com/contact',
     type: 'website',

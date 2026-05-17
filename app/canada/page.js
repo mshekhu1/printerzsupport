@@ -9,7 +9,7 @@ export const metadata = {
   description: 'Get expert online printer support services across all Canadian provinces. Remote printer installation, troubleshooting, and maintenance for businesses and homes throughout Canada.',
   keywords: 'printer support Canada, online printer support Canada, remote printer support Canada, printer services Canada',
   openGraph: {
-    title: 'Online Printer Support in Canada | Printerz Support',
+    title: 'Online Printer Support in Canada | Printer Support',
     description: 'Expert online printer support services across all Canadian provinces. Remote printer installation, troubleshooting, and maintenance.',
     url: 'https://www.printerzsupport.com/canada',
     type: 'website',

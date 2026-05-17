@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Read our Terms and Conditions to understand the rules and regulations for using Printer Support services. Learn about our service terms, user responsibilities, and legal agreements.',
   keywords: 'Terms and Conditions, Terms of Service, Legal Terms, Service Agreement, Printer Support Terms',
   openGraph: {
-    title: 'Terms & Conditions | Printerz Support',
+    title: 'Terms & Conditions | Printer Support',
     description: 'Read our Terms and Conditions to understand the rules for using our services.',
     url: 'https://www.printerzsupport.com/terms-conditions',
     type: 'website',

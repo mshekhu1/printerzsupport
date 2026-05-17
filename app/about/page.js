@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Learn about Printer Support - your trusted partner for printer services. We have over 10 years of experience providing expert printer support, installation, and repair services.',
   keywords: 'About Printer Support, Printer Support Team, Printer Service Company, Printer Experts',
   openGraph: {
-    title: 'About Us | Printerz Support',
+    title: 'About Us | Printer Support',
     description: 'Learn about Printer Support - your trusted partner for printer services.',
     url: 'https://www.printerzsupport.com/about',
     type: 'website',

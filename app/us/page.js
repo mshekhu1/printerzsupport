@@ -9,7 +9,7 @@ export const metadata = {
   description: 'Get expert online printer support services across all US states. Remote printer installation, troubleshooting, and maintenance for businesses and homes throughout the United States.',
   keywords: 'printer support USA, online printer support United States, remote printer support US, printer services America',
   openGraph: {
-    title: 'Online Printer Support in United States | Printerz Support',
+    title: 'Online Printer Support in United States | Printer Support',
     description: 'Expert online printer support services across all US states. Remote printer installation, troubleshooting, and maintenance.',
     url: 'https://www.printerzsupport.com/us',
     type: 'website',

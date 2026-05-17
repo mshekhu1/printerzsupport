@@ -9,7 +9,7 @@ export const metadata = {
   description: 'Get expert printer support for all major printer brands including HP, Canon, Epson, Brother, Lexmark, Xerox, Samsung, and more. Professional remote printer support services.',
   keywords: 'printer brand support, HP printer support, Canon printer support, Epson printer support, Brother printer support, printer support by brand',
   openGraph: {
-    title: 'Printer Brand Support | Printerz Support',
+    title: 'Printer Brand Support | Printer Support',
     description: 'Get expert printer support for all major printer brands. Professional remote printer support services.',
     url: 'https://www.printerzsupport.com/brands',
     type: 'website',

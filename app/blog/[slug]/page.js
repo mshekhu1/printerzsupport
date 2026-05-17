@@ -36,7 +36,7 @@ export async function generateMetadata({ params }) {
           googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
         },
     openGraph: {
-      title: `${post.title} | Printerz Support`,
+      title: `${post.title} | Printer Support`,
       description: post.excerpt,
       url: canonicalUrl,
       type: 'article',
@@ -53,7 +53,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${post.title} | Printerz Support`,
+      title: `${post.title} | Printer Support`,
       description: post.excerpt,
       images: ['https://www.printerzsupport.com/hero-printer.svg'],
     },

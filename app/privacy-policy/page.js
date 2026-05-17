@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Read our Privacy Policy to understand how Printer Support collects, uses, and protects your personal information. We are committed to protecting your privacy and data security.',
   keywords: 'Privacy Policy, Data Protection, Privacy Statement, Data Security, Printer Support Privacy',
   openGraph: {
-    title: 'Privacy Policy | Printerz Support',
+    title: 'Privacy Policy | Printer Support',
     description: 'Read our Privacy Policy to understand how we protect your personal information.',
     url: 'https://www.printerzsupport.com/privacy-policy',
     type: 'website',

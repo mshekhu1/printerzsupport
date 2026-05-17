@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
     description: `Get expert online printer support services in ${provinceData.name}, Canada. Remote printer installation, troubleshooting, and maintenance for businesses and homes in ${provinceData.name}.`,
     keywords: `printer support ${provinceData.name}, online printer support ${provinceData.name}, remote printer support ${provinceData.name}, printer services ${provinceData.name} Canada`,
     openGraph: {
-      title: `Online Printer Support in ${provinceData.name} | Printerz Support`,
+      title: `Online Printer Support in ${provinceData.name} | Printer Support`,
       description: `Expert online printer support services in ${provinceData.name}, Canada. Remote printer installation, troubleshooting, and maintenance.`,
       url: `https://www.printerzsupport.com/canada/${provinceData.slug}`,
       type: 'website',

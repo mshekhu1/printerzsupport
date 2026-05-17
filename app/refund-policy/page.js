@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Read our Refund Policy to understand our money-back guarantee, refund eligibility, and return process. We are committed to customer satisfaction and fair refund practices.',
   keywords: 'Refund Policy, Money Back Guarantee, Return Policy, Refund Terms, Printer Support Refund',
   openGraph: {
-    title: 'Refund Policy | Printerz Support',
+    title: 'Refund Policy | Printer Support',
     description: 'Read our Refund Policy to understand our money-back guarantee and refund process.',
     url: 'https://www.printerzsupport.com/refund-policy',
     type: 'website',

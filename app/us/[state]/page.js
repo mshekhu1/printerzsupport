@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
     description: `Get expert online printer support services in ${stateData.name}. Remote printer installation, troubleshooting, and maintenance for businesses and homes in ${stateData.name}.`,
     keywords: `printer support ${stateData.name}, online printer support ${stateData.name}, remote printer support ${stateData.name}, printer services ${stateData.name}`,
     openGraph: {
-      title: `Online Printer Support in ${stateData.name} | Printerz Support`,
+      title: `Online Printer Support in ${stateData.name} | Printer Support`,
       description: `Expert online printer support services in ${stateData.name}. Remote printer installation, troubleshooting, and maintenance.`,
       url: `https://www.printerzsupport.com/us/${stateData.slug}`,
       type: 'website',
