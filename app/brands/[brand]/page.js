@@ -26,7 +26,7 @@ export async function generateMetadata({ params }) {
     description: brandData.description,
     keywords: `${brandData.name} printer support, ${brandData.name} printer troubleshooting, ${brandData.name} printer help, ${brandData.name} printer repair, ${brandData.name} printer setup`,
     openGraph: {
-      title: `${brandData.name} Printer Support - Expert Services`,
+      title: `${brandData.name} Printer Support | Printerz Support`,
       description: brandData.description,
       url: `https://www.printerzsupport.com/brands/${brandData.slug}`,
       type: 'website',

@@ -2,11 +2,11 @@ import Breadcrumb from '../components/Breadcrumb';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'Privacy Policy - Printer Support | Data Protection & Privacy',
+  title: 'Privacy Policy | Data Protection & Privacy',
   description: 'Read our Privacy Policy to understand how Printer Support collects, uses, and protects your personal information. We are committed to protecting your privacy and data security.',
   keywords: 'Privacy Policy, Data Protection, Privacy Statement, Data Security, Printer Support Privacy',
   openGraph: {
-    title: 'Privacy Policy - Printer Support',
+    title: 'Privacy Policy | Printerz Support',
     description: 'Read our Privacy Policy to understand how we protect your personal information.',
     url: 'https://www.printerzsupport.com/privacy-policy',
     type: 'website',

@@ -2,11 +2,11 @@ import Breadcrumb from '../components/Breadcrumb';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'Refund Policy - Printer Support | Money-Back Guarantee & Returns',
+  title: 'Refund Policy | Money-Back Guarantee & Returns',
   description: 'Read our Refund Policy to understand our money-back guarantee, refund eligibility, and return process. We are committed to customer satisfaction and fair refund practices.',
   keywords: 'Refund Policy, Money Back Guarantee, Return Policy, Refund Terms, Printer Support Refund',
   openGraph: {
-    title: 'Refund Policy - Printer Support',
+    title: 'Refund Policy | Printerz Support',
     description: 'Read our Refund Policy to understand our money-back guarantee and refund process.',
     url: 'https://www.printerzsupport.com/refund-policy',
     type: 'website',

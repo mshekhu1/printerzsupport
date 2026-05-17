@@ -2,11 +2,11 @@ import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'About Us - Printer Support | Expert Team & Services',
+  title: 'About Us | Expert Team & Services',
   description: 'Learn about Printer Support - your trusted partner for printer services. We have over 10 years of experience providing expert printer support, installation, and repair services.',
   keywords: 'About Printer Support, Printer Support Team, Printer Service Company, Printer Experts',
   openGraph: {
-    title: 'About Us - Printer Support',
+    title: 'About Us | Printerz Support',
     description: 'Learn about Printer Support - your trusted partner for printer services.',
     url: 'https://www.printerzsupport.com/about',
     type: 'website',

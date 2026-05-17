@@ -1,9 +1,9 @@
 export const metadata = {
-  title: 'FAQ - Printer Support | Common Questions & Answers',
+  title: 'FAQ | Common Questions & Answers',
   description: 'Find answers to frequently asked questions about printer setup, troubleshooting, installation, and support. Get help with common printer issues and learn about our services.',
   keywords: 'printer FAQ, printer questions, printer help, printer troubleshooting FAQ, printer setup questions, printer support FAQ',
   openGraph: {
-    title: 'FAQ - Printer Support',
+    title: 'FAQ | Printerz Support',
     description: 'Find answers to frequently asked questions about printer support.',
     url: 'https://www.printerzsupport.com/faq',
     type: 'website',

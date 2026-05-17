@@ -22,8 +22,8 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL('https://www.printerzsupport.com'),
   title: {
-    default: 'Printer Support - Expert Help for All Major Printer Brands | 24/7 Support',
-    template: '%s | Printer Support'
+    default: 'Printerz Support - Expert Help for All Major Printer Brands | 24/7 Support',
+    template: '%s | Printerz Support'
   },
   description: 'Get expert printer support for all major brands. We offer comprehensive services including printer troubleshooting, setup, installation, and wireless configuration. 24/7 technical support available.',
   keywords: ['Printer Support', 'Printer Setup', 'Printer Installation', 'Printer Connect with wifi', 'Wireless Printer Setup', 'Printer Troubleshooting', 'HP Printer', 'Canon Printer', 'Epson Printer', 'Brother Printer'],
@@ -45,8 +45,8 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.printerzsupport.com',
-    siteName: 'Printer Support',
-    title: 'Printer Support - Expert Technical Help for All Printer Brands',
+    siteName: 'Printerz Support',
+    title: 'Printerz Support - Expert Technical Help for All Printer Brands',
     description: 'Professional printer support services for all major brands. Get help with printer setup, installation, and troubleshooting.',
     images: [
       {
@@ -59,7 +59,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Printer Support - Expert Technical Help for All Printer Brands',
+    title: 'Printerz Support - Expert Technical Help for All Printer Brands',
     description: 'Professional printer support services for all major brands.',
     images: ['/hero-printer.svg'],
   },

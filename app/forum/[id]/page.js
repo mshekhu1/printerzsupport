@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${discussion.title} - Printer Support Forum`,
+    title: `${discussion.title} - Forum`,
     description: discussion.question.substring(0, 160),
     keywords: discussion.tags.join(', '),
     openGraph: {

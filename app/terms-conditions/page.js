@@ -2,11 +2,11 @@ import Breadcrumb from '../components/Breadcrumb';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'Terms & Conditions - Printer Support | Service Terms & Legal',
+  title: 'Terms & Conditions | Service Terms & Legal',
   description: 'Read our Terms and Conditions to understand the rules and regulations for using Printer Support services. Learn about our service terms, user responsibilities, and legal agreements.',
   keywords: 'Terms and Conditions, Terms of Service, Legal Terms, Service Agreement, Printer Support Terms',
   openGraph: {
-    title: 'Terms & Conditions - Printer Support',
+    title: 'Terms & Conditions | Printerz Support',
     description: 'Read our Terms and Conditions to understand the rules for using our services.',
     url: 'https://www.printerzsupport.com/terms-conditions',
     type: 'website',

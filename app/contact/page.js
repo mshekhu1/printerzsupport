@@ -2,11 +2,11 @@ import '../../styles/pages/Contact.css';
 import { getLocalBusinessSchema } from '../../lib/utils/structuredData';
 
 export const metadata = {
-  title: 'Contact Us - Printer Support | Get Help Now',
+  title: 'Contact Us | Get Help Now',
   description: 'Contact Printer Support for expert help with your printer. Call us at +1-888-423-7757 or email support@printerzsupport.com. 24/7 support available.',
   keywords: 'Contact Printer Support, Printer Help, Printer Support Phone Number, Printer Support Email',
   openGraph: {
-    title: 'Contact Us - Printer Support',
+    title: 'Contact Us | Printerz Support',
     description: 'Get in touch with Printer Support for expert printer help.',
     url: 'https://www.printerzsupport.com/contact',
     type: 'website',

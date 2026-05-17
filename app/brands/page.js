@@ -5,11 +5,11 @@ import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'Printer Brand Support - Expert Support for All Printer Brands',
+  title: 'Printer Brand Support - Expert Help for All Printer Brands',
   description: 'Get expert printer support for all major printer brands including HP, Canon, Epson, Brother, Lexmark, Xerox, Samsung, and more. Professional remote printer support services.',
   keywords: 'printer brand support, HP printer support, Canon printer support, Epson printer support, Brother printer support, printer support by brand',
   openGraph: {
-    title: 'Printer Brand Support - Expert Support for All Brands',
+    title: 'Printer Brand Support | Printerz Support',
     description: 'Get expert printer support for all major printer brands. Professional remote printer support services.',
     url: 'https://www.printerzsupport.com/brands',
     type: 'website',

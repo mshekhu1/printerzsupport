@@ -5,11 +5,11 @@ import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'Online Printer Support in United States - Expert Remote Printer Services',
+  title: 'Online Printer Support in United States - Expert Remote Services',
   description: 'Get expert online printer support services across all US states. Remote printer installation, troubleshooting, and maintenance for businesses and homes throughout the United States.',
   keywords: 'printer support USA, online printer support United States, remote printer support US, printer services America',
   openGraph: {
-    title: 'Online Printer Support in United States',
+    title: 'Online Printer Support in United States | Printerz Support',
     description: 'Expert online printer support services across all US states. Remote printer installation, troubleshooting, and maintenance.',
     url: 'https://www.printerzsupport.com/us',
     type: 'website',
