@@ -96,7 +96,7 @@ export default function Home() {
                   Expert Printer Repair
                 </h1>
                 <p className="hero-subtitle">
-                  HP printer support for LaserJet, OfficeJet, DeskJet, and Envy—HP Smart, wireless setup, drivers, offline and error-code fixes, and print-quality issues—with experts available 24/7.
+                  HP printer repair and support for LaserJet, OfficeJet, DeskJet, and Envy—remote assistance for jams, offline errors, drivers, WiFi setup, and print quality. Expert help available 24/7.
                 </p>
                 <div className="hero-actions">
                   <a href={PHONE_TEL_HREF} className="hero-phone">

@@ -5,6 +5,8 @@ import {
   getProvinceBySlug,
   generateProvinceContent,
   getProvincePageTitle,
+  getProvinceMetaDescription,
+  getProvinceKeywords,
 } from '../../../lib/data/canadaProvinces';
 import { getOrganizationSchema } from '../../../lib/utils/structuredData';
 import '../../../styles/pages/About.css';
@@ -25,13 +27,15 @@ export async function generateMetadata({ params }) {
     };
   }
 
+  const pageTitle = getProvincePageTitle(provinceData.name);
+
   return {
-    title: getProvincePageTitle(provinceData.name),
-    description: `Expert HP printer repair in ${provinceData.name}, Canada. Fix HP LaserJet, OfficeJet, DeskJet & Envy — offline errors, jams, drivers, WiFi & print quality. 24/7 remote HP printer repair.`,
-    keywords: `HP printer repair ${provinceData.name}, HP printer fix ${provinceData.name}, HP LaserJet repair ${provinceData.name}, HP OfficeJet repair ${provinceData.name}, HP printer support ${provinceData.name} Canada`,
+    title: pageTitle,
+    description: getProvinceMetaDescription(provinceData.name),
+    keywords: getProvinceKeywords(provinceData.name),
     openGraph: {
-      title: `HP Printer Repair in ${provinceData.name} | Printer Support`,
-      description: `Professional HP printer repair in ${provinceData.name}, Canada. Remote fix for jams, offline errors, drivers, and WiFi on all HP models.`,
+      title: `${pageTitle} | Printer Support`,
+      description: getProvinceMetaDescription(provinceData.name),
       url: `https://www.printerzsupport.com/canada/${provinceData.slug}`,
       type: 'website',
     },
@@ -53,7 +57,7 @@ export default async function ProvincePage({ params }) {
     ...getOrganizationSchema(),
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "HP Printer Repair",
+    "serviceType": "HP Printer Repair & Support",
     "areaServed": {
       "@type": "State",
       "name": provinceData.name
@@ -68,10 +72,10 @@ export default async function ProvincePage({ params }) {
   const breadcrumbItems = [
     { name: 'Home', url: 'https://www.printerzsupport.com/' },
     { name: 'Canada', url: 'https://www.printerzsupport.com/canada' },
-    { name: `HP Printer Repair in ${provinceData.name}`, url: `https://www.printerzsupport.com/canada/${provinceData.slug}` }
+    { name: getProvincePageTitle(provinceData.name), url: `https://www.printerzsupport.com/canada/${provinceData.slug}` }
   ];
 
-  const content = generateProvinceContent(provinceData.name);
+  const content = generateProvinceContent(provinceData.slug, provinceData.name);
 
   return (
     <>

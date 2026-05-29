@@ -5,6 +5,8 @@ import {
   getStateBySlug,
   generateStateContent,
   getStatePageTitle,
+  getStateMetaDescription,
+  getStateKeywords,
 } from '../../../lib/data/usStates';
 import { getOrganizationSchema } from '../../../lib/utils/structuredData';
 import '../../../styles/pages/About.css';
@@ -25,13 +27,15 @@ export async function generateMetadata({ params }) {
     };
   }
 
+  const pageTitle = getStatePageTitle(stateData.name);
+
   return {
-    title: getStatePageTitle(stateData.name),
-    description: `Expert HP printer assistance in ${stateData.name}. Fix HP LaserJet, OfficeJet, DeskJet & Envy — offline errors, jams, drivers, WiFi & print quality. 24/7 remote HP printer assistance.`,
-    keywords: `HP printer assistance ${stateData.name}, HP printer fix ${stateData.name}, HP LaserJet assistance ${stateData.name}, HP OfficeJet assistance ${stateData.name}, HP printer support ${stateData.name}`,
+    title: pageTitle,
+    description: getStateMetaDescription(stateData.name),
+    keywords: getStateKeywords(stateData.name),
     openGraph: {
-      title: `HP Printer Assistance in ${stateData.name} | Printer Support`,
-      description: `Professional HP printer assistance in ${stateData.name}. Remote fix for jams, offline errors, drivers, and WiFi on all HP models.`,
+      title: `${pageTitle} | Printer Support`,
+      description: getStateMetaDescription(stateData.name),
       url: `https://www.printerzsupport.com/us/${stateData.slug}`,
       type: 'website',
     },
@@ -53,7 +57,7 @@ export default async function StatePage({ params }) {
     ...getOrganizationSchema(),
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "HP Printer Assistance",
+    "serviceType": "HP Printer Repair & Support",
     "areaServed": {
       "@type": "State",
       "name": stateData.name
@@ -68,10 +72,10 @@ export default async function StatePage({ params }) {
   const breadcrumbItems = [
     { name: 'Home', url: 'https://www.printerzsupport.com/' },
     { name: 'United States', url: 'https://www.printerzsupport.com/us' },
-    { name: `HP Printer Assistance in ${stateData.name}`, url: `https://www.printerzsupport.com/us/${stateData.slug}` }
+    { name: getStatePageTitle(stateData.name), url: `https://www.printerzsupport.com/us/${stateData.slug}` }
   ];
 
-  const content = generateStateContent(stateData.name);
+  const content = generateStateContent(stateData.slug, stateData.name);
 
   return (
     <>
