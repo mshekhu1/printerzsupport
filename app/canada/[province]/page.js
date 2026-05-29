@@ -1,6 +1,11 @@
 import { notFound } from 'next/navigation';
 import Breadcrumb from '../../components/Breadcrumb';
-import { canadaProvinces, getProvinceBySlug, generateProvinceContent } from '../../../lib/data/canadaProvinces';
+import {
+  canadaProvinces,
+  getProvinceBySlug,
+  generateProvinceContent,
+  getProvincePageTitle,
+} from '../../../lib/data/canadaProvinces';
 import { getOrganizationSchema } from '../../../lib/utils/structuredData';
 import '../../../styles/pages/About.css';
 
@@ -21,12 +26,12 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `Online Printer Support in ${provinceData.name} - Expert Remote Printer Services`,
-    description: `Get expert online printer support services in ${provinceData.name}, Canada. Remote printer installation, troubleshooting, and maintenance for businesses and homes in ${provinceData.name}.`,
-    keywords: `printer support ${provinceData.name}, online printer support ${provinceData.name}, remote printer support ${provinceData.name}, printer services ${provinceData.name} Canada`,
+    title: getProvincePageTitle(provinceData.name),
+    description: `Expert HP printer repair in ${provinceData.name}, Canada. Fix HP LaserJet, OfficeJet, DeskJet & Envy — offline errors, jams, drivers, WiFi & print quality. 24/7 remote HP printer repair.`,
+    keywords: `HP printer repair ${provinceData.name}, HP printer fix ${provinceData.name}, HP LaserJet repair ${provinceData.name}, HP OfficeJet repair ${provinceData.name}, HP printer support ${provinceData.name} Canada`,
     openGraph: {
-      title: `Online Printer Support in ${provinceData.name} | Printer Support`,
-      description: `Expert online printer support services in ${provinceData.name}, Canada. Remote printer installation, troubleshooting, and maintenance.`,
+      title: `HP Printer Repair in ${provinceData.name} | Printer Support`,
+      description: `Professional HP printer repair in ${provinceData.name}, Canada. Remote fix for jams, offline errors, drivers, and WiFi on all HP models.`,
       url: `https://www.printerzsupport.com/canada/${provinceData.slug}`,
       type: 'website',
     },
@@ -48,7 +53,7 @@ export default async function ProvincePage({ params }) {
     ...getOrganizationSchema(),
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "Online Printer Support",
+    "serviceType": "HP Printer Repair",
     "areaServed": {
       "@type": "State",
       "name": provinceData.name
@@ -63,7 +68,7 @@ export default async function ProvincePage({ params }) {
   const breadcrumbItems = [
     { name: 'Home', url: 'https://www.printerzsupport.com/' },
     { name: 'Canada', url: 'https://www.printerzsupport.com/canada' },
-    { name: provinceData.name, url: `https://www.printerzsupport.com/canada/${provinceData.slug}` }
+    { name: `HP Printer Repair in ${provinceData.name}`, url: `https://www.printerzsupport.com/canada/${provinceData.slug}` }
   ];
 
   const content = generateProvinceContent(provinceData.name);

@@ -1,6 +1,11 @@
 import { notFound } from 'next/navigation';
 import Breadcrumb from '../../components/Breadcrumb';
-import { usStates, getStateBySlug, generateStateContent } from '../../../lib/data/usStates';
+import {
+  usStates,
+  getStateBySlug,
+  generateStateContent,
+  getStatePageTitle,
+} from '../../../lib/data/usStates';
 import { getOrganizationSchema } from '../../../lib/utils/structuredData';
 import '../../../styles/pages/About.css';
 
@@ -21,12 +26,12 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `Online Printer Support in ${stateData.name} - Expert Remote Printer Services`,
-    description: `Get expert online printer support services in ${stateData.name}. Remote printer installation, troubleshooting, and maintenance for businesses and homes in ${stateData.name}.`,
-    keywords: `printer support ${stateData.name}, online printer support ${stateData.name}, remote printer support ${stateData.name}, printer services ${stateData.name}`,
+    title: getStatePageTitle(stateData.name),
+    description: `Expert HP printer assistance in ${stateData.name}. Fix HP LaserJet, OfficeJet, DeskJet & Envy — offline errors, jams, drivers, WiFi & print quality. 24/7 remote HP printer assistance.`,
+    keywords: `HP printer assistance ${stateData.name}, HP printer fix ${stateData.name}, HP LaserJet assistance ${stateData.name}, HP OfficeJet assistance ${stateData.name}, HP printer support ${stateData.name}`,
     openGraph: {
-      title: `Online Printer Support in ${stateData.name} | Printer Support`,
-      description: `Expert online printer support services in ${stateData.name}. Remote printer installation, troubleshooting, and maintenance.`,
+      title: `HP Printer Assistance in ${stateData.name} | Printer Support`,
+      description: `Professional HP printer assistance in ${stateData.name}. Remote fix for jams, offline errors, drivers, and WiFi on all HP models.`,
       url: `https://www.printerzsupport.com/us/${stateData.slug}`,
       type: 'website',
     },
@@ -48,7 +53,7 @@ export default async function StatePage({ params }) {
     ...getOrganizationSchema(),
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "Online Printer Support",
+    "serviceType": "HP Printer Assistance",
     "areaServed": {
       "@type": "State",
       "name": stateData.name
@@ -63,7 +68,7 @@ export default async function StatePage({ params }) {
   const breadcrumbItems = [
     { name: 'Home', url: 'https://www.printerzsupport.com/' },
     { name: 'United States', url: 'https://www.printerzsupport.com/us' },
-    { name: stateData.name, url: `https://www.printerzsupport.com/us/${stateData.slug}` }
+    { name: `HP Printer Assistance in ${stateData.name}`, url: `https://www.printerzsupport.com/us/${stateData.slug}` }
   ];
 
   const content = generateStateContent(stateData.name);

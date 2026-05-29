@@ -93,7 +93,7 @@ export default function Home() {
             <div className="row align-items-center">
               <div className="col-md-6 text-center text-md-start">
                 <h1 className="hero-title">
-                  Expert Printer Support
+                  Expert Printer Repair
                 </h1>
                 <p className="hero-subtitle">
                   HP printer support for LaserJet, OfficeJet, DeskJet, and Envy—HP Smart, wireless setup, drivers, offline and error-code fixes, and print-quality issues—with experts available 24/7.

@@ -1,16 +1,16 @@
 import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
-import { usStates } from '../../lib/data/usStates';
+import { usStates, getStateLinkLabel } from '../../lib/data/usStates';
 import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'Online Printer Support in United States - Expert Remote Services',
-  description: 'Get expert online printer support services across all US states. Remote printer installation, troubleshooting, and maintenance for businesses and homes throughout the United States.',
-  keywords: 'printer support USA, online printer support United States, remote printer support US, printer services America',
+  title: 'HP Printer Assistance in United States',
+  description: 'HP printer assistance across all 50 US states. Fix HP LaserJet, OfficeJet, DeskJet & Envy — jams, offline errors, drivers, WiFi & print quality. Find HP printer assistance in your state.',
+  keywords: 'HP printer assistance USA, HP printer fix United States, HP LaserJet assistance, HP OfficeJet assistance, HP printer support by state',
   openGraph: {
-    title: 'Online Printer Support in United States | Printer Support',
-    description: 'Expert online printer support services across all US states. Remote printer installation, troubleshooting, and maintenance.',
+    title: 'HP Printer Assistance in United States | Printer Support',
+    description: 'Professional HP printer assistance in every US state. Remote HP printer fix for homes and businesses.',
     url: 'https://www.printerzsupport.com/us',
     type: 'website',
   },
@@ -36,27 +36,27 @@ export default function USPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">Online Printer Support in United States</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Assistance in United States</h1>
           <p className="animate__animated animate__fadeInUp">
-            Welcome to Printer Support - your trusted partner for comprehensive online printer support services across the United States. We provide expert remote printer support to help residents and businesses in all 50 states resolve printer issues quickly and efficiently.
+            Welcome to Printer Support — your trusted partner for HP printer assistance across the United States. We help residents and businesses in all 50 states fix HP LaserJet, OfficeJet, DeskJet, and Envy printers with fast, expert remote assistance.
           </p>
           
-          <h2 className="animate__animated animate__fadeInDown">Our Services Across the United States</h2>
+          <h2 className="animate__animated animate__fadeInDown">HP Printer Assistance Services Nationwide</h2>
           <p className="animate__animated animate__fadeInUp">
-            Our online printer support services are available to customers in every state across America. Whether you're in California, New York, Texas, Florida, or any other state, we're here to help with:
+            Our HP printer assistance services are available in every state. Whether you're in California, New York, Texas, Florida, or anywhere else, we assist with:
           </p>
           <ul className="animate__animated animate__fadeInUp">
-            <li>Remote printer installation and setup</li>
-            <li>Printer troubleshooting and repair</li>
-            <li>Driver installation and updates</li>
-            <li>Wireless and network printer configuration</li>
-            <li>Printer maintenance and optimization</li>
-            <li>Brand-specific support (HP, Canon, Epson, Brother, and more)</li>
+            <li>HP printer offline and not printing issues</li>
+            <li>HP paper jams and feed problems</li>
+            <li>HP driver installation and assistance</li>
+            <li>HP WiFi and wireless setup assistance</li>
+            <li>HP print quality and toner/ink issues</li>
+            <li>HP LaserJet, OfficeJet, DeskJet, and Envy models</li>
           </ul>
 
-          <h2 className="animate__animated animate__fadeInDown">Select Your State for Localized Support</h2>
+          <h2 className="animate__animated animate__fadeInDown">Select Your State for HP Printer Assistance</h2>
           <p className="animate__animated animate__fadeInUp">
-            Click on your state below to learn more about our online printer support services in your area:
+            Click your state below for HP printer assistance services in your area:
           </p>
           
           <div className="state-link-grid">
@@ -66,12 +66,12 @@ export default function USPage() {
                 href={`/us/${state.slug}`}
                 className="state-link"
               >
-                {state.name}
+                {getStateLinkLabel(state.name)}
               </Link>
             ))}
           </div>
 
-          <h2 className="animate__animated animate__fadeInDown" style={{ marginTop: '3rem' }}>Why Choose Our Online Printer Support?</h2>
+          <h2 className="animate__animated animate__fadeInDown" style={{ marginTop: '3rem' }}>Why Choose Our HP Printer Assistance?</h2>
           <ul className="animate__animated animate__fadeInUp">
             <li><strong>Fast Response:</strong> Get immediate assistance without waiting for on-site visits</li>
             <li><strong>Cost-Effective:</strong> Save money on travel costs and service fees</li>
@@ -83,7 +83,7 @@ export default function USPage() {
 
           <h2 className="animate__animated animate__fadeInDown" style={{ marginTop: '2rem' }}>Get Started Today</h2>
           <p className="animate__animated animate__fadeInUp">
-            Don't let printer problems disrupt your work or business. Our expert online printer support team is ready to help you resolve any printer issue quickly and efficiently. Contact us today:
+            Don't let a broken HP printer disrupt your work. Our HP printer assistance team is ready to fix your LaserJet, OfficeJet, DeskJet, or Envy quickly. Contact us today:
           </p>
           <p className="animate__animated animate__fadeInUp">
             <strong>Call us at <a href="tel:+18884237757" style={{ color: '#007bff' }}>(888) 423-7757</a></strong> - Available 24/7

@@ -2,11 +2,13 @@ import Home from './components/Home';
 import { getLocalBusinessSchema, getOrganizationSchema, getReviewSchema } from '../lib/utils/structuredData';
 
 export const metadata = {
-  title: 'Expert Printer Help - Fast & Reliable Assistance for All Printer Brands | Printer Support',
+  title: {
+    absolute: 'HP printer customer solutions',
+  },
   description: 'Get expert printer support for all major brands. Fast, friendly, and reliable help to install, repair, and optimize your printers. 24/7 technical support available.',
   keywords: 'Printer Support, Printer Setup, Printer Installation, Printer Troubleshooting, HP Printer, Canon Printer, Epson Printer, Brother Printer, Wireless Printer Setup',
   openGraph: {
-    title: 'Expert Printer Help | Printer Support',
+    title: 'HP printer customer solutions',
     description: 'Get expert printer support for all major brands. Fast, friendly, and reliable help to install, repair, and optimize your printers.',
     url: 'https://www.printerzsupport.com',
     type: 'website',
