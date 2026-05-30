@@ -58,7 +58,8 @@
   margin-top: var(--spacing-12);
 }
 
-.service {
+.service,
+.service-card {
   background: var(--white);
   border-radius: var(--radius-2xl);
   padding: var(--spacing-8);
@@ -70,6 +71,12 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-12px);
+  box-shadow: var(--shadow-2xl);
+  border-color: var(--primary-light);
 }
 
 .service::before {
@@ -113,7 +120,8 @@
   box-shadow: var(--shadow-xl);
 }
 
-.service h2 {
+.service h2,
+.service-title {
   font-size: var(--font-size-2xl);
   font-weight: 700;
   color: var(--gray-900);
@@ -121,7 +129,8 @@
   font-family: var(--font-family-heading);
 }
 
-.service p {
+.service p,
+.service-description {
   color: var(--gray-600);
   line-height: 1.7;
   margin-bottom: var(--spacing-6);

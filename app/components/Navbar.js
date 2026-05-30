@@ -2,12 +2,14 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { printerServices } from '../../lib/data/services';
 import '../../styles/globals/App.css';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isBranchesDropdownOpen, setIsBranchesDropdownOpen] = useState(false);
+  const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
 
   useEffect(() => {
     let ticking = false;
@@ -29,16 +31,19 @@ export default function Navbar() {
       if (isBranchesDropdownOpen && !event.target.closest('.nav-item.dropdown.branches')) {
         setIsBranchesDropdownOpen(false);
       }
+      if (isServicesDropdownOpen && !event.target.closest('.nav-item.dropdown.services')) {
+        setIsServicesDropdownOpen(false);
+      }
     };
 
-    if (isBranchesDropdownOpen) {
+    if (isBranchesDropdownOpen || isServicesDropdownOpen) {
       document.addEventListener('click', handleClickOutside);
     }
 
     return () => {
       document.removeEventListener('click', handleClickOutside);
     };
-  }, [isBranchesDropdownOpen]);
+  }, [isBranchesDropdownOpen, isServicesDropdownOpen]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -47,10 +52,17 @@ export default function Navbar() {
   const closeMenu = () => {
     setIsMenuOpen(false);
     setIsBranchesDropdownOpen(false);
+    setIsServicesDropdownOpen(false);
   };
 
   const toggleBranchesDropdown = () => {
     setIsBranchesDropdownOpen(!isBranchesDropdownOpen);
+    setIsServicesDropdownOpen(false);
+  };
+
+  const toggleServicesDropdown = () => {
+    setIsServicesDropdownOpen(!isServicesDropdownOpen);
+    setIsBranchesDropdownOpen(false);
   };
 
   return (
@@ -85,8 +97,45 @@ export default function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" href="/about" onClick={closeMenu}>About</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="/services" onClick={closeMenu}>Services</Link>
+            <li
+              className="nav-item dropdown services"
+              onMouseEnter={() => {
+                if (window.innerWidth > 991) {
+                  setIsServicesDropdownOpen(true);
+                }
+              }}
+              onMouseLeave={() => {
+                if (window.innerWidth > 991) {
+                  setIsServicesDropdownOpen(false);
+                }
+              }}
+            >
+              <button
+                className={`nav-link dropdown-toggle ${isServicesDropdownOpen ? 'active' : ''}`}
+                onClick={toggleServicesDropdown}
+                type="button"
+              >
+                Services
+              </button>
+              <ul className={`dropdown-menu ${isServicesDropdownOpen ? 'show' : ''}`}>
+                <li>
+                  <Link className="dropdown-item" href="/services" onClick={closeMenu}>
+                    All Services
+                  </Link>
+                </li>
+                <li><hr className="dropdown-divider" /></li>
+                {printerServices.map((service) => (
+                  <li key={service.slug}>
+                    <Link
+                      className="dropdown-item"
+                      href={`/services/${service.slug}`}
+                      onClick={closeMenu}
+                    >
+                      {service.shortTitle}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/blog" onClick={closeMenu}>Blog</Link>

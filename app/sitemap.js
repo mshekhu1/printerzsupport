@@ -3,6 +3,7 @@ import { usStates } from '../lib/data/usStates';
 import { canadaProvinces } from '../lib/data/canadaProvinces';
 import { printerBrands } from '../lib/data/printerBrands';
 import { forumDiscussions } from '../lib/data/forumDiscussions';
+import { printerServices } from '../lib/data/services';
 
 export const dynamic = 'force-static';
 
@@ -117,6 +118,13 @@ export default function sitemap() {
     priority: 0.8,
   }));
 
+  const serviceRoutes = printerServices.map((service) => ({
+    url: `${baseUrl}/services/${service.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.85,
+  }));
+
   const brandRoutes = printerBrands.map((brand) => ({
     url: `${baseUrl}/brands/${brand.slug}`,
     lastModified: new Date(),
@@ -131,6 +139,14 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
-  return [...routes, ...blogRoutes, ...usStateRoutes, ...canadaProvinceRoutes, ...brandRoutes, ...forumRoutes];
+  return [
+    ...routes,
+    ...blogRoutes,
+    ...usStateRoutes,
+    ...canadaProvinceRoutes,
+    ...serviceRoutes,
+    ...brandRoutes,
+    ...forumRoutes,
+  ];
 }
 
