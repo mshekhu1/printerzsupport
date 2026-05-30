@@ -52,6 +52,8 @@ export default function Footer({ style }) {
                 <li><Link href="/about">About Us</Link></li>
                 <li><Link href="/services">Services</Link></li>
                 <li><Link href="/blog">Blog</Link></li>
+                <li><Link href="/us">HP Support — United States</Link></li>
+                <li><Link href="/canada">HP Support — Canada</Link></li>
                 <li><Link href="/faq">FAQ</Link></li>
                 <li><Link href="/contact">Contact</Link></li>
               </ul>

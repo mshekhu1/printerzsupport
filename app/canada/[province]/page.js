@@ -8,6 +8,7 @@ import {
   getProvinceMetaDescription,
   getProvinceKeywords,
 } from '../../../lib/data/canadaProvinces';
+import { getLocationFaqSchema } from '../../../lib/seo/locationSeo';
 import { getOrganizationSchema } from '../../../lib/utils/structuredData';
 import '../../../styles/pages/About.css';
 
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }) {
     description: getProvinceMetaDescription(provinceData.name),
     keywords: getProvinceKeywords(provinceData.name),
     openGraph: {
-      title: `${pageTitle} | Printer Support`,
+      title: pageTitle,
       description: getProvinceMetaDescription(provinceData.name),
       url: `https://www.printerzsupport.com/canada/${provinceData.slug}`,
       type: 'website',
@@ -53,21 +54,25 @@ export default async function ProvincePage({ params }) {
     notFound();
   }
 
-  const structuredData = {
-    ...getOrganizationSchema(),
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "HP Printer Repair & Support",
-    "areaServed": {
-      "@type": "State",
-      "name": provinceData.name
+  const pageUrl = `https://www.printerzsupport.com/canada/${provinceData.slug}`;
+  const structuredData = [
+    {
+      ...getOrganizationSchema(),
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "HP Printer Repair & Support",
+      "areaServed": {
+        "@type": "State",
+        "name": provinceData.name
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": pageUrl,
+        "servicePhone": "+18884237757"
+      }
     },
-    "availableChannel": {
-      "@type": "ServiceChannel",
-      "serviceUrl": `https://www.printerzsupport.com/canada/${provinceData.slug}`,
-      "servicePhone": "+18884237757"
-    }
-  };
+    getLocationFaqSchema(provinceData.slug, provinceData.name, pageUrl),
+  ];
 
   const breadcrumbItems = [
     { name: 'Home', url: 'https://www.printerzsupport.com/' },

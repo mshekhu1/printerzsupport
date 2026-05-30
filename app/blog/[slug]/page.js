@@ -3,6 +3,11 @@ import Breadcrumb from '../../components/Breadcrumb';
 import BlogPostSidebars from '../../components/BlogPostSidebars';
 import { blogPosts } from '../../../lib/data/blogPosts';
 import { getCanonicalSlug, getCanonicalBlogSlugs, isBlogAlias } from '../../../lib/data/blogAliases';
+import {
+  getBlogSeoTitle,
+  getBlogOgImage,
+  getBlogDateModified,
+} from '../../../lib/seo/blogSeo';
 import '../../../styles/blog/BlogPost.css';
 
 // Only pre-built canonical URLs exist in static export; aliases rely on _redirects/.htaccess.
@@ -23,9 +28,12 @@ export async function generateMetadata({ params }) {
 
   const canonicalUrl = `https://www.printerzsupport.com/blog/${post.slug}`;
   const isAlternateUrl = slug !== post.slug || isBlogAlias(slug);
+  const seoTitle = getBlogSeoTitle(post.title);
+  const ogImage = getBlogOgImage(post.category);
+  const dateModified = getBlogDateModified(post);
 
   return {
-    title: post.title,
+    title: seoTitle,
     description: post.excerpt,
     keywords: post.keywords,
     robots: isAlternateUrl
@@ -36,15 +44,16 @@ export async function generateMetadata({ params }) {
           googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
         },
     openGraph: {
-      title: `${post.title} | Printer Support`,
+      title: seoTitle,
       description: post.excerpt,
       url: canonicalUrl,
       type: 'article',
       publishedTime: post.date,
+      modifiedTime: dateModified,
       authors: [post.author],
       images: [
         {
-          url: 'https://www.printerzsupport.com/hero-printer.svg',
+          url: ogImage,
           width: 1200,
           height: 630,
           alt: post.title,
@@ -53,9 +62,9 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${post.title} | Printer Support`,
+      title: seoTitle,
       description: post.excerpt,
-      images: ['https://www.printerzsupport.com/hero-printer.svg'],
+      images: [ogImage],
     },
     alternates: {
       canonical: canonicalUrl,
@@ -88,14 +97,17 @@ export default async function BlogPostPage({ params }) {
     'installation': 'Installation'
   };
 
+  const ogImage = getBlogOgImage(post.category);
+  const dateModified = getBlogDateModified(post);
+
   const blogPostSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": post.title,
     "description": post.excerpt,
-    "image": "https://www.printerzsupport.com/hero-printer.svg",
+    "image": ogImage,
     "datePublished": post.date,
-    "dateModified": post.date,
+    "dateModified": dateModified,
     "author": {
       "@type": "Organization",
       "name": post.author

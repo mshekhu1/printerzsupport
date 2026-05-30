@@ -93,7 +93,7 @@ export default function Home() {
             <div className="row align-items-center">
               <div className="col-md-6 text-center text-md-start">
                 <h1 className="hero-title">
-                  Expert Printer Repair
+                  HP Printer Repair & Support
                 </h1>
                 <p className="hero-subtitle">
                   HP printer repair and support for LaserJet, OfficeJet, DeskJet, and Envy—remote assistance for jams, offline errors, drivers, WiFi setup, and print quality. Expert help available 24/7.
@@ -108,7 +108,7 @@ export default function Home() {
                 <div className="hero-image-container animate__animated animate__fadeInRight">
                   <Image 
                     src="/hero-printer.svg" 
-                    alt="Printer illustration" 
+                    alt="HP printer repair and remote support — LaserJet, OfficeJet, DeskJet" 
                     width={600}
                     height={400}
                     priority
@@ -125,6 +125,69 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* SEO internal links — guides, services, locations */}
+      <section className="home-resources-section" aria-labelledby="home-resources-heading">
+        <div className="container">
+          <ScrollAnimation animation="fadeInUp">
+            <h2 id="home-resources-heading" className="section-title">HP Printer Help &amp; Resources</h2>
+            <p className="section-subtitle">
+              Popular guides, nationwide support, and professional services for HP and other major brands.
+            </p>
+            <div className="home-resources-grid">
+              <div className="home-resources-card">
+                <h3>Top troubleshooting guides</h3>
+                <ul className="home-resources-links">
+                  <li>
+                    <Link href="/blog/how-to-fix-printer-offline-issues-troubleshooting">
+                      Fix printer offline issues
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/hp-printer-troubleshooting-guide">
+                      HP printer troubleshooting
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/wireless-printer-setup-guide">
+                      Wireless printer setup
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/install-printer-drivers-windows-11-setup">
+                      Install printer drivers on Windows 11
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/printer-maintenance-tips">
+                      Printer maintenance tips
+                    </Link>
+                  </li>
+                </ul>
+                <Link href="/blog" className="home-resources-more">View all blog guides →</Link>
+              </div>
+              <div className="home-resources-card">
+                <h3>HP support by location</h3>
+                <p>Remote HP printer repair and assistance in every US state and Canadian province.</p>
+                <ul className="home-resources-links">
+                  <li><Link href="/us">HP printer support — United States</Link></li>
+                  <li><Link href="/canada">HP printer support — Canada</Link></li>
+                </ul>
+              </div>
+              <div className="home-resources-card">
+                <h3>Our services</h3>
+                <p>Setup, repair, drivers, and WiFi help for home and business printers.</p>
+                <ul className="home-resources-links">
+                  <li><Link href="/services">Printer support services</Link></li>
+                  <li><Link href="/drivers">Printer drivers &amp; downloads</Link></li>
+                  <li><Link href="/brands/hp">HP printer brand support</Link></li>
+                  <li><Link href="/contact">Contact support</Link></li>
+                </ul>
+              </div>
+            </div>
+          </ScrollAnimation>
         </div>
       </section>
 
