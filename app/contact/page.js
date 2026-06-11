@@ -4,11 +4,11 @@ import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 
 export const metadata = {
   title: 'Contact Us | Get Help Now',
-  description: `Contact HP Printer Support for expert HP printer customer support. Call ${PHONE_DISPLAY} or email support@printerzsupport.com. 24/7 HP printer support available.`,
-  keywords: 'Contact HP Printer Support, HP printer customer support, HP printer support phone number, HP printer help',
+  description: `Contact HP Printer Support for expert HP printer customer service and technical support. Call ${PHONE_DISPLAY} or email support@printerzsupport.com. 24/7 help available.`,
+  keywords: 'Contact HP Printer Support, HP printer customer service, HP printer technical support, HP printer support phone number, HP printer help',
   openGraph: {
     title: 'Contact Us | HP Printer Support',
-    description: 'Get in touch with HP Printer Support for expert HP printer customer support.',
+    description: 'Get in touch with HP Printer Support for expert HP printer customer service and technical support.',
     url: 'https://www.printerzsupport.com/contact',
     type: 'website',
   },

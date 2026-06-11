@@ -1,25 +1,29 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
+import { homeFaqs } from '../../lib/data/homeFaqs';
 import Image from 'next/image';
 import ScrollAnimation from './ScrollAnimation';
 import AnimatedCounter from './AnimatedCounter';
 import '../../styles/pages/Home.css';
+import '../../styles/pages/FAQ.css';
 
 export default function Home() {
+  const [openFaqIndex, setOpenFaqIndex] = useState(null);
   const features = [
     {
       id: 1,
-      title: "Fast Support",
-      description: "Get quick and reliable support for your printer issues with our 24/7 availability.",
+      title: "Fast HP Printer Support",
+      description: "Get quick and reliable HP printer support with 24/7 customer service and technical support.",
       icon: "⚡",
       color: "#FFD700"
     },
     {
       id: 2,
-      title: "Expert Technicians",
-      description: "Our team of certified experts are here to help you with any printer problem.",
+      title: "HP Technical Support Experts",
+      description: "Certified technicians provide expert HP printer technical support for any printer problem.",
       icon: "👨‍💻",
       color: "#667eea"
     },
@@ -32,15 +36,15 @@ export default function Home() {
     },
     {
       id: 4,
-      title: "24/7 Availability",
-      description: "We are available round the clock to assist you with your printer needs.",
+      title: "24/7 Customer Service",
+      description: "Round-the-clock HP printer customer service and customer support when you need help.",
       icon: "🕒",
       color: "#f59e0b"
     },
     {
       id: 5,
-      title: "Wireless Setup",
-      description: "Get your printer wirelessly connected to your network with expert configuration.",
+      title: "HP Wireless Setup",
+      description: "HP printer technical support for WiFi setup and wireless network configuration.",
       icon: "📶",
       color: "#3b82f6"
     },
@@ -71,14 +75,14 @@ export default function Home() {
     {
       id: 3,
       name: "Alice Johnson",
-      text: "The best printer support service I have ever used. Highly recommended!",
+      text: "The best HP printer customer support I have ever used. Their technical support team fixed my issue fast!",
       avatar: "https://th.bing.com/th?id=OIP.UidYXknATm9TVaVDAEDm6AHaE8&w=125&h=104&c=7&bgcl=ea3ff9&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     },
     {
       id: 4,
       name: "Bob Brown",
-      text: "Excellent service and very professional. Will use again.",
+      text: "Excellent HP printer technical support and customer service. Very professional — will use again.",
       avatar: "https://th.bing.com/th?id=OIP.xcKD3w58xiM1l9211ExZMwHaE8&w=127&h=104&c=7&bgcl=393163&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     }
@@ -93,10 +97,10 @@ export default function Home() {
             <div className="row align-items-center">
               <div className="col-md-6 text-center text-md-start">
                 <h1 className="hero-title">
-                  Hewlett Packard Customer Helpline to Fix HP Printer Error
+                  Hewlett Packard Customer Helpline for HP Printer Support to Fix Errors
                 </h1>
                 <p className="hero-subtitle">
-                  24/7 HP printer support and customer support for LaserJet, OfficeJet, DeskJet, and Envy—remote help for jams, offline errors, drivers, WiFi setup, and print quality.
+                  24/7 HP printer support with expert customer service, customer support, and technical support for LaserJet, OfficeJet, DeskJet, and Envy—remote help for jams, offline errors, drivers, WiFi setup, and print quality.
                 </p>
                 <div className="hero-actions">
                   <a href={PHONE_TEL_HREF} className="hero-phone">
@@ -108,7 +112,7 @@ export default function Home() {
                 <div className="hero-image-container animate__animated animate__fadeInRight">
                   <Image 
                     src="/hero-printer.svg" 
-                    alt="HP printer repair and remote support — LaserJet, OfficeJet, DeskJet" 
+                    alt="HP printer support, customer service, customer support, and technical support — LaserJet, OfficeJet, DeskJet" 
                     width={600}
                     height={400}
                     priority
@@ -128,13 +132,26 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="home-resources-section" aria-labelledby="home-customer-service-heading">
+        <div className="container">
+          <ScrollAnimation animation="fadeInUp">
+            <h2 id="home-customer-service-heading" className="section-title">
+              HP Printer Support, Customer Service, Customer Support &amp; Technical Support
+            </h2>
+            <p className="section-subtitle">
+              Call our 24/7 HP printer support helpline for expert customer service, customer support, and technical support on LaserJet, OfficeJet, DeskJet, and Envy printers. We fix offline errors, paper jams, driver issues, WiFi setup problems, and print quality faults with fast remote assistance.
+            </p>
+          </ScrollAnimation>
+        </div>
+      </section>
+
       {/* SEO internal links — guides, services, locations */}
       <section className="home-resources-section" aria-labelledby="home-resources-heading">
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
             <h2 id="home-resources-heading" className="section-title">HP Printer Help &amp; Resources</h2>
             <p className="section-subtitle">
-              Popular guides, nationwide support, and professional services for HP and other major brands.
+              Popular HP printer support guides, nationwide customer service, customer support, and professional technical support.
             </p>
             <div className="home-resources-grid">
               <div className="home-resources-card">
@@ -146,8 +163,23 @@ export default function Home() {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/hp-printer-customer-service">
+                      HP printer customer service
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/blog/hp-printer-troubleshooting-guide">
                       HP printer troubleshooting
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/printer-customer-support-phone-number">
+                      HP printer customer support phone number
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/hp-printer-customer-service">
+                      HP printer technical support
                     </Link>
                   </li>
                   <li>
@@ -178,9 +210,9 @@ export default function Home() {
               </div>
               <div className="home-resources-card">
                 <h3>Our services</h3>
-                <p>Setup, repair, drivers, and WiFi help for home and business printers.</p>
+                <p>HP printer setup, repair, drivers, and WiFi technical support for home and business.</p>
                 <ul className="home-resources-links">
-                  <li><Link href="/services">Printer support services</Link></li>
+                  <li><Link href="/services">HP printer support services</Link></li>
                   <li><Link href="/drivers">Printer drivers &amp; downloads</Link></li>
                   <li><Link href="/brands/hp">HP printer brand support</Link></li>
                   <li><Link href="/contact">Contact support</Link></li>
@@ -200,7 +232,7 @@ export default function Home() {
                 Why Choose Us
               </h2>
               <p className="section-subtitle">
-                We provide the best printer support services with a focus on customer satisfaction and quality.
+                We provide the best HP printer support, customer service, customer support, and technical support with a focus on satisfaction and quality.
               </p>
             </div>
           </ScrollAnimation>
@@ -299,13 +331,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="home-resources-section" aria-labelledby="home-faq-heading">
+        <div className="container">
+          <ScrollAnimation animation="fadeInUp">
+            <h2 id="home-faq-heading" className="section-title">HP Printer Support FAQs</h2>
+            <p className="section-subtitle">
+              Common questions about HP printer customer service, customer support, and technical support.
+            </p>
+            <div className="faq-list">
+              {homeFaqs.map((faq, index) => (
+                <div key={index} className={`faq-item ${openFaqIndex === index ? 'open' : ''}`}>
+                  <button
+                    className="faq-question"
+                    onClick={() => setOpenFaqIndex(openFaqIndex === index ? null : index)}
+                    aria-expanded={openFaqIndex === index}
+                  >
+                    <span className="faq-question-text">{faq.question}</span>
+                    <span className="faq-icon">{openFaqIndex === index ? '−' : '+'}</span>
+                  </button>
+                  <div className="faq-answer">
+                    <p>{faq.answer}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="section-subtitle" style={{ marginTop: '1.5rem' }}>
+              <Link href="/faq">View all FAQs →</Link>
+            </p>
+          </ScrollAnimation>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="cta-section">
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
             <div className="cta-content">
               <h2 className="cta-title">Ready to Get Started?</h2>
-              <p className="cta-subtitle">Contact us today and experience the best printer support service!</p>
+              <p className="cta-subtitle">Contact us today for expert HP printer support, customer service, customer support, and technical support!</p>
               <div className="cta-buttons">
                 <a href={PHONE_TEL_HREF} className="btn-cta-primary">
                   📞 Call Now: {PHONE_DISPLAY}

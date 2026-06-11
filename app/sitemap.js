@@ -18,6 +18,12 @@ export default function sitemap() {
       priority: 1,
     },
     {
+      url: `${baseUrl}/hp-printer-customer-service`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.95,
+    },
+    {
       url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',

@@ -23,11 +23,11 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL('https://www.printerzsupport.com'),
   title: {
-    default: 'HP® Printer Support - Expert Help for HP® Printer | 24/7 Support',
+    default: 'HP® Printer Support | Customer Service & Technical Support',
     template: '%s | HP® Printer Support'
   },
-  description: 'Get expert HP printer support and HP printer customer support. Troubleshooting, setup, installation, and wireless configuration for HP LaserJet, OfficeJet, DeskJet, and Envy. 24/7 support available.',
-  keywords: ['HP Printer Support', 'HP printer customer support', 'HP printer customer service', 'HP printer support number', 'HP Printer Setup', 'HP Printer Installation', 'HP Printer Troubleshooting', 'HP LaserJet support', 'HP OfficeJet support'],
+  description: 'Expert HP printer support with 24/7 customer service, customer support, and technical support for LaserJet, OfficeJet, DeskJet, and Envy. Fix offline errors, jams, drivers, WiFi, and print quality.',
+  keywords: ['HP printer support', 'HP printer customer service', 'HP printer customer support', 'HP printer technical support', 'HP Printer Support', 'HP printer support number', 'HP Printer Setup', 'HP Printer Installation', 'HP LaserJet support', 'HP OfficeJet support'],
   authors: [{ name: 'HP Printer Support' }],
   creator: 'HP Printer Support',
   publisher: 'HP Printer Support',
@@ -47,21 +47,21 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.printerzsupport.com',
     siteName: 'HP Printer Support',
-    title: 'HP Printer Support - Expert Technical Help for HP Printer',
-    description: 'Professional HP printer support and HP printer customer support. Get help with setup, installation, and troubleshooting.',
+    title: 'HP Printer Support | Customer Service & Technical Support',
+    description: 'HP printer support with expert customer service, customer support, and technical support. Remote help for setup, installation, and troubleshooting.',
     images: [
       {
         url: '/hero-printer.svg',
         width: 1200,
         height: 630,
-        alt: 'HP Printer Support',
+        alt: 'HP printer support, customer service, and technical support',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'HP Printer Support - Expert Technical Help for HP Printer',
-    description: 'Professional HP printer support and HP printer customer support.',
+    title: 'HP Printer Support | Customer Service & Technical Support',
+    description: 'HP printer support with expert customer service, customer support, and technical support.',
     images: ['/hero-printer.svg'],
   },
   alternates: {
