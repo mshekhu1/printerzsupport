@@ -3,11 +3,11 @@ import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'About Us | Expert Team & Services',
-  description: 'Learn about Printer Support - your trusted partner for printer services. We have over 10 years of experience providing expert printer support, installation, and repair services.',
-  keywords: 'About Printer Support, Printer Support Team, Printer Service Company, Printer Experts',
+  description: 'Learn about HP Printer Support - your trusted partner for HP printer support and customer support. Over 10 years of expert HP printer repair, installation, and troubleshooting.',
+  keywords: 'About HP Printer Support, HP printer support team, HP printer customer support, HP printer experts',
   openGraph: {
-    title: 'About Us | Printer Support',
-    description: 'Learn about Printer Support - your trusted partner for printer services.',
+    title: 'About Us | HP Printer Support',
+    description: 'Learn about HP Printer Support - your trusted partner for HP printer support and customer support.',
     url: 'https://www.printerzsupport.com/about',
     type: 'website',
   },

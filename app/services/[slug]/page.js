@@ -60,7 +60,7 @@ export default async function ServicePage({ params }) {
     serviceType: service.title,
     provider: {
       '@type': 'Organization',
-      name: 'Printer Support',
+      name: 'HP Printer Support',
     },
     areaServed: {
       '@type': 'Country',

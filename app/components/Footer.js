@@ -12,7 +12,7 @@ export default function Footer({ style }) {
               className="footer-listing-icon footer-listing-icon-yahoo"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Printer Support on Yahoo Local"
+              aria-label="HP Printer Support on Yahoo Local"
               title="Yahoo Local"
             >
               <span aria-hidden="true">Y!</span>
@@ -22,7 +22,7 @@ export default function Footer({ style }) {
               className="footer-listing-icon footer-listing-icon-facebook"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Printer Support on Facebook"
+              aria-label="HP Printer Support on Facebook"
               title="Facebook"
             >
               <span aria-hidden="true">f</span>
@@ -32,7 +32,7 @@ export default function Footer({ style }) {
               className="footer-listing-icon footer-listing-icon-yelp"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Printer Support on Yelp"
+              aria-label="HP Printer Support on Yelp"
               title="Yelp"
             >
               <span aria-hidden="true">y</span>
@@ -41,8 +41,8 @@ export default function Footer({ style }) {
 
           <div className="footer-content">
             <div className="footer-section">
-              <h3>Printer Support</h3>
-              <p>Your trusted partner for all printer-related issues. We provide fast, reliable, and professional printer support services.</p>
+              <h3>HP Printer Support</h3>
+              <p>Your trusted partner for HP printer support and customer support. Fast, reliable help for LaserJet, OfficeJet, DeskJet, and Envy printers.</p>
             </div>
 
             <div className="footer-section">
@@ -89,7 +89,7 @@ export default function Footer({ style }) {
             <span>|</span>
             <Link href="/refund-policy">Refund Policy</Link>
           </div>
-          <p>&copy; 2024 Printer Support. All rights reserved.</p>
+          <p>&copy; 2024 HP Printer Support. All rights reserved.</p>
         </div>
       </div>
     </footer>

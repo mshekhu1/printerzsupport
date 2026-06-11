@@ -9,7 +9,7 @@ export const metadata = {
   description: 'HP printer repair and assistance across all 50 US states. Fix HP LaserJet, OfficeJet, DeskJet & Envy — jams, offline errors, drivers, WiFi & print quality. Find HP printer support in your state.',
   keywords: 'HP printer repair USA, HP printer assistance USA, HP printer fix United States, HP LaserJet repair, HP OfficeJet support, HP printer support by state',
   openGraph: {
-    title: 'HP Printer Repair & Support in United States | Printer Support',
+    title: 'HP Printer Repair & Support in United States | HP Printer Support',
     description: 'Professional HP printer repair and assistance in every US state. Remote HP printer support for homes and businesses.',
     url: 'https://www.printerzsupport.com/us',
     type: 'website',
@@ -38,7 +38,7 @@ export default function USPage() {
           <Breadcrumb items={breadcrumbItems} />
           <h1 className="animate__animated animate__fadeInDown">HP Printer Repair &amp; Support in United States</h1>
           <p className="animate__animated animate__fadeInUp">
-            Welcome to Printer Support — your trusted partner for HP printer repair and assistance across the United States. We help residents and businesses in all 50 states fix HP LaserJet, OfficeJet, DeskJet, and Envy printers with fast, expert remote support.
+            Welcome to HP Printer Support — your trusted partner for HP printer repair, support, and customer support across the United States. We help residents and businesses in all 50 states fix HP LaserJet, OfficeJet, DeskJet, and Envy printers with fast, expert remote support.
           </p>
           
           <h2 className="animate__animated animate__fadeInDown">HP Printer Repair &amp; Assistance Nationwide</h2>

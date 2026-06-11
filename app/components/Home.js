@@ -57,14 +57,14 @@ export default function Home() {
     {
       id: 1,
       name: "John Doe",
-      text: "Printer Support has been a lifesaver! Their quick and efficient service is unmatched.",
+      text: "HP Printer Support has been a lifesaver! Their quick and efficient service is unmatched.",
       avatar: "https://th.bing.com/th?id=OIP.4vZ2x-GGaYuXq5b6y_WalgHaE8&w=125&h=104&c=7&bgcl=ecd846&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     },
     {
       id: 2,
       name: "Jane Smith",
-      text: "I highly recommend Printer Support for their professional and affordable services.",
+      text: "I highly recommend HP Printer Support for their professional and affordable services.",
       avatar: "https://th.bing.com/th?id=OIP.AQtvP5FcfiEMQpu14ueJCgHaGU&w=98&h=104&c=7&bgcl=2bf252&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     },
@@ -93,10 +93,10 @@ export default function Home() {
             <div className="row align-items-center">
               <div className="col-md-6 text-center text-md-start">
                 <h1 className="hero-title">
-                  HP Printer Repair & Support
+                  Hewlett Packard Customer Helpline to Fix HP Printer Error
                 </h1>
                 <p className="hero-subtitle">
-                  HP printer repair and support for LaserJet, OfficeJet, DeskJet, and Envy—remote assistance for jams, offline errors, drivers, WiFi setup, and print quality. Expert help available 24/7.
+                  24/7 HP printer support and customer support for LaserJet, OfficeJet, DeskJet, and Envy—remote help for jams, offline errors, drivers, WiFi setup, and print quality.
                 </p>
                 <div className="hero-actions">
                   <a href={PHONE_TEL_HREF} className="hero-phone">

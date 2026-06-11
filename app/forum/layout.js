@@ -1,10 +1,10 @@
 export const metadata = {
   title: 'Forum - Ask Questions & Get Answers',
-  description: 'Join our printer support forum to ask questions, share solutions, and get help with printer problems. Community-driven discussions with expert answers.',
-  keywords: 'printer forum, printer support forum, printer questions, printer answers, printer help community',
+  description: 'Join our HP printer support forum to ask questions, share solutions, and get HP printer customer support. Community-driven discussions with expert answers.',
+  keywords: 'HP printer forum, HP printer support forum, HP printer questions, HP printer customer support, HP printer help',
   openGraph: {
-    title: 'Printer Support Forum - Ask Questions & Get Answers',
-    description: 'Join our printer support forum to ask questions, share solutions, and get help with printer problems.',
+    title: 'HP Printer Support Forum - Ask Questions & Get Answers',
+    description: 'Join our HP printer support forum to ask questions and get expert HP printer help.',
     url: 'https://www.printerzsupport.com/forum',
     type: 'website',
   },

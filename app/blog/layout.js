@@ -1,10 +1,10 @@
 export const metadata = {
   title: 'Blog - Expert Guides & Troubleshooting Tips',
-  description: 'Expert printer guides, troubleshooting tips, and step-by-step tutorials. Learn how to fix printer issues, set up wireless printers, install drivers, and maintain your printer for optimal performance.',
-  keywords: 'printer blog, printer guides, printer troubleshooting tips, printer setup guides, printer installation help, printer maintenance tips, HP printer guide, Canon printer guide',
+  description: 'Expert HP printer guides, troubleshooting tips, and step-by-step tutorials. Fix HP printer issues, set up wireless HP printers, install drivers, and maintain your HP printer.',
+  keywords: 'HP printer blog, HP printer guides, HP printer troubleshooting, HP printer customer support, HP printer setup guide, HP printer driver help',
   openGraph: {
-    title: 'Printer Support Blog - Expert Guides & Tips',
-    description: 'Expert printer guides, troubleshooting tips, and step-by-step tutorials.',
+    title: 'HP Printer Support Blog - Expert Guides & Tips',
+    description: 'Expert HP printer guides, troubleshooting tips, and step-by-step tutorials.',
     url: 'https://www.printerzsupport.com/blog',
     type: 'website',
   },

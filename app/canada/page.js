@@ -9,7 +9,7 @@ export const metadata = {
   description: 'HP printer repair and assistance across all Canadian provinces and territories. Fix HP LaserJet, OfficeJet, DeskJet & Envy — jams, offline errors, drivers, WiFi & print quality. Find HP printer support in your province.',
   keywords: 'HP printer repair Canada, HP printer assistance Canada, HP printer fix Canada, HP LaserJet repair Canada, HP OfficeJet support Canada, HP printer support by province',
   openGraph: {
-    title: 'HP Printer Repair & Support in Canada | Printer Support',
+    title: 'HP Printer Repair & Support in Canada | HP Printer Support',
     description: 'Professional HP printer repair and assistance in every Canadian province and territory. Remote HP printer support for homes and businesses.',
     url: 'https://www.printerzsupport.com/canada',
     type: 'website',
@@ -38,7 +38,7 @@ export default function CanadaPage() {
           <Breadcrumb items={breadcrumbItems} />
           <h1 className="animate__animated animate__fadeInDown">HP Printer Repair &amp; Support in Canada</h1>
           <p className="animate__animated animate__fadeInUp">
-            Welcome to Printer Support — your trusted partner for HP printer repair and assistance across Canada. We help residents and businesses in all provinces and territories fix HP LaserJet, OfficeJet, DeskJet, and Envy printers with fast, expert remote support.
+            Welcome to HP Printer Support — your trusted partner for HP printer repair, support, and customer support across Canada. We help residents and businesses in all provinces and territories fix HP LaserJet, OfficeJet, DeskJet, and Envy printers with fast, expert remote support.
           </p>
           
           <h2 className="animate__animated animate__fadeInDown">HP Printer Repair &amp; Assistance Across Canada</h2>

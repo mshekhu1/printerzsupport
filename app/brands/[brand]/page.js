@@ -26,7 +26,7 @@ export async function generateMetadata({ params }) {
     description: brandData.description,
     keywords: `${brandData.name} printer support, ${brandData.name} printer troubleshooting, ${brandData.name} printer help, ${brandData.name} printer repair, ${brandData.name} printer setup`,
     openGraph: {
-      title: `${brandData.name} Printer Support | Printer Support`,
+      title: `${brandData.name} Printer Support | HP Printer Support`,
       description: brandData.description,
       url: `https://www.printerzsupport.com/brands/${brandData.slug}`,
       type: 'website',
@@ -52,7 +52,7 @@ export default async function BrandPage({ params }) {
     "serviceType": `${brandData.name} Printer Support`,
     "provider": {
       "@type": "Organization",
-      "name": "Printer Support"
+      "name": "HP Printer Support"
     },
     "areaServed": {
       "@type": "Country",

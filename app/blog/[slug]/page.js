@@ -114,7 +114,7 @@ export default async function BlogPostPage({ params }) {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Printer Support",
+      "name": "HP Printer Support",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.printerzsupport.com/favicon.svg"

@@ -23,14 +23,14 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL('https://www.printerzsupport.com'),
   title: {
-    default: 'Printer Support - Expert Help for All Major Printer Brands | 24/7 Support',
-    template: '%s | Printer Support'
+    default: 'HP® Printer Support - Expert Help for HP® Printer | 24/7 Support',
+    template: '%s | HP® Printer Support'
   },
-  description: 'Get expert printer support for all major brands. We offer comprehensive services including printer troubleshooting, setup, installation, and wireless configuration. 24/7 technical support available.',
-  keywords: ['Printer Support', 'Printer Setup', 'Printer Installation', 'Printer Connect with wifi', 'Wireless Printer Setup', 'Printer Troubleshooting', 'HP Printer', 'Canon Printer', 'Epson Printer', 'Brother Printer'],
-  authors: [{ name: 'Printer Support' }],
-  creator: 'Printer Support',
-  publisher: 'Printer Support',
+  description: 'Get expert HP printer support and HP printer customer support. Troubleshooting, setup, installation, and wireless configuration for HP LaserJet, OfficeJet, DeskJet, and Envy. 24/7 support available.',
+  keywords: ['HP Printer Support', 'HP printer customer support', 'HP printer customer service', 'HP printer support number', 'HP Printer Setup', 'HP Printer Installation', 'HP Printer Troubleshooting', 'HP LaserJet support', 'HP OfficeJet support'],
+  authors: [{ name: 'HP Printer Support' }],
+  creator: 'HP Printer Support',
+  publisher: 'HP Printer Support',
   robots: {
     index: true,
     follow: true,
@@ -46,22 +46,22 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.printerzsupport.com',
-    siteName: 'Printer Support',
-    title: 'Printer Support - Expert Technical Help for All Printer Brands',
-    description: 'Professional printer support services for all major brands. Get help with printer setup, installation, and troubleshooting.',
+    siteName: 'HP Printer Support',
+    title: 'HP Printer Support - Expert Technical Help for HP Printer',
+    description: 'Professional HP printer support and HP printer customer support. Get help with setup, installation, and troubleshooting.',
     images: [
       {
         url: '/hero-printer.svg',
         width: 1200,
         height: 630,
-        alt: 'Printer Support',
+        alt: 'HP Printer Support',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Printer Support - Expert Technical Help for All Printer Brands',
-    description: 'Professional printer support services for all major brands.',
+    title: 'HP Printer Support - Expert Technical Help for HP Printer',
+    description: 'Professional HP printer support and HP printer customer support.',
     images: ['/hero-printer.svg'],
   },
   alternates: {
