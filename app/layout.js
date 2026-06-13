@@ -6,6 +6,14 @@ import '../styles/globals/App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { PHONE_DISPLAY } from '../lib/constants/phone';
+import {
+  DEFAULT_DESCRIPTION,
+  DEFAULT_KEYWORDS,
+  DEFAULT_OG_DESCRIPTION,
+  DEFAULT_TITLE,
+  SITE_NAME,
+  TITLE_TEMPLATE,
+} from '../lib/seo/siteSeo';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -23,14 +31,14 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL('https://www.printerzsupport.com'),
   title: {
-    default: 'HP® Printer Support | Customer Service & Technical Support',
-    template: '%s | HP® Printer Support'
+    default: DEFAULT_TITLE,
+    template: TITLE_TEMPLATE,
   },
-  description: 'Expert HP printer support with 24/7 customer service, customer support, and technical support for LaserJet, OfficeJet, DeskJet, and Envy. Fix offline errors, jams, drivers, WiFi, and print quality.',
-  keywords: ['HP printer support', 'HP printer customer service', 'HP printer customer support', 'HP printer technical support', 'HP Printer Support', 'HP printer support number', 'HP Printer Setup', 'HP Printer Installation', 'HP LaserJet support', 'HP OfficeJet support'],
-  authors: [{ name: 'HP Printer Support' }],
-  creator: 'HP Printer Support',
-  publisher: 'HP Printer Support',
+  description: DEFAULT_DESCRIPTION,
+  keywords: DEFAULT_KEYWORDS,
+  authors: [{ name: SITE_NAME }],
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
   robots: {
     index: true,
     follow: true,
@@ -46,22 +54,22 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.printerzsupport.com',
-    siteName: 'HP Printer Support',
-    title: 'HP Printer Support | Customer Service & Technical Support',
-    description: 'HP printer support with expert customer service, customer support, and technical support. Remote help for setup, installation, and troubleshooting.',
+    siteName: SITE_NAME,
+    title: DEFAULT_TITLE,
+    description: DEFAULT_OG_DESCRIPTION,
     images: [
       {
         url: '/hero-printer.svg',
         width: 1200,
         height: 630,
-        alt: 'HP printer support, customer service, and technical support',
+        alt: 'Remote HP printer support and troubleshooting',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'HP Printer Support | Customer Service & Technical Support',
-    description: 'HP printer support with expert customer service, customer support, and technical support.',
+    title: DEFAULT_TITLE,
+    description: DEFAULT_OG_DESCRIPTION,
     images: ['/hero-printer.svg'],
   },
   alternates: {

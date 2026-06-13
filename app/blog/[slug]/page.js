@@ -7,6 +7,7 @@ import {
   getBlogSeoTitle,
   getBlogOgImage,
   getBlogDateModified,
+  getBlogKeywords,
 } from '../../../lib/seo/blogSeo';
 import '../../../styles/blog/BlogPost.css';
 
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }) {
   return {
     title: seoTitle,
     description: post.excerpt,
-    keywords: post.keywords,
+    keywords: getBlogKeywords(post),
     robots: isAlternateUrl
       ? { index: false, follow: true, googleBot: { index: false, follow: true } }
       : {

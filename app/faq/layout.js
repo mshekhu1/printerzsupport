@@ -1,10 +1,10 @@
 export const metadata = {
-  title: 'FAQ | Common Questions & Answers',
-  description: 'Find answers to frequently asked questions about HP printer setup, troubleshooting, installation, and customer support. Get help with common HP printer issues.',
-  keywords: 'HP printer FAQ, HP printer questions, HP printer customer support, HP printer troubleshooting FAQ, HP printer setup questions',
+  title: 'FAQ',
+  description: 'Answers to common questions about HP printer setup, troubleshooting, driver installation, and wireless printing. Find quick solutions to the issues we hear about most.',
+  keywords: 'HP printer FAQ, printer setup questions, printer troubleshooting FAQ',
   openGraph: {
     title: 'FAQ | HP Printer Support',
-    description: 'Find answers to frequently asked questions about HP printer support.',
+    description: 'Common questions and answers about HP printer support.',
     url: 'https://www.printerzsupport.com/faq',
     type: 'website',
   },
@@ -16,4 +16,3 @@ export const metadata = {
 export default function FAQLayout({ children }) {
   return children;
 }
-

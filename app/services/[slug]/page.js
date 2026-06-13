@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
   return {
     title: pageTitle,
     description: service.description,
-    keywords: `${service.title}, ${service.title.toLowerCase()} service, printer ${service.slug.replace(/-/g, ' ')}, remote printer support`,
+    keywords: `${service.title}, remote printer support, ${service.slug.replace(/-/g, ' ')}`,
     openGraph: {
       title: pageTitle,
       description: service.description,

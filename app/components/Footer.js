@@ -42,7 +42,7 @@ export default function Footer({ style }) {
           <div className="footer-content">
             <div className="footer-section">
               <h3>HP Printer Support</h3>
-              <p>Your trusted partner for HP printer customer service and technical support. Fast, reliable help for LaserJet, OfficeJet, DeskJet, and Envy printers.</p>
+              <p>Remote HP printer help for home and office. We troubleshoot LaserJet, OfficeJet, DeskJet, and Envy models — available 24/7.</p>
             </div>
 
             <div className="footer-section">

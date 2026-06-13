@@ -5,12 +5,12 @@ import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'HP Printer Support - Expert HP Printer Customer Support',
-  description: 'Get expert HP printer support and HP printer customer support for LaserJet, OfficeJet, DeskJet, and Envy. Professional remote troubleshooting, setup, and repair.',
-  keywords: 'HP printer support, HP printer customer support, HP printer customer service, HP LaserJet support, HP OfficeJet support',
+  title: 'HP Printer Brand Support',
+  description: 'Expert remote help for HP LaserJet, OfficeJet, DeskJet, and Envy printers. We handle setup, troubleshooting, driver installation, and repair for all major HP models.',
+  keywords: 'HP printer support, HP LaserJet help, HP OfficeJet support, HP DeskJet troubleshooting',
   openGraph: {
-    title: 'HP Printer Support | HP Printer Customer Support',
-    description: 'Expert HP printer support and customer support for all HP printer models.',
+    title: 'HP Printer Brand Support',
+    description: 'Remote setup, repair, and troubleshooting for all HP printer models.',
     url: 'https://www.printerzsupport.com/brands',
     type: 'website',
   },
@@ -38,7 +38,7 @@ export default function BrandsPage() {
           <Breadcrumb items={breadcrumbItems} />
           <h1 className="animate__animated animate__fadeInDown">HP Printer Support</h1>
           <p className="animate__animated animate__fadeInUp">
-            Welcome to HP Printer Support - your trusted partner for HP printer support and customer support. We provide expert remote help for HP LaserJet, OfficeJet, DeskJet, and Envy printers.
+            We provide remote printer support for HP LaserJet, OfficeJet, DeskJet, and Envy models — plus Canon, Epson, Brother, and other major brands.
           </p>
           
           <h2 className="animate__animated animate__fadeInDown">Our Printer Brand Support Services</h2>

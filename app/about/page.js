@@ -2,12 +2,12 @@ import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'About Us | Expert Team & Services',
-  description: 'Learn about HP Printer Support - your trusted partner for HP printer support and customer support. Over 10 years of expert HP printer repair, installation, and troubleshooting.',
-  keywords: 'About HP Printer Support, HP printer support team, HP printer customer support, HP printer experts',
+  title: 'About Us',
+  description: 'We have over 10 years of experience helping home users and businesses with HP printer setup, repair, and troubleshooting. Learn about our team and what drives us.',
+  keywords: 'about HP printer support, printer support team, HP printer experts',
   openGraph: {
     title: 'About Us | HP Printer Support',
-    description: 'Learn about HP Printer Support - your trusted partner for HP printer support and customer support.',
+    description: 'Over 10 years of expert remote printer support for homes and businesses.',
     url: 'https://www.printerzsupport.com/about',
     type: 'website',
   },

@@ -212,7 +212,7 @@ export default function DriversPage() {
 
         <div className="drivers-help-section">
           <h2>Need Help Finding Your Driver?</h2>
-          <p>If you can't find your printer model, our expert technicians can help you locate and install the correct drivers.</p>
+          <p>Can't find your model? Call us and we'll help you locate and install the right drivers.</p>
           <div className="drivers-help-actions">
             <a href={PHONE_TEL_HREF} className="driver-help-btn">
               Call {PHONE_DISPLAY}

@@ -40,7 +40,7 @@ const allFAQs = [
   },
   {
     question: "Can I get help with printer setup over the phone?",
-    answer: `Yes! Our expert technicians are available 24/7 to help you with printer setup, installation, troubleshooting, and any other printer-related issues. Call us at ${PHONE_DISPLAY} for immediate assistance. We can guide you through wireless setup, driver installation, network configuration, and resolve any printer problems you're experiencing.`,
+    answer: `Yes. Call ${PHONE_DISPLAY} anytime — we can walk you through wireless setup, driver installation, and troubleshooting over the phone or via secure remote access.`,
     link: "/faq"
   },
   {

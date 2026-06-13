@@ -5,12 +5,12 @@ import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'HP Printer Repair & Support in Canada',
-  description: 'HP printer repair and assistance across all Canadian provinces and territories. Fix HP LaserJet, OfficeJet, DeskJet & Envy — jams, offline errors, drivers, WiFi & print quality. Find HP printer support in your province.',
-  keywords: 'HP printer repair Canada, HP printer assistance Canada, HP printer fix Canada, HP LaserJet repair Canada, HP OfficeJet support Canada, HP printer support by province',
+  title: 'HP Printer Help in Canada',
+  description: 'Remote HP printer support in every Canadian province and territory. We troubleshoot offline errors, jams, drivers, WiFi, and print quality on LaserJet, OfficeJet, DeskJet, and Envy models.',
+  keywords: 'HP printer help Canada, HP printer support by province, HP printer repair Canada',
   openGraph: {
-    title: 'HP Printer Repair & Support in Canada | HP Printer Support',
-    description: 'Professional HP printer repair and assistance in every Canadian province and territory. Remote HP printer support for homes and businesses.',
+    title: 'HP Printer Help in Canada',
+    description: 'Remote printer support in every Canadian province and territory.',
     url: 'https://www.printerzsupport.com/canada',
     type: 'website',
   },
@@ -36,27 +36,27 @@ export default function CanadaPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Repair &amp; Support in Canada</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Help in Canada</h1>
           <p className="animate__animated animate__fadeInUp">
-            Welcome to HP Printer Support — your trusted partner for HP printer repair, support, and customer support across Canada. We help residents and businesses in all provinces and territories fix HP LaserJet, OfficeJet, DeskJet, and Envy printers with fast, expert remote support.
+            We provide remote printer support to residents and businesses in every province and territory. Whether you have a LaserJet, OfficeJet, DeskJet, or Envy, our technicians can help fix jams, offline errors, driver problems, and WiFi issues — usually in one session.
           </p>
           
-          <h2 className="animate__animated animate__fadeInDown">HP Printer Repair &amp; Assistance Across Canada</h2>
+          <h2 className="animate__animated animate__fadeInDown">Support Across Canada</h2>
           <p className="animate__animated animate__fadeInUp">
-            Our HP printer repair and assistance services are available in every province and territory. Whether you're in Ontario, British Columbia, Quebec, Alberta, or anywhere else in Canada, we help with:
+            Our services are available nationwide. Whether you&apos;re in Ontario, British Columbia, Quebec, Alberta, or anywhere else in Canada, we help with:
           </p>
           <ul className="animate__animated animate__fadeInUp">
-            <li>HP printer offline and not printing issues</li>
-            <li>HP paper jams and feed problems</li>
-            <li>HP driver installation and repair</li>
-            <li>HP WiFi and wireless setup repair</li>
-            <li>HP print quality and toner/ink issues</li>
-            <li>HP LaserJet, OfficeJet, DeskJet, and Envy models</li>
+            <li>Printer offline and not printing issues</li>
+            <li>Paper jams and feed problems</li>
+            <li>Driver installation and updates</li>
+            <li>WiFi and wireless setup</li>
+            <li>Print quality and toner/ink issues</li>
+            <li>LaserJet, OfficeJet, DeskJet, and Envy models</li>
           </ul>
 
-          <h2 className="animate__animated animate__fadeInDown">Select Your Province or Territory for HP Printer Repair &amp; Support</h2>
+          <h2 className="animate__animated animate__fadeInDown">Select Your Province or Territory</h2>
           <p className="animate__animated animate__fadeInUp">
-            Click your province or territory below for HP printer repair and assistance in your area:
+            Click your province or territory below to see local support details:
           </p>
           
           <div className="state-link-grid">
@@ -71,19 +71,19 @@ export default function CanadaPage() {
             ))}
           </div>
 
-          <h2 className="animate__animated animate__fadeInDown" style={{ marginTop: '3rem' }}>Why Choose Our HP Printer Repair &amp; Support?</h2>
+          <h2 className="animate__animated animate__fadeInDown" style={{ marginTop: '3rem' }}>Why Choose Us?</h2>
           <ul className="animate__animated animate__fadeInUp">
-            <li><strong>Fast Response:</strong> Get immediate HP printer repair without waiting for on-site visits</li>
+            <li><strong>Fast Response:</strong> Get immediate help without waiting for on-site visits</li>
             <li><strong>Cost-Effective:</strong> Save money on travel costs and service fees</li>
-            <li><strong>Convenient:</strong> Receive HP printer support from anywhere, at any time</li>
-            <li><strong>Expert Technicians:</strong> HP-certified specialists with years of experience</li>
-            <li><strong>24/7 Availability:</strong> Round-the-clock support for urgent HP printer issues</li>
+            <li><strong>Convenient:</strong> Receive support from anywhere, at any time</li>
+            <li><strong>Expert Technicians:</strong> Certified specialists with years of experience</li>
+            <li><strong>24/7 Availability:</strong> Round-the-clock support for urgent issues</li>
             <li><strong>Secure:</strong> Safe and secure remote connection methods</li>
           </ul>
 
           <h2 className="animate__animated animate__fadeInDown" style={{ marginTop: '2rem' }}>Get Started Today</h2>
           <p className="animate__animated animate__fadeInUp">
-            Don't let a broken HP printer disrupt your work. Our HP printer repair and assistance team is ready to fix your LaserJet, OfficeJet, DeskJet, or Envy quickly. Contact us today:
+            Don&apos;t let a broken printer disrupt your work. Our team is ready to help with LaserJet, OfficeJet, DeskJet, or Envy issues. Contact us today:
           </p>
           <p className="animate__animated animate__fadeInUp">
             <strong>Call us at <a href="tel:+18884237757" style={{ color: '#007bff' }}>(888) 423-7757</a></strong> - Available 24/7

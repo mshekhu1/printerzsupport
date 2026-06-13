@@ -3,12 +3,12 @@ import { getLocalBusinessSchema } from '../../lib/utils/structuredData';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 
 export const metadata = {
-  title: 'Contact Us | Get Help Now',
-  description: `Contact HP Printer Support for expert HP printer customer service and technical support. Call ${PHONE_DISPLAY} or email support@printerzsupport.com. 24/7 help available.`,
-  keywords: 'Contact HP Printer Support, HP printer customer service, HP printer technical support, HP printer support phone number, HP printer help',
+  title: 'Contact Us',
+  description: `Reach our support team by phone at ${PHONE_DISPLAY} or email support@printerzsupport.com. We are available 24/7 to help with HP printer setup, repair, and troubleshooting.`,
+  keywords: 'contact HP printer support, HP printer help phone number, printer support contact',
   openGraph: {
     title: 'Contact Us | HP Printer Support',
-    description: 'Get in touch with HP Printer Support for expert HP printer customer service and technical support.',
+    description: 'Call or email us for expert remote HP printer help — available 24/7.',
     url: 'https://www.printerzsupport.com/contact',
     type: 'website',
   },

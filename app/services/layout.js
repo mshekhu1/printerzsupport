@@ -1,10 +1,10 @@
 export const metadata = {
-  title: 'Our Services | Setup, Repair & Maintenance',
-  description: 'Comprehensive HP printer support services including wireless setup, repair, maintenance, installation, and troubleshooting. 24/7 HP printer customer support available.',
-  keywords: 'HP printer services, HP printer support, HP printer customer support, HP wireless printer setup, HP printer repair, HP printer troubleshooting',
+  title: 'Our Services',
+  description: 'Wireless setup, remote repair, driver installation, and ongoing maintenance for HP and other printer brands. Available 24/7 for home and business customers.',
+  keywords: 'printer services, wireless printer setup, printer repair, printer troubleshooting',
   openGraph: {
     title: 'Our Services | HP Printer Support',
-    description: 'Comprehensive HP printer support and customer support for all your printing needs.',
+    description: 'Setup, repair, maintenance, and troubleshooting for all your printing needs.',
     url: 'https://www.printerzsupport.com/services',
     type: 'website',
   },
@@ -16,4 +16,3 @@ export const metadata = {
 export default function ServicesLayout({ children }) {
   return children;
 }
-

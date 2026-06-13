@@ -5,12 +5,12 @@ import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'HP Printer Customer Service & Technical Support',
-  description: '24/7 HP printer customer service and technical support for LaserJet, OfficeJet, DeskJet, and Envy. Fix offline errors, jams, drivers, WiFi, and print quality with expert remote help.',
-  keywords: 'HP printer customer service, HP printer technical support, HP printer support number, HP printer customer service phone number, HP LaserJet support, HP OfficeJet support',
+  title: 'HP Printer Customer Service',
+  description: 'Need help with your HP printer? Our team is available 24/7 to fix offline errors, paper jams, driver issues, WiFi setup, and print quality problems on LaserJet, OfficeJet, DeskJet, and Envy models.',
+  keywords: 'HP printer customer service, HP printer help, HP printer support number, HP LaserJet support, HP OfficeJet support',
   openGraph: {
-    title: 'HP Printer Customer Service & Technical Support',
-    description: '24/7 HP printer customer service and technical support for all HP printer models.',
+    title: 'HP Printer Customer Service — 24/7 Help',
+    description: 'Talk to a real technician about your HP printer problem. Remote fixes for all major models, available around the clock.',
     url: 'https://www.printerzsupport.com/hp-printer-customer-service',
     type: 'website',
   },
@@ -36,24 +36,24 @@ export default function HPPrinterCustomerServicePage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Customer Service &amp; Technical Support</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Customer Service</h1>
           <p className="animate__animated animate__fadeInUp">
-            Need help with your HP printer? Our HP printer customer service team provides 24/7 technical support for LaserJet, OfficeJet, DeskJet, and Envy models. Whether you are dealing with offline errors, paper jams, driver problems, WiFi setup issues, or poor print quality, our certified technicians offer fast remote assistance.
+            Having trouble with your HP printer? Our support team is available 24/7 to help with LaserJet, OfficeJet, DeskJet, and Envy models. Whether it&apos;s an offline error, a paper jam, a driver that won&apos;t install, a WiFi connection that keeps dropping, or streaky print quality — we walk you through the fix remotely.
           </p>
 
-          <h2 className="animate__animated animate__fadeInDown">HP Printer Customer Service</h2>
+          <h2 className="animate__animated animate__fadeInDown">What We Help With</h2>
           <p className="animate__animated animate__fadeInUp">
-            Our HP printer customer service helpline connects you with experts who understand HP hardware and software. We help home users and businesses resolve printer errors, install drivers, configure wireless printing, and restore normal operation without an on-site visit.
+            When you call, you&apos;ll speak with someone who understands HP hardware and software. We help home users and businesses resolve printer errors, install drivers, set up wireless printing, and get back to normal — usually without an on-site visit.
           </p>
 
-          <h2 className="animate__animated animate__fadeInDown">HP Printer Technical Support</h2>
+          <h2 className="animate__animated animate__fadeInDown">Technical Support Services</h2>
           <p className="animate__animated animate__fadeInUp">
-            HP printer technical support covers diagnostics, firmware and driver updates, network troubleshooting, spooler errors, and advanced repair guidance. We support all major HP series including LaserJet, OfficeJet, DeskJet, Envy, PageWide, and DesignJet printers.
+            Our technicians handle diagnostics, firmware and driver updates, network troubleshooting, spooler errors, and step-by-step repair guidance. We support all major HP series including LaserJet, OfficeJet, DeskJet, Envy, PageWide, and DesignJet.
           </p>
 
           <h2 className="animate__animated animate__fadeInDown">Common Issues We Fix</h2>
           <ul className="animate__animated animate__fadeInUp">
-            <li>HP printer offline or not responding</li>
+            <li>Printer showing offline or not responding</li>
             <li>Paper jams and feeding problems</li>
             <li>Driver installation and update errors</li>
             <li>WiFi and wireless setup failures</li>
@@ -61,7 +61,7 @@ export default function HPPrinterCustomerServicePage() {
             <li>Error codes and spooler problems</li>
           </ul>
 
-          <h2 className="animate__animated animate__fadeInDown">Call HP Printer Customer Service Now</h2>
+          <h2 className="animate__animated animate__fadeInDown">Call Us Now</h2>
           <p className="animate__animated animate__fadeInUp">
             <strong>24/7 Helpline:</strong>{' '}
             <a href={PHONE_TEL_HREF}>{PHONE_DISPLAY}</a>

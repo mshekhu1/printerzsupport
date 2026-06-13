@@ -1,10 +1,10 @@
 export const metadata = {
-  title: 'Blog - Expert Guides & Troubleshooting Tips',
-  description: 'Expert HP printer guides, troubleshooting tips, and step-by-step tutorials. Fix HP printer issues, set up wireless HP printers, install drivers, and maintain your HP printer.',
-  keywords: 'HP printer blog, HP printer guides, HP printer troubleshooting, HP printer customer support, HP printer setup guide, HP printer driver help',
+  title: 'Blog',
+  description: 'Step-by-step guides and troubleshooting tips for HP printers. Learn how to fix offline errors, set up WiFi, install drivers, and keep your printer running smoothly.',
+  keywords: 'HP printer guides, printer troubleshooting tips, HP printer setup, printer driver help',
   openGraph: {
-    title: 'HP Printer Support Blog - Expert Guides & Tips',
-    description: 'Expert HP printer guides, troubleshooting tips, and step-by-step tutorials.',
+    title: 'HP Printer Support Blog',
+    description: 'Practical guides and troubleshooting tips for HP and other printers.',
     url: 'https://www.printerzsupport.com/blog',
     type: 'website',
   },
@@ -16,4 +16,3 @@ export const metadata = {
 export default function BlogLayout({ children }) {
   return children;
 }
-

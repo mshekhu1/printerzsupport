@@ -1,9 +1,9 @@
 export const metadata = {
-  title: 'Printer Drivers & Instruction Manuals Download',
-  description: 'Download the latest HP printer drivers and instruction manuals for LaserJet, OfficeJet, DeskJet, and Envy. Find HP drivers for Windows, Mac, and Linux.',
-  keywords: 'HP printer drivers download, HP printer manuals, HP LaserJet drivers, HP OfficeJet drivers, HP DeskJet drivers, HP printer software download',
+  title: 'Printer Drivers & Manuals',
+  description: 'Find and download the latest HP printer drivers and instruction manuals for LaserJet, OfficeJet, DeskJet, and Envy. Support for Windows, Mac, and Linux.',
+  keywords: 'HP printer drivers, HP printer manuals, download HP drivers, HP LaserJet drivers',
   openGraph: {
-    title: 'HP Printer Drivers & Manuals Download | HP Printer Support',
+    title: 'HP Printer Drivers & Manuals',
     description: 'Download the latest HP printer drivers and instruction manuals.',
     url: 'https://www.printerzsupport.com/drivers',
     type: 'website',
@@ -16,4 +16,3 @@ export const metadata = {
 export default function DriversLayout({ children }) {
   return children;
 }
-
