@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
-import BrandDisclaimer from '../components/BrandDisclaimer';
 import { getOrganizationSchema, getServiceSchema } from '../../lib/utils/structuredData';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 import '../../styles/pages/About.css';
@@ -37,7 +36,6 @@ export default function HPPrinterCustomerServicePage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <BrandDisclaimer className="page-disclaimer" />
           <h1 className="animate__animated animate__fadeInDown">HP Printer Help — Fix HP Printer Errors</h1>
           <p className="animate__animated animate__fadeInUp">
             Getting an HP printer error? Our 24/7 support team can help fix offline errors, paper jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy models.

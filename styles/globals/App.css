@@ -501,34 +501,6 @@
   font-size: var(--font-size-sm);
 }
 
-.brand-disclaimer {
-  font-size: var(--font-size-sm);
-  color: var(--gray-500);
-  line-height: 1.5;
-  margin: 0;
-}
-
-.hero-disclaimer {
-  margin-top: var(--spacing-4);
-  font-size: 0.8125rem;
-  opacity: 0.9;
-  max-width: 36rem;
-}
-
-.footer-disclaimer {
-  max-width: 48rem;
-  margin: 0 auto var(--spacing-4);
-  text-align: center;
-}
-
-.page-disclaimer {
-  margin-bottom: var(--spacing-6);
-  padding: var(--spacing-4);
-  background: var(--gray-100, #f3f4f6);
-  border-radius: 8px;
-  border-left: 3px solid var(--primary, #667eea);
-}
-
 .footer-bottom a {
   color: var(--gray-400);
   transition: color var(--transition-fast);

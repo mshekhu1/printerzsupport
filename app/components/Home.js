@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 import { homeFaqs } from '../../lib/data/homeFaqs';
 import { DEFAULT_HERO_ALT, DEFAULT_TITLE, SITE_NAME } from '../../lib/seo/siteSeo';
-import BrandDisclaimer from './BrandDisclaimer';
 import Image from 'next/image';
 import ScrollAnimation from './ScrollAnimation';
 import AnimatedCounter from './AnimatedCounter';
@@ -104,7 +103,6 @@ export default function Home() {
                 <p className="hero-subtitle">
                   Call for 24/7 HP printer support on LaserJet, OfficeJet, DeskJet, and Envy printers. We fix offline errors, paper jams, driver failures, WiFi issues, and error codes — usually in one remote session.
                 </p>
-                <BrandDisclaimer variant="short" className="hero-disclaimer" />
                 <div className="hero-actions">
                   <a href={PHONE_TEL_HREF} className="hero-phone">
                     📞 Call Now: {PHONE_DISPLAY}
