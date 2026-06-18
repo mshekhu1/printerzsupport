@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 import { homeFaqs } from '../../lib/data/homeFaqs';
-import { DEFAULT_HERO_ALT, DEFAULT_TITLE, SITE_NAME } from '../../lib/seo/siteSeo';
+import { DEFAULT_HERO_ALT, DEFAULT_HERO_HEADING } from '../../lib/seo/siteSeo';
 import Image from 'next/image';
 import ScrollAnimation from './ScrollAnimation';
 import AnimatedCounter from './AnimatedCounter';
@@ -98,10 +98,10 @@ export default function Home() {
             <div className="row align-items-center">
               <div className="col-md-6 text-center text-md-start">
                 <h1 className="hero-title">
-                  {DEFAULT_TITLE.replace(` | ${SITE_NAME}`, '')}
+                  {DEFAULT_HERO_HEADING}
                 </h1>
                 <p className="hero-subtitle">
-                  Call for 24/7 HP printer support on LaserJet, OfficeJet, DeskJet, and Envy printers. We fix offline errors, paper jams, driver failures, WiFi issues, and error codes — usually in one remote session.
+                  Call anytime for remote help with HP printers. We fix offline errors, jams, driver problems, and WiFi issues — usually in one session.
                 </p>
                 <div className="hero-actions">
                   <a href={PHONE_TEL_HREF} className="hero-phone">
@@ -137,10 +137,10 @@ export default function Home() {
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
             <h2 id="home-customer-service-heading" className="section-title">
-              HP Printer Help for Every Error
+              Help for Every Common HP Printer Problem
             </h2>
             <p className="section-subtitle">
-              Call for 24/7 HP printer support on LaserJet, OfficeJet, DeskJet, and Envy printers. We fix offline errors, paper jams, driver issues, WiFi failures, and error codes — no shop visit needed.
+              LaserJet, OfficeJet, DeskJet, and Envy — we troubleshoot by phone so you can skip the repair shop.
             </p>
           </ScrollAnimation>
         </div>
@@ -150,9 +150,9 @@ export default function Home() {
       <section className="home-resources-section" aria-labelledby="home-resources-heading">
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
-            <h2 id="home-resources-heading" className="section-title">Fix HP Printer Error — Guides &amp; Resources</h2>
+            <h2 id="home-resources-heading" className="section-title">Guides &amp; Resources</h2>
             <p className="section-subtitle">
-              Step-by-step guides, nationwide coverage, and professional remote support.
+              Step-by-step articles, nationwide coverage, and phone support when you need a hand.
             </p>
             <div className="home-resources-grid">
               <div className="home-resources-card">
@@ -170,17 +170,17 @@ export default function Home() {
                   </li>
                   <li>
                     <Link href="/blog/hp-printer-troubleshooting-guide">
-                      HP printer troubleshooting
+                      HP troubleshooting guide
                     </Link>
                   </li>
                   <li>
                     <Link href="/blog/printer-customer-support-phone-number">
-                      HP printer customer support phone number
+                      Support phone number
                     </Link>
                   </li>
                   <li>
                     <Link href="/hp-printer-customer-service">
-                      HP printer technical support
+                      Technical support
                     </Link>
                   </li>
                   <li>
@@ -202,21 +202,21 @@ export default function Home() {
                 <Link href="/blog" className="home-resources-more">View all blog guides →</Link>
               </div>
               <div className="home-resources-card">
-                <h3>HP support by location</h3>
-                <p>Remote printer support in every US state and Canadian province.</p>
+                <h3>Support by location</h3>
+                <p>Remote help in every US state and Canadian province.</p>
                 <ul className="home-resources-links">
-                  <li><Link href="/us">HP printer support — United States</Link></li>
-                  <li><Link href="/canada">HP printer support — Canada</Link></li>
+                  <li><Link href="/us">United States</Link></li>
+                  <li><Link href="/canada">Canada</Link></li>
                 </ul>
               </div>
               <div className="home-resources-card">
                 <h3>Our services</h3>
-                <p>HP printer setup, repair, drivers, and WiFi technical support for home and business.</p>
+                <p>Setup, repair, drivers, and WiFi help for home and business.</p>
                 <ul className="home-resources-links">
-                  <li><Link href="/services">HP printer support services</Link></li>
-                  <li><Link href="/drivers">Printer drivers &amp; downloads</Link></li>
-                  <li><Link href="/brands/hp">HP printer brand support</Link></li>
-                  <li><Link href="/contact">Contact support</Link></li>
+                  <li><Link href="/services">All services</Link></li>
+                  <li><Link href="/drivers">Drivers &amp; downloads</Link></li>
+                  <li><Link href="/brands/hp">HP printer help</Link></li>
+                  <li><Link href="/contact">Contact us</Link></li>
                 </ul>
               </div>
             </div>
@@ -336,9 +336,9 @@ export default function Home() {
       <section className="home-resources-section" aria-labelledby="home-faq-heading">
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
-            <h2 id="home-faq-heading" className="section-title">HP Printer Help FAQs</h2>
-            <p className="section-subtitle">
-              Answers to common questions about our HP printer support services.
+            <h2 id="home-faq-heading" className="section-title">Common Questions</h2>
+            <p className="section-subtitle faq-intro">
+              Quick answers about how our phone support works.
             </p>
             <div className="faq-list">
               {homeFaqs.map((faq, index) => (

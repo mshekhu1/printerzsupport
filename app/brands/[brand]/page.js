@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
   const isHp = brandData.slug === 'hp';
   const title = isHp
     ? 'HP Printer Help'
-    : `${brandData.name} Printer Support`;
+    : `${brandData.name} Printer Help`;
   const keywords = isHp
     ? 'HP printer support, fix HP printer error, HP printer help, HP printer error code'
     : `${brandData.name} printer support, ${brandData.name} printer help, ${brandData.name} printer troubleshooting`;

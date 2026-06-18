@@ -5,12 +5,12 @@ import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'HP Printer Help — Canada',
-  description: '24/7 HP printer support in every Canadian province. Fix offline errors, jams, drivers, WiFi, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.',
-  keywords: 'HP printer support Canada, HP printer help by province, fix HP printer error Canada',
+  title: 'Printer Help — Canada',
+  description: 'Remote printer help in every Canadian province. HP jams, offline errors, drivers, and WiFi on LaserJet, OfficeJet, DeskJet, and Envy.',
+  keywords: 'HP printer help Canada, printer support by province, fix HP printer error',
   openGraph: {
-    title: 'HP Printer Help — Canada | Printer Support',
-    description: '24/7 HP printer support across Canada.',
+    title: 'Printer Help — Canada | Printer Support',
+    description: 'Phone-based printer support across Canada.',
     url: 'https://www.printerzsupport.com/canada',
     type: 'website',
   },
@@ -36,9 +36,9 @@ export default function CanadaPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Help — Canada</h1>
+          <h1 className="animate__animated animate__fadeInDown">Printer Help — Canada</h1>
           <p className="animate__animated animate__fadeInUp">
-            We provide remote printer support to residents and businesses in every province and territory. Whether you have a LaserJet, OfficeJet, DeskJet, or Envy, our technicians can help fix jams, offline errors, driver problems, and WiFi issues — usually in one session.
+            We help residents and businesses in every province and territory. LaserJet, OfficeJet, DeskJet, or Envy — most jams, offline errors, driver problems, and WiFi issues are fixed remotely in one call.
           </p>
           
           <h2 className="animate__animated animate__fadeInDown">Support Across Canada</h2>

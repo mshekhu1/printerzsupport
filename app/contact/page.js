@@ -4,11 +4,11 @@ import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 
 export const metadata = {
   title: 'Contact Us',
-  description: `Call 24/7 HP printer support at ${PHONE_DISPLAY}. Help with offline errors, jams, drivers, WiFi, and error codes.`,
-  keywords: 'HP printer support, contact HP printer support, HP printer support number, HP printer help',
+  description: `Call ${PHONE_DISPLAY} for remote HP printer help — offline printers, jams, drivers, WiFi, and error codes.`,
+  keywords: 'HP printer help, contact printer support, HP printer support number',
   openGraph: {
     title: 'Contact Us | Printer Support',
-    description: 'Call our HP printer support line.',
+    description: 'Reach our support team by phone or email.',
     url: 'https://www.printerzsupport.com/contact',
     type: 'website',
   },
@@ -28,7 +28,7 @@ export default function ContactPage() {
       />
       <div className="contact-container mt-nav">
         <h1>Contact Us</h1>
-        <p>If you have any questions or need support, please contact us at:</p>
+        <p>Questions about your printer? Call or email — we&apos;re here around the clock.</p>
         <div className="contact-info">
           <p>Email: <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></p>
           <p>Phone: <a href={PHONE_TEL_HREF}>{PHONE_DISPLAY}</a></p>
@@ -62,4 +62,3 @@ export default function ContactPage() {
     </>
   );
 }
-

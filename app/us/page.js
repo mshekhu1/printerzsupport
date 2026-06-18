@@ -5,12 +5,12 @@ import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'HP Printer Help — United States',
-  description: '24/7 HP printer support in all 50 US states. Fix offline errors, jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.',
-  keywords: 'HP printer support USA, HP printer help by state, fix HP printer error United States',
+  title: 'Printer Help — United States',
+  description: 'Remote printer help in all 50 US states. We troubleshoot HP jams, offline errors, drivers, and WiFi on LaserJet, OfficeJet, DeskJet, and Envy.',
+  keywords: 'HP printer help USA, printer support by state, fix HP printer error',
   openGraph: {
-    title: 'HP Printer Help — United States | Printer Support',
-    description: '24/7 HP printer support in every US state.',
+    title: 'Printer Help — United States | Printer Support',
+    description: 'Phone-based printer support in every US state.',
     url: 'https://www.printerzsupport.com/us',
     type: 'website',
   },
@@ -36,9 +36,9 @@ export default function USPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Help — United States</h1>
+          <h1 className="animate__animated animate__fadeInDown">Printer Help — United States</h1>
           <p className="animate__animated animate__fadeInUp">
-            We provide remote printer support to residents and businesses in all 50 states. Whether you have a LaserJet, OfficeJet, DeskJet, or Envy, our technicians can help fix jams, offline errors, driver problems, and WiFi issues — usually in one session.
+            We support residents and businesses in all 50 states. Whether you use a LaserJet, OfficeJet, DeskJet, or Envy, we can usually fix jams, offline errors, driver problems, and WiFi issues in one remote session.
           </p>
           
           <h2 className="animate__animated animate__fadeInDown">Nationwide Remote Support</h2>

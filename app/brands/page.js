@@ -5,12 +5,12 @@ import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'HP Printer Help by Brand',
-  description: '24/7 HP printer support for LaserJet, OfficeJet, DeskJet, and Envy. Fix error codes, offline issues, jams, and driver failures.',
-  keywords: 'HP printer support, fix HP printer error, HP LaserJet support, HP OfficeJet support',
+  title: 'Printer Help by Brand',
+  description: 'Remote help for HP LaserJet, OfficeJet, DeskJet, and Envy — plus Canon, Epson, Brother, and other brands.',
+  keywords: 'HP printer help, fix HP printer error, HP LaserJet support, printer brand support',
   openGraph: {
-    title: 'HP Printer Help by Brand | Printer Support',
-    description: '24/7 HP printer support for all major models.',
+    title: 'Printer Help by Brand | Printer Support',
+    description: 'Find support for your printer brand and model.',
     url: 'https://www.printerzsupport.com/brands',
     type: 'website',
   },
@@ -36,9 +36,9 @@ export default function BrandsPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Help</h1>
+          <h1 className="animate__animated animate__fadeInDown">Printer Help by Brand</h1>
           <p className="animate__animated animate__fadeInUp">
-            We provide remote printer support for HP LaserJet, OfficeJet, DeskJet, and Envy models — plus Canon, Epson, Brother, and other major brands.
+            We troubleshoot HP LaserJet, OfficeJet, DeskJet, and Envy models — and support Canon, Epson, Brother, and other major brands by phone.
           </p>
           
           <h2 className="animate__animated animate__fadeInDown">Our Printer Brand Support Services</h2>

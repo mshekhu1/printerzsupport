@@ -43,7 +43,7 @@ export default function Footer({ style }) {
           <div className="footer-content">
             <div className="footer-section">
               <h3>{SITE_NAME}</h3>
-              <p>24/7 HP printer support for home and office. We troubleshoot LaserJet, OfficeJet, DeskJet, and Envy models by phone.</p>
+              <p>Remote printer help for home and office. We troubleshoot HP LaserJet, OfficeJet, DeskJet, and Envy models by phone.</p>
             </div>
 
             <div className="footer-section">

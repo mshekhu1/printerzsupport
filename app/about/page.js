@@ -3,11 +3,11 @@ import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'About Us',
-  description: 'Learn about our 24/7 HP printer support team. Over 10 years helping customers fix offline errors, jams, drivers, WiFi issues, and error codes.',
-  keywords: 'HP printer support, about HP printer help, 24/7 printer support',
+  description: 'Printer Support has helped homes and businesses fix HP printer problems by phone for over 10 years.',
+  keywords: 'about printer support, HP printer help, remote printer support',
   openGraph: {
     title: 'About Us | Printer Support',
-    description: '24/7 HP printer support for homes and businesses.',
+    description: 'Remote printer help for homes and businesses.',
     url: 'https://www.printerzsupport.com/about',
     type: 'website',
   },
@@ -27,48 +27,26 @@ export default function AboutPage() {
       />
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
-          <h1 className="animate__animated animate__fadeInDown">About Us</h1>
+          <h1 className="animate__animated animate__fadeInDown">About Printer Support</h1>
           <p className="animate__animated animate__fadeInUp">
-            Welcome to our company. We provide the best printer support services.
+            We help people get their printers working again — without hauling hardware to a shop. Most fixes happen over the phone in a single session.
           </p>
           <p className="animate__animated animate__fadeInUp">
-            Our team is dedicated to helping you with all your printer needs.
+            Our technicians work with HP LaserJet, OfficeJet, DeskJet, and Envy models every day, along with other major brands. Offline errors, jams, driver failures, and WiFi setup are what we see most.
           </p>
           <p className="animate__animated animate__fadeInUp">
-            We have been in the business for over 10 years and have a team of experienced professionals.
+            We&apos;ve been doing this for more than 10 years, supporting home users, remote workers, and small offices across the US and Canada.
           </p>
+          <h2 className="animate__animated animate__fadeInDown">How we work</h2>
           <p className="animate__animated animate__fadeInUp">
-            Our mission is to provide top-notch support and ensure customer satisfaction.
+            You call, describe what&apos;s happening, and we walk you through diagnosis and repair remotely. We stay on the line until printing works again.
           </p>
+          <h2 className="animate__animated animate__fadeInDown">What we care about</h2>
           <p className="animate__animated animate__fadeInUp">
-            Contact us today to learn more about our services and how we can help you.
-          </p>
-          <h2 className="animate__animated animate__fadeInDown">Our Vision</h2>
-          <p className="animate__animated animate__fadeInUp">
-            To be the leading provider of printer support services worldwide.
-          </p>
-          <p className="animate__animated animate__fadeInUp">
-            We envision a future where every customer has access to reliable and efficient printer support.
-          </p>
-          <p className="animate__animated animate__fadeInUp">
-            Our goal is to continuously innovate and improve our services to meet the evolving needs of our customers.
-          </p>
-          <h2 className="animate__animated animate__fadeInDown">Our Values</h2>
-          <p className="animate__animated animate__fadeInUp">
-            Integrity, Excellence, and Customer Satisfaction.
-          </p>
-          <p className="animate__animated animate__fadeInUp">
-            We believe in conducting our business with the highest level of integrity and transparency.
-          </p>
-          <p className="animate__animated animate__fadeInUp">
-            Excellence is at the core of everything we do, and we strive to exceed our customers' expectations.
-          </p>
-          <p className="animate__animated animate__fadeInUp">
-            Customer satisfaction is our top priority, and we are committed to providing exceptional service and support.
+            Clear communication, honest pricing, and fixes that last. If you&apos;re stuck on a printer problem, we&apos;re easy to reach — day or night.
           </p>
         </div>
       </div>
     </>
   );
 }
-
