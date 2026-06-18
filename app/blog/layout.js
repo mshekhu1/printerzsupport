@@ -1,10 +1,10 @@
 export const metadata = {
   title: 'HP Printer Guides',
-  description: 'Step-by-step guides for HP printer setup, troubleshooting, drivers, and WiFi.',
-  keywords: 'HP printer help, fix HP printer error, HP printer troubleshooting',
+  description: '24/7 HP printer support guides — setup, troubleshooting, drivers, and WiFi fixes.',
+  keywords: '24/7 HP printer support, HP printer help, fix HP printer error',
   openGraph: {
     title: 'HP Printer Guides | Printer Support',
-    description: 'Practical guides to get your HP printer working again.',
+    description: '24/7 HP printer support guides to fix common errors.',
     url: 'https://www.printerzsupport.com/blog',
     type: 'website',
   },

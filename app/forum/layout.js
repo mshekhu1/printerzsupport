@@ -1,10 +1,10 @@
 export const metadata = {
   title: 'Printer Help Forum',
-  description: 'Community discussions about printer problems — setup, jams, drivers, and WiFi.',
-  keywords: 'printer help forum, HP printer help, fix printer error',
+  description: '24/7 HP printer support forum — discuss jams, drivers, WiFi, and error codes.',
+  keywords: '24/7 HP printer support, printer help forum, fix HP printer error',
   openGraph: {
     title: 'Printer Help Forum | Printer Support',
-    description: 'Ask questions and share fixes with other printer owners.',
+    description: '24/7 HP printer support community for printer questions.',
     url: 'https://www.printerzsupport.com/forum',
     type: 'website',
   },

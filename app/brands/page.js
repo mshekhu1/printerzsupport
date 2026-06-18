@@ -6,11 +6,11 @@ import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'Printer Help by Brand',
-  description: 'Remote help for HP LaserJet, OfficeJet, DeskJet, and Envy — plus Canon, Epson, Brother, and other brands.',
-  keywords: 'HP printer help, fix HP printer error, HP LaserJet support, printer brand support',
+  description: '24/7 HP printer support for LaserJet, OfficeJet, DeskJet, and Envy. Fix error codes, offline issues, jams, and driver failures.',
+  keywords: '24/7 HP printer support, fix HP printer error, HP LaserJet support, printer brand support',
   openGraph: {
     title: 'Printer Help by Brand | Printer Support',
-    description: 'Find support for your printer brand and model.',
+    description: '24/7 HP printer support for all major HP models.',
     url: 'https://www.printerzsupport.com/brands',
     type: 'website',
   },

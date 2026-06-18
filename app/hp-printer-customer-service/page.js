@@ -6,11 +6,11 @@ import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'HP Printer Customer Service',
-  description: 'Call for remote HP printer help — offline printers, jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.',
-  keywords: 'HP printer customer service, HP printer support, HP printer help, HP printer support number',
+  description: '24/7 HP printer support by phone. Fix offline errors, paper jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.',
+  keywords: '24/7 HP printer support, HP printer customer service, HP printer help, HP printer support number',
   openGraph: {
     title: 'HP Printer Customer Service | Printer Support',
-    description: 'Phone-based help when your HP printer stops working.',
+    description: '24/7 HP printer support for errors, offline printers, jams, drivers, and WiFi.',
     url: 'https://www.printerzsupport.com/hp-printer-customer-service',
     type: 'website',
   },

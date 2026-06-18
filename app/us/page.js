@@ -6,11 +6,11 @@ import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'Printer Help — United States',
-  description: 'Remote printer help in all 50 US states. We troubleshoot HP jams, offline errors, drivers, and WiFi on LaserJet, OfficeJet, DeskJet, and Envy.',
-  keywords: 'HP printer help USA, printer support by state, fix HP printer error',
+  description: '24/7 HP printer support in all 50 US states. Fix offline errors, jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.',
+  keywords: '24/7 HP printer support USA, HP printer help by state, fix HP printer error',
   openGraph: {
     title: 'Printer Help — United States | Printer Support',
-    description: 'Phone-based printer support in every US state.',
+    description: '24/7 HP printer support in every US state.',
     url: 'https://www.printerzsupport.com/us',
     type: 'website',
   },

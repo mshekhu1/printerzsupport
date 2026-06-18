@@ -1,10 +1,10 @@
 export const metadata = {
   title: 'Printer Repair & Setup Services',
-  description: 'Remote help for wireless setup, driver repair, troubleshooting, and printer maintenance.',
-  keywords: 'HP printer help, printer repair, fix HP printer error, printer setup',
+  description: '24/7 HP printer support services — wireless setup, driver repair, troubleshooting, and maintenance.',
+  keywords: '24/7 HP printer support, fix HP printer error, printer repair, printer setup',
   openGraph: {
     title: 'Printer Repair & Setup Services | Printer Support',
-    description: 'Phone-based setup, repair, and troubleshooting for home and office printers.',
+    description: '24/7 HP printer support for setup, repair, and troubleshooting.',
     url: 'https://www.printerzsupport.com/services',
     type: 'website',
   },
