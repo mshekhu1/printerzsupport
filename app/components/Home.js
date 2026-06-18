@@ -174,6 +174,26 @@ export default function Home() {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/blog/hp-printer-paper-jam-fix">
+                      Fix HP paper jams
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/hp-printer-not-printing-fix">
+                      HP printer not printing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/hp-printer-wifi-not-connecting">
+                      HP WiFi not connecting
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/hp-printer-error-codes-guide">
+                      HP error codes explained
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/blog/printer-customer-support-phone-number">
                       Support phone number
                     </Link>
