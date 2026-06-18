@@ -71,13 +71,13 @@ export default function Navbar() {
         <Link className="navbar-brand" href="/" onClick={closeMenu}>
           <img 
             src="/favicon.svg" 
-            alt="Printer Support Icon" 
+            alt="HP Printer Support" 
             width="32" 
             height="32"
             className="navbar-brand-icon"
             style={{ marginRight: '8px', verticalAlign: 'middle' }}
           />
-          Printer Support
+          HP Printer Support
         </Link>
         <button 
           className={`navbar-toggler ${isMenuOpen ? 'active' : ''}`} 

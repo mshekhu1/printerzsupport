@@ -5,12 +5,12 @@ import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'HP Printer Brand Support',
-  description: 'Expert remote help for HP LaserJet, OfficeJet, DeskJet, and Envy printers. We handle setup, troubleshooting, driver installation, and repair for all major HP models.',
-  keywords: 'HP printer support, HP LaserJet help, HP OfficeJet support, HP DeskJet troubleshooting',
+  title: 'HP Printer Support by Brand',
+  description: 'Independent HP printer support for LaserJet, OfficeJet, DeskJet, and Envy. Fix error codes, offline issues, jams, and driver failures.',
+  keywords: 'HP printer support, fix HP printer error, HP LaserJet support, HP OfficeJet support',
   openGraph: {
-    title: 'HP Printer Brand Support',
-    description: 'Remote setup, repair, and troubleshooting for all HP printer models.',
+    title: 'HP Printer Support by Brand',
+    description: 'Independent HP printer support for all major models.',
     url: 'https://www.printerzsupport.com/brands',
     type: 'website',
   },

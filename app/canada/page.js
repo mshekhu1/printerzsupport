@@ -5,12 +5,12 @@ import { getOrganizationSchema } from '../../lib/utils/structuredData';
 import '../../styles/pages/About.css';
 
 export const metadata = {
-  title: 'HP Printer Help in Canada',
-  description: 'Remote HP printer support in every Canadian province and territory. We troubleshoot offline errors, jams, drivers, WiFi, and print quality on LaserJet, OfficeJet, DeskJet, and Envy models.',
-  keywords: 'HP printer help Canada, HP printer support by province, HP printer repair Canada',
+  title: 'HP Printer Support — Canada',
+  description: 'Independent HP printer support in every Canadian province. Fix offline errors, jams, drivers, WiFi, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.',
+  keywords: 'HP printer support Canada, HP printer help by province, fix HP printer error Canada',
   openGraph: {
-    title: 'HP Printer Help in Canada',
-    description: 'Remote printer support in every Canadian province and territory.',
+    title: 'HP Printer Support — Canada',
+    description: 'Independent HP printer support across Canada.',
     url: 'https://www.printerzsupport.com/canada',
     type: 'website',
   },
@@ -36,7 +36,7 @@ export default function CanadaPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Help in Canada</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Support — Canada</h1>
           <p className="animate__animated animate__fadeInUp">
             We provide remote printer support to residents and businesses in every province and territory. Whether you have a LaserJet, OfficeJet, DeskJet, or Envy, our technicians can help fix jams, offline errors, driver problems, and WiFi issues — usually in one session.
           </p>

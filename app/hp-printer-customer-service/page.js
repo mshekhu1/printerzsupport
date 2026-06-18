@@ -1,16 +1,17 @@
 import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
+import BrandDisclaimer from '../components/BrandDisclaimer';
 import { getOrganizationSchema, getServiceSchema } from '../../lib/utils/structuredData';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'HP Printer Customer Service',
-  description: 'Need help with your HP printer? Our team is available 24/7 to fix offline errors, paper jams, driver issues, WiFi setup, and print quality problems on LaserJet, OfficeJet, DeskJet, and Envy models.',
-  keywords: 'HP printer customer service, HP printer help, HP printer support number, HP LaserJet support, HP OfficeJet support',
+  description: 'Independent HP printer support by phone, 24/7. Fix offline errors, paper jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.',
+  keywords: 'HP printer support, HP printer customer service, fix HP printer error, HP printer help, HP printer support number',
   openGraph: {
-    title: 'HP Printer Customer Service — 24/7 Help',
-    description: 'Talk to a real technician about your HP printer problem. Remote fixes for all major models, available around the clock.',
+    title: 'HP Printer Customer Service | HP Printer Support',
+    description: 'Independent 24/7 HP printer support for errors, offline printers, jams, drivers, and WiFi.',
     url: 'https://www.printerzsupport.com/hp-printer-customer-service',
     type: 'website',
   },
@@ -24,7 +25,7 @@ export default function HPPrinterCustomerServicePage() {
 
   const breadcrumbItems = [
     { name: 'Home', url: 'https://www.printerzsupport.com/' },
-    { name: 'HP Printer Customer Service', url: 'https://www.printerzsupport.com/hp-printer-customer-service' },
+    { name: 'HP Printer Support', url: 'https://www.printerzsupport.com/hp-printer-customer-service' },
   ];
 
   return (
@@ -36,12 +37,13 @@ export default function HPPrinterCustomerServicePage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Customer Service</h1>
+          <BrandDisclaimer className="page-disclaimer" />
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Support — Fix HP Printer Errors</h1>
           <p className="animate__animated animate__fadeInUp">
-            Having trouble with your HP printer? Our support team is available 24/7 to help with LaserJet, OfficeJet, DeskJet, and Envy models. Whether it&apos;s an offline error, a paper jam, a driver that won&apos;t install, a WiFi connection that keeps dropping, or streaky print quality — we walk you through the fix remotely.
+            Getting an HP printer error? Our independent support team is available 24/7 to fix offline errors, paper jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy models.
           </p>
 
-          <h2 className="animate__animated animate__fadeInDown">What We Help With</h2>
+          <h2 className="animate__animated animate__fadeInDown">Common HP Printer Errors We Fix</h2>
           <p className="animate__animated animate__fadeInUp">
             When you call, you&apos;ll speak with someone who understands HP hardware and software. We help home users and businesses resolve printer errors, install drivers, set up wireless printing, and get back to normal — usually without an on-site visit.
           </p>
@@ -61,13 +63,13 @@ export default function HPPrinterCustomerServicePage() {
             <li>Error codes and spooler problems</li>
           </ul>
 
-          <h2 className="animate__animated animate__fadeInDown">Call Us Now</h2>
+          <h2 className="animate__animated animate__fadeInDown">Get Help Now</h2>
           <p className="animate__animated animate__fadeInUp">
             <strong>24/7 Helpline:</strong>{' '}
             <a href={PHONE_TEL_HREF}>{PHONE_DISPLAY}</a>
           </p>
           <p className="animate__animated animate__fadeInUp">
-            You can also explore our <Link href="/blog/hp-printer-troubleshooting-guide">HP printer troubleshooting guide</Link>, <Link href="/brands/hp">HP brand support page</Link>, or <Link href="/contact">contact us</Link> for more help.
+            You can also browse our <Link href="/blog/hp-printer-troubleshooting-guide">troubleshooting guide</Link>, visit the <Link href="/brands/hp">HP printer help page</Link>, or <Link href="/contact">contact us</Link> online.
           </p>
         </div>
       </div>

@@ -3,11 +3,11 @@ import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'About Us',
-  description: 'We have over 10 years of experience helping home users and businesses with HP printer setup, repair, and troubleshooting. Learn about our team and what drives us.',
-  keywords: 'about HP printer support, printer support team, HP printer experts',
+  description: 'Learn about our independent HP printer support team. Over 10 years helping customers fix offline errors, jams, drivers, WiFi issues, and error codes.',
+  keywords: 'HP printer support, about HP printer help, independent printer support',
   openGraph: {
     title: 'About Us | HP Printer Support',
-    description: 'Over 10 years of expert remote printer support for homes and businesses.',
+    description: 'Independent HP printer support for homes and businesses.',
     url: 'https://www.printerzsupport.com/about',
     type: 'website',
   },

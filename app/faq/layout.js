@@ -1,10 +1,10 @@
 export const metadata = {
-  title: 'FAQ',
-  description: 'Answers to common questions about HP printer setup, troubleshooting, driver installation, and wireless printing. Find quick solutions to the issues we hear about most.',
-  keywords: 'HP printer FAQ, printer setup questions, printer troubleshooting FAQ',
+  title: 'HP Printer Support FAQ',
+  description: 'Frequently asked questions about independent HP printer support — offline errors, jams, drivers, WiFi, and error codes.',
+  keywords: 'HP printer support FAQ, HP printer help, fix HP printer error',
   openGraph: {
-    title: 'FAQ | HP Printer Support',
-    description: 'Common questions and answers about HP printer support.',
+    title: 'HP Printer Support FAQ',
+    description: 'Answers about HP printer support and fixing common errors.',
     url: 'https://www.printerzsupport.com/faq',
     type: 'website',
   },

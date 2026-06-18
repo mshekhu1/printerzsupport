@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
+import BrandDisclaimer from './BrandDisclaimer';
 
 export default function Footer({ style }) {
   return (
@@ -42,14 +43,14 @@ export default function Footer({ style }) {
           <div className="footer-content">
             <div className="footer-section">
               <h3>HP Printer Support</h3>
-              <p>Remote HP printer help for home and office. We troubleshoot LaserJet, OfficeJet, DeskJet, and Envy models — available 24/7.</p>
+              <p>Independent HP printer support for home and office. We troubleshoot LaserJet, OfficeJet, DeskJet, and Envy models — available 24/7 by phone.</p>
             </div>
 
             <div className="footer-section">
               <h4>Quick Links</h4>
               <ul>
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="/hp-printer-customer-service">HP Printer Customer Service</Link></li>
+                <li><Link href="/hp-printer-customer-service">HP Printer Support</Link></li>
                 <li><Link href="/about">About Us</Link></li>
                 <li><Link href="/services">Services</Link></li>
                 <li><Link href="/blog">Blog</Link></li>
@@ -90,6 +91,7 @@ export default function Footer({ style }) {
             <span>|</span>
             <Link href="/refund-policy">Refund Policy</Link>
           </div>
+          <BrandDisclaimer className="footer-disclaimer" />
           <p>&copy; 2024 HP Printer Support. All rights reserved.</p>
         </div>
       </div>

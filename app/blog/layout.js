@@ -1,10 +1,10 @@
 export const metadata = {
-  title: 'Blog',
-  description: 'Step-by-step guides and troubleshooting tips for HP printers. Learn how to fix offline errors, set up WiFi, install drivers, and keep your printer running smoothly.',
-  keywords: 'HP printer guides, printer troubleshooting tips, HP printer setup, printer driver help',
+  title: 'HP Printer Support Guides',
+  description: 'Step-by-step HP printer support guides — fix offline errors, jams, drivers, WiFi, and error codes.',
+  keywords: 'HP printer support, HP printer help, fix HP printer error, HP printer troubleshooting',
   openGraph: {
-    title: 'HP Printer Support Blog',
-    description: 'Practical guides and troubleshooting tips for HP and other printers.',
+    title: 'HP Printer Support Guides & Blog',
+    description: 'Guides to fix HP printer errors from our support team.',
     url: 'https://www.printerzsupport.com/blog',
     type: 'website',
   },

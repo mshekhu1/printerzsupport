@@ -11,6 +11,7 @@ import {
   DEFAULT_KEYWORDS,
   DEFAULT_OG_DESCRIPTION,
   DEFAULT_TITLE,
+  DEFAULT_HERO_ALT,
   SITE_NAME,
   TITLE_TEMPLATE,
 } from '../lib/seo/siteSeo';
@@ -62,7 +63,7 @@ export const metadata = {
         url: '/hero-printer.svg',
         width: 1200,
         height: 630,
-        alt: 'Remote HP printer support and troubleshooting',
+        alt: DEFAULT_HERO_ALT,
       },
     ],
   },

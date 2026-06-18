@@ -57,7 +57,7 @@ function BlogPageContent() {
   const blogSchema = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "name": "HP Printer Support Blog",
+    "name": "HP Printer Support Guides",
     "description": "Expert guides and tips for printer troubleshooting, setup, installation, and maintenance",
     "url": "https://www.printerzsupport.com/blog",
     "publisher": {
@@ -86,7 +86,7 @@ function BlogPageContent() {
       <div className="blog-container">
         <Breadcrumb items={breadcrumbItems} />
         <div className="blog-header">
-          <h1>HP Printer Support Blog</h1>
+          <h1>HP Printer Support — Guides &amp; Tips</h1>
           <p>Expert guides, tips, and tutorials for all your printer needs</p>
         </div>
 
@@ -160,7 +160,7 @@ export default function BlogPage() {
           { name: 'Blog', url: 'https://www.printerzsupport.com/blog' }
         ]} />
         <div className="blog-header">
-          <h1>HP Printer Support Blog</h1>
+          <h1>HP Printer Support — Guides &amp; Tips</h1>
           <p>Expert guides, tips, and tutorials for all your printer needs</p>
         </div>
       </div>

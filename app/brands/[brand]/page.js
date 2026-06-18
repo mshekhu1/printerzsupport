@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Breadcrumb from '../../components/Breadcrumb';
 import BlogPostSidebars from '../../components/BlogPostSidebars';
 import { printerBrands, getBrandBySlug, generateBrandContent } from '../../../lib/data/printerBrands';
+import { SITE_NAME } from '../../../lib/seo/siteSeo';
 import { getOrganizationSchema } from '../../../lib/utils/structuredData';
 import '../../../styles/pages/About.css';
 
@@ -21,12 +22,20 @@ export async function generateMetadata({ params }) {
     };
   }
 
+  const isHp = brandData.slug === 'hp';
+  const title = isHp
+    ? 'HP Printer Support'
+    : `${brandData.name} Printer Support`;
+  const keywords = isHp
+    ? 'HP printer support, fix HP printer error, HP printer help, HP printer error code'
+    : `${brandData.name} printer support, ${brandData.name} printer help, ${brandData.name} printer troubleshooting`;
+
   return {
-    title: `${brandData.name} Printer Support`,
+    title,
     description: brandData.description,
-    keywords: `${brandData.name} printer support, ${brandData.name} printer help, ${brandData.name} printer troubleshooting`,
+    keywords,
     openGraph: {
-      title: `${brandData.name} Printer Support`,
+      title,
       description: brandData.description,
       url: `https://www.printerzsupport.com/brands/${brandData.slug}`,
       type: 'website',
@@ -45,14 +54,15 @@ export default async function BrandPage({ params }) {
     notFound();
   }
 
+  const isHp = brandData.slug === 'hp';
   const structuredData = {
     ...getOrganizationSchema(),
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": `${brandData.name} Printer Support`,
+    "serviceType": isHp ? 'HP Printer Support' : `${brandData.name} Printer Support`,
     "provider": {
       "@type": "Organization",
-      "name": "HP Printer Support"
+      "name": SITE_NAME,
     },
     "areaServed": {
       "@type": "Country",
