@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 import { homeFaqs } from '../../lib/data/homeFaqs';
-import { DEFAULT_HERO_ALT } from '../../lib/seo/siteSeo';
+import { DEFAULT_HERO_ALT, DEFAULT_TITLE, SITE_NAME } from '../../lib/seo/siteSeo';
 import BrandDisclaimer from './BrandDisclaimer';
 import Image from 'next/image';
 import ScrollAnimation from './ScrollAnimation';
@@ -63,14 +63,14 @@ export default function Home() {
     {
       id: 1,
       name: "John Doe",
-      text: "HP Printer Support has been a lifesaver! Their quick and efficient service is unmatched.",
+      text: "Printer Support has been a lifesaver! Their quick and efficient service is unmatched.",
       avatar: "https://th.bing.com/th?id=OIP.4vZ2x-GGaYuXq5b6y_WalgHaE8&w=125&h=104&c=7&bgcl=ecd846&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     },
     {
       id: 2,
       name: "Jane Smith",
-      text: "I highly recommend HP Printer Support for their professional and affordable services.",
+      text: "I highly recommend Printer Support for their professional and affordable services.",
       avatar: "https://th.bing.com/th?id=OIP.AQtvP5FcfiEMQpu14ueJCgHaGU&w=98&h=104&c=7&bgcl=2bf252&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     },
@@ -99,10 +99,10 @@ export default function Home() {
             <div className="row align-items-center">
               <div className="col-md-6 text-center text-md-start">
                 <h1 className="hero-title">
-                  HP Printer Support — 24/7 Help for HP Printer Errors
+                  {DEFAULT_TITLE.replace(` | ${SITE_NAME}`, '')}
                 </h1>
                 <p className="hero-subtitle">
-                  Call for independent HP printer support on LaserJet, OfficeJet, DeskJet, and Envy printers. We fix offline errors, paper jams, driver failures, WiFi issues, and error codes — usually in one remote session.
+                  Call for 24/7 HP printer support on LaserJet, OfficeJet, DeskJet, and Envy printers. We fix offline errors, paper jams, driver failures, WiFi issues, and error codes — usually in one remote session.
                 </p>
                 <BrandDisclaimer variant="short" className="hero-disclaimer" />
                 <div className="hero-actions">
@@ -139,10 +139,10 @@ export default function Home() {
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
             <h2 id="home-customer-service-heading" className="section-title">
-              HP Printer Support for Every Error
+              HP Printer Help for Every Error
             </h2>
             <p className="section-subtitle">
-              Call for independent HP printer support on LaserJet, OfficeJet, DeskJet, and Envy printers. We fix offline errors, paper jams, driver issues, WiFi failures, and error codes — no shop visit needed.
+              Call for 24/7 HP printer support on LaserJet, OfficeJet, DeskJet, and Envy printers. We fix offline errors, paper jams, driver issues, WiFi failures, and error codes — no shop visit needed.
             </p>
           </ScrollAnimation>
         </div>
@@ -338,7 +338,7 @@ export default function Home() {
       <section className="home-resources-section" aria-labelledby="home-faq-heading">
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
-            <h2 id="home-faq-heading" className="section-title">HP Printer Support FAQs</h2>
+            <h2 id="home-faq-heading" className="section-title">HP Printer Help FAQs</h2>
             <p className="section-subtitle">
               Answers to common questions about our HP printer support services.
             </p>

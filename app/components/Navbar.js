@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { printerServices } from '../../lib/data/services';
+import { SITE_NAME } from '../../lib/seo/siteSeo';
 import '../../styles/globals/App.css';
 
 export default function Navbar() {
@@ -71,13 +72,13 @@ export default function Navbar() {
         <Link className="navbar-brand" href="/" onClick={closeMenu}>
           <img 
             src="/favicon.svg" 
-            alt="HP Printer Support" 
+            alt={SITE_NAME} 
             width="32" 
             height="32"
             className="navbar-brand-icon"
             style={{ marginRight: '8px', verticalAlign: 'middle' }}
           />
-          HP Printer Support
+          {SITE_NAME}
         </Link>
         <button 
           className={`navbar-toggler ${isMenuOpen ? 'active' : ''}`} 

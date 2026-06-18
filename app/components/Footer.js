@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
+import { SITE_NAME } from '../../lib/seo/siteSeo';
 import BrandDisclaimer from './BrandDisclaimer';
 
 export default function Footer({ style }) {
@@ -13,7 +14,7 @@ export default function Footer({ style }) {
               className="footer-listing-icon footer-listing-icon-yahoo"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="HP Printer Support on Yahoo Local"
+              aria-label={`${SITE_NAME} on Yahoo Local`}
               title="Yahoo Local"
             >
               <span aria-hidden="true">Y!</span>
@@ -23,7 +24,7 @@ export default function Footer({ style }) {
               className="footer-listing-icon footer-listing-icon-facebook"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="HP Printer Support on Facebook"
+              aria-label={`${SITE_NAME} on Facebook`}
               title="Facebook"
             >
               <span aria-hidden="true">f</span>
@@ -33,7 +34,7 @@ export default function Footer({ style }) {
               className="footer-listing-icon footer-listing-icon-yelp"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="HP Printer Support on Yelp"
+              aria-label={`${SITE_NAME} on Yelp`}
               title="Yelp"
             >
               <span aria-hidden="true">y</span>
@@ -42,15 +43,15 @@ export default function Footer({ style }) {
 
           <div className="footer-content">
             <div className="footer-section">
-              <h3>HP Printer Support</h3>
-              <p>Independent HP printer support for home and office. We troubleshoot LaserJet, OfficeJet, DeskJet, and Envy models — available 24/7 by phone.</p>
+              <h3>{SITE_NAME}</h3>
+              <p>24/7 HP printer support for home and office. We troubleshoot LaserJet, OfficeJet, DeskJet, and Envy models by phone.</p>
             </div>
 
             <div className="footer-section">
               <h4>Quick Links</h4>
               <ul>
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="/hp-printer-customer-service">HP Printer Support</Link></li>
+                <li><Link href="/hp-printer-customer-service">HP Printer Help</Link></li>
                 <li><Link href="/about">About Us</Link></li>
                 <li><Link href="/services">Services</Link></li>
                 <li><Link href="/blog">Blog</Link></li>
@@ -92,7 +93,7 @@ export default function Footer({ style }) {
             <Link href="/refund-policy">Refund Policy</Link>
           </div>
           <BrandDisclaimer className="footer-disclaimer" />
-          <p>&copy; 2024 HP Printer Support. All rights reserved.</p>
+          <p>&copy; 2024 {SITE_NAME}. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -7,6 +7,7 @@ import {
   generateServiceContent,
   getServicePageTitle,
 } from '../../../lib/data/services';
+import { SITE_NAME } from '../../../lib/seo/siteSeo';
 import { getOrganizationSchema } from '../../../lib/utils/structuredData';
 import '../../../styles/pages/About.css';
 
@@ -60,7 +61,7 @@ export default async function ServicePage({ params }) {
     serviceType: service.title,
     provider: {
       '@type': 'Organization',
-      name: 'HP Printer Support',
+      name: SITE_NAME,
     },
     areaServed: {
       '@type': 'Country',

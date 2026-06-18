@@ -9,6 +9,7 @@ import {
   getBlogDateModified,
   getBlogKeywords,
 } from '../../../lib/seo/blogSeo';
+import { SITE_NAME } from '../../../lib/seo/siteSeo';
 import '../../../styles/blog/BlogPost.css';
 
 // Only pre-built canonical URLs exist in static export; aliases rely on _redirects/.htaccess.
@@ -115,7 +116,7 @@ export default async function BlogPostPage({ params }) {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "HP Printer Support",
+      "name": SITE_NAME,
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.printerzsupport.com/favicon.svg"

@@ -7,11 +7,11 @@ import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'HP Printer Customer Service',
-  description: 'Independent HP printer support by phone, 24/7. Fix offline errors, paper jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.',
+  description: '24/7 HP printer support by phone. Fix offline errors, paper jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.',
   keywords: 'HP printer support, HP printer customer service, fix HP printer error, HP printer help, HP printer support number',
   openGraph: {
-    title: 'HP Printer Customer Service | HP Printer Support',
-    description: 'Independent 24/7 HP printer support for errors, offline printers, jams, drivers, and WiFi.',
+    title: 'HP Printer Customer Service | Printer Support',
+    description: '24/7 HP printer support for errors, offline printers, jams, drivers, and WiFi.',
     url: 'https://www.printerzsupport.com/hp-printer-customer-service',
     type: 'website',
   },
@@ -25,7 +25,7 @@ export default function HPPrinterCustomerServicePage() {
 
   const breadcrumbItems = [
     { name: 'Home', url: 'https://www.printerzsupport.com/' },
-    { name: 'HP Printer Support', url: 'https://www.printerzsupport.com/hp-printer-customer-service' },
+    { name: 'HP Printer Help', url: 'https://www.printerzsupport.com/hp-printer-customer-service' },
   ];
 
   return (
@@ -38,9 +38,9 @@ export default function HPPrinterCustomerServicePage() {
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
           <BrandDisclaimer className="page-disclaimer" />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Support — Fix HP Printer Errors</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Help — Fix HP Printer Errors</h1>
           <p className="animate__animated animate__fadeInUp">
-            Getting an HP printer error? Our independent support team is available 24/7 to fix offline errors, paper jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy models.
+            Getting an HP printer error? Our 24/7 support team can help fix offline errors, paper jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy models.
           </p>
 
           <h2 className="animate__animated animate__fadeInDown">Common HP Printer Errors We Fix</h2>

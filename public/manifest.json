@@ -1,7 +1,7 @@
 {
-  "short_name": "HP Printer Support",
-  "name": "HP Printer Support — 24/7 Help for HP Printer Errors",
-  "description": "Independent 24/7 HP printer support. Fix offline errors, jams, drivers, WiFi, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.",
+  "short_name": "Printer Support",
+  "name": "Printer Support — 24/7 HP Printer Help",
+  "description": "24/7 HP printer support. Fix offline errors, jams, drivers, WiFi, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.",
   "icons": [
     {
       "src": "favicon.svg",

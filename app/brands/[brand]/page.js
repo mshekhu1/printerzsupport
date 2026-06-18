@@ -24,7 +24,7 @@ export async function generateMetadata({ params }) {
 
   const isHp = brandData.slug === 'hp';
   const title = isHp
-    ? 'HP Printer Support'
+    ? 'HP Printer Help'
     : `${brandData.name} Printer Support`;
   const keywords = isHp
     ? 'HP printer support, fix HP printer error, HP printer help, HP printer error code'
@@ -59,7 +59,7 @@ export default async function BrandPage({ params }) {
     ...getOrganizationSchema(),
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": isHp ? 'HP Printer Support' : `${brandData.name} Printer Support`,
+    "serviceType": isHp ? 'HP printer support' : `${brandData.name} printer support`,
     "provider": {
       "@type": "Organization",
       "name": SITE_NAME,
