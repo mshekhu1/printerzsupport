@@ -165,7 +165,7 @@ export default function Home() {
                   </li>
                   <li>
                     <Link href="/hp-printer-customer-service">
-                      24/7 Customer Service
+                      HP printer customer service
                     </Link>
                   </li>
                   <li>
@@ -196,6 +196,11 @@ export default function Home() {
                   <li>
                     <Link href="/blog/printer-customer-support-phone-number">
                       HP printer customer support
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">
+                      HP printer support number
                     </Link>
                   </li>
                   <li>

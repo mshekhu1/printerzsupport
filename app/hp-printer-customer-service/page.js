@@ -12,7 +12,7 @@ export default function HPPrinterCustomerServicePage() {
 
   const breadcrumbItems = [
     { name: 'Home', url: 'https://www.printerzsupport.com/' },
-    { name: 'HP Printer Help', url: 'https://www.printerzsupport.com/hp-printer-customer-service' },
+    { name: 'HP Printer Customer Service', url: 'https://www.printerzsupport.com/hp-printer-customer-service' },
   ];
 
   return (
@@ -24,9 +24,9 @@ export default function HPPrinterCustomerServicePage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">24/7 Customer Service — HP Printers</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Customer Service</h1>
           <p className="animate__animated animate__fadeInUp">
-            Printer showing an error or refusing to print? Call our 24/7 Customer Service line — we fix most issues remotely on LaserJet, OfficeJet, DeskJet, and Envy models.
+            Printer showing an error or refusing to print? Call our 24/7 HP printer customer service line — we fix most issues remotely on LaserJet, OfficeJet, DeskJet, and Envy models.
           </p>
 
           <h2 className="animate__animated animate__fadeInDown">Problems we handle every day</h2>
