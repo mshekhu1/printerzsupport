@@ -1,20 +1,8 @@
 import { getOrganizationSchema } from '../../lib/utils/structuredData';
+import { pageSeo } from '../../lib/seo/pageSeo';
 import '../../styles/pages/About.css';
 
-export const metadata = {
-  title: 'About Us',
-  description: '24/7 HP printer customer service and technical support team. Over 10 years fixing offline errors, jams, drivers, WiFi issues, and error codes.',
-  keywords: '24/7 HP printer support, HP printer customer service, HP printer technical support',
-  openGraph: {
-    title: 'About Us | Printer Support',
-    description: '24/7 HP printer customer service and technical support for homes and businesses.',
-    url: 'https://www.printerzsupport.com/about',
-    type: 'website',
-  },
-  alternates: {
-    canonical: 'https://www.printerzsupport.com/about',
-  },
-};
+export const metadata = pageSeo.about;
 
 export default function AboutPage() {
   const structuredData = getOrganizationSchema();

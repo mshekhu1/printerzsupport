@@ -2,22 +2,10 @@ import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
 import { usStates, getStateLinkLabel } from '../../lib/data/usStates';
 import { getOrganizationSchema } from '../../lib/utils/structuredData';
+import { pageSeo } from '../../lib/seo/pageSeo';
 import '../../styles/pages/About.css';
 
-export const metadata = {
-  title: 'Printer Help — United States',
-  description: '24/7 HP printer customer service and technical support in all 50 US states. Fix offline errors, jams, drivers, WiFi, and error codes on HP printers.',
-  keywords: '24/7 HP printer support USA, HP printer customer service, HP printer technical support',
-  openGraph: {
-    title: 'Printer Help — United States | Printer Support',
-    description: '24/7 HP printer customer service and technical support in every US state.',
-    url: 'https://www.printerzsupport.com/us',
-    type: 'website',
-  },
-  alternates: {
-    canonical: 'https://www.printerzsupport.com/us',
-  },
-};
+export const metadata = pageSeo.us;
 
 export default function USPage() {
   const structuredData = getOrganizationSchema();
@@ -36,9 +24,9 @@ export default function USPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">Printer Help — United States</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Support — United States</h1>
           <p className="animate__animated animate__fadeInUp">
-            We support residents and businesses in all 50 states. Whether you use a LaserJet, OfficeJet, DeskJet, or Envy, we can usually fix jams, offline errors, driver problems, and WiFi issues in one remote session.
+            HP Printer Support for residents and businesses in all 50 states. Whether you use a LaserJet, OfficeJet, DeskJet, or Envy, we fix jams, offline errors, driver problems, and WiFi issues in one remote session.
           </p>
           
           <h2 className="animate__animated animate__fadeInDown">Nationwide Remote Support</h2>

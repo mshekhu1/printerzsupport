@@ -2,22 +2,10 @@ import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
 import { getOrganizationSchema, getServiceSchema } from '../../lib/utils/structuredData';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
+import { pageSeo } from '../../lib/seo/pageSeo';
 import '../../styles/pages/About.css';
 
-export const metadata = {
-  title: 'HP Printer Customer Service',
-  description: '24/7 HP printer customer service and technical support by phone. Fix offline errors, paper jams, driver failures, WiFi issues, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.',
-  keywords: '24/7 HP printer support, HP printer customer service, HP printer technical support, HP printer support number',
-  openGraph: {
-    title: 'HP Printer Customer Service | Printer Support',
-    description: '24/7 HP printer customer service and technical support for errors, jams, drivers, and WiFi.',
-    url: 'https://www.printerzsupport.com/hp-printer-customer-service',
-    type: 'website',
-  },
-  alternates: {
-    canonical: 'https://www.printerzsupport.com/hp-printer-customer-service',
-  },
-};
+export const metadata = pageSeo.customerService;
 
 export default function HPPrinterCustomerServicePage() {
   const structuredData = [getOrganizationSchema(), getServiceSchema()];
@@ -36,9 +24,9 @@ export default function HPPrinterCustomerServicePage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Customer Service</h1>
+          <h1 className="animate__animated animate__fadeInDown">24/7 Customer Service — HP Printers</h1>
           <p className="animate__animated animate__fadeInUp">
-            Printer showing an error or refusing to print? Call and talk to someone who knows HP hardware — we fix most issues remotely on LaserJet, OfficeJet, DeskJet, and Envy models.
+            Printer showing an error or refusing to print? Call our 24/7 Customer Service line — we fix most issues remotely on LaserJet, OfficeJet, DeskJet, and Envy models.
           </p>
 
           <h2 className="animate__animated animate__fadeInDown">Problems we handle every day</h2>

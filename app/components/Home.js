@@ -101,7 +101,7 @@ export default function Home() {
                   {DEFAULT_HERO_HEADING}
                 </h1>
                 <p className="hero-subtitle">
-                  24/7 HP printer customer service and technical support by phone. We fix offline errors, jams, driver problems, and WiFi issues — usually in one session.
+                  HP Printer Support with 24/7 Customer Service by phone. We fix offline errors, jams, driver problems, and WiFi issues — usually in one session.
                 </p>
                 <div className="hero-actions">
                   <a href={PHONE_TEL_HREF} className="hero-phone">
@@ -140,7 +140,7 @@ export default function Home() {
               Help for Every Common HP Printer Problem
             </h2>
             <p className="section-subtitle">
-              LaserJet, OfficeJet, DeskJet, and Envy — we troubleshoot by phone so you can skip the repair shop.
+              LaserJet, OfficeJet, DeskJet, and Envy — technical support by phone so you can skip the repair shop.
             </p>
           </ScrollAnimation>
         </div>
@@ -150,7 +150,7 @@ export default function Home() {
       <section className="home-resources-section" aria-labelledby="home-resources-heading">
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
-            <h2 id="home-resources-heading" className="section-title">Guides &amp; Resources</h2>
+            <h2 id="home-resources-heading" className="section-title">HP Printer Support &amp; Resources</h2>
             <p className="section-subtitle">
               Step-by-step articles, nationwide coverage, and phone support when you need a hand.
             </p>
@@ -165,7 +165,7 @@ export default function Home() {
                   </li>
                   <li>
                     <Link href="/hp-printer-customer-service">
-                      HP printer customer service
+                      24/7 Customer Service
                     </Link>
                   </li>
                   <li>
@@ -195,12 +195,12 @@ export default function Home() {
                   </li>
                   <li>
                     <Link href="/blog/printer-customer-support-phone-number">
-                      Support phone number
+                      HP printer customer support
                     </Link>
                   </li>
                   <li>
-                    <Link href="/hp-printer-customer-service">
-                      Technical support
+                    <Link href="/services">
+                      HP printer technical support
                     </Link>
                   </li>
                   <li>

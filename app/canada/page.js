@@ -2,22 +2,10 @@ import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
 import { canadaProvinces, getProvinceLinkLabel } from '../../lib/data/canadaProvinces';
 import { getOrganizationSchema } from '../../lib/utils/structuredData';
+import { pageSeo } from '../../lib/seo/pageSeo';
 import '../../styles/pages/About.css';
 
-export const metadata = {
-  title: 'Printer Help — Canada',
-  description: '24/7 HP printer customer service and technical support in every Canadian province. Fix offline errors, jams, drivers, WiFi, and error codes on HP printers.',
-  keywords: '24/7 HP printer support Canada, HP printer customer service, HP printer technical support',
-  openGraph: {
-    title: 'Printer Help — Canada | Printer Support',
-    description: '24/7 HP printer customer service and technical support across Canada.',
-    url: 'https://www.printerzsupport.com/canada',
-    type: 'website',
-  },
-  alternates: {
-    canonical: 'https://www.printerzsupport.com/canada',
-  },
-};
+export const metadata = pageSeo.canada;
 
 export default function CanadaPage() {
   const structuredData = getOrganizationSchema();
@@ -36,9 +24,9 @@ export default function CanadaPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">Printer Help — Canada</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Support — Canada</h1>
           <p className="animate__animated animate__fadeInUp">
-            We help residents and businesses in every province and territory. LaserJet, OfficeJet, DeskJet, or Envy — most jams, offline errors, driver problems, and WiFi issues are fixed remotely in one call.
+            Customer Support for HP printers in every province and territory. LaserJet, OfficeJet, DeskJet, or Envy — most issues are fixed remotely in one call.
           </p>
           
           <h2 className="animate__animated animate__fadeInDown">Support Across Canada</h2>

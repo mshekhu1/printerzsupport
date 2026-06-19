@@ -32,11 +32,11 @@ export async function generateMetadata({ params }) {
 
   return {
     title: pageTitle,
-    description: getStateMetaDescription(stateData.name),
-    keywords: getStateKeywords(stateData.name),
+    description: getStateMetaDescription(stateData.name, stateData.slug),
+    keywords: getStateKeywords(stateData.name, stateData.slug),
     openGraph: {
       title: pageTitle,
-      description: getStateMetaDescription(stateData.name),
+      description: getStateMetaDescription(stateData.name, stateData.slug),
       url: `https://www.printerzsupport.com/us/${stateData.slug}`,
       type: 'website',
     },

@@ -2,22 +2,10 @@ import Link from 'next/link';
 import Breadcrumb from '../components/Breadcrumb';
 import { printerBrands } from '../../lib/data/printerBrands';
 import { getOrganizationSchema } from '../../lib/utils/structuredData';
+import { pageSeo } from '../../lib/seo/pageSeo';
 import '../../styles/pages/About.css';
 
-export const metadata = {
-  title: 'Printer Help by Brand',
-  description: '24/7 HP printer customer service and technical support for LaserJet, OfficeJet, DeskJet, and Envy. Fix error codes, offline issues, jams, and driver failures.',
-  keywords: '24/7 HP printer support, HP printer customer service, HP printer technical support, fix HP printer error',
-  openGraph: {
-    title: 'Printer Help by Brand | Printer Support',
-    description: '24/7 HP printer customer service and technical support for all major HP models.',
-    url: 'https://www.printerzsupport.com/brands',
-    type: 'website',
-  },
-  alternates: {
-    canonical: 'https://www.printerzsupport.com/brands',
-  },
-};
+export const metadata = pageSeo.brands;
 
 export default function BrandsPage() {
   const structuredData = getOrganizationSchema();
@@ -36,9 +24,9 @@ export default function BrandsPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">Printer Help by Brand</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Support by Brand</h1>
           <p className="animate__animated animate__fadeInUp">
-            We troubleshoot HP LaserJet, OfficeJet, DeskJet, and Envy models — and support Canon, Epson, Brother, and other major brands by phone.
+            HP Printer Support for LaserJet, OfficeJet, DeskJet, and Envy — plus technical support for Canon, Epson, Brother, and other major brands by phone.
           </p>
           
           <h2 className="animate__animated animate__fadeInDown">Our Printer Brand Support Services</h2>
