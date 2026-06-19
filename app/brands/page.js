@@ -6,11 +6,11 @@ import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'Printer Help by Brand',
-  description: '24/7 HP printer support for LaserJet, OfficeJet, DeskJet, and Envy. Fix error codes, offline issues, jams, and driver failures.',
-  keywords: '24/7 HP printer support, fix HP printer error, HP LaserJet support, printer brand support',
+  description: '24/7 HP printer customer service and technical support for LaserJet, OfficeJet, DeskJet, and Envy. Fix error codes, offline issues, jams, and driver failures.',
+  keywords: '24/7 HP printer support, HP printer customer service, HP printer technical support, fix HP printer error',
   openGraph: {
     title: 'Printer Help by Brand | Printer Support',
-    description: '24/7 HP printer support for all major HP models.',
+    description: '24/7 HP printer customer service and technical support for all major HP models.',
     url: 'https://www.printerzsupport.com/brands',
     type: 'website',
   },

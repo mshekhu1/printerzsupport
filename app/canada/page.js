@@ -6,11 +6,11 @@ import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'Printer Help — Canada',
-  description: '24/7 HP printer support in every Canadian province. Fix offline errors, jams, drivers, WiFi, and error codes on LaserJet, OfficeJet, DeskJet, and Envy.',
-  keywords: '24/7 HP printer support Canada, HP printer help by province, fix HP printer error',
+  description: '24/7 HP printer customer service and technical support in every Canadian province. Fix offline errors, jams, drivers, WiFi, and error codes on HP printers.',
+  keywords: '24/7 HP printer support Canada, HP printer customer service, HP printer technical support',
   openGraph: {
     title: 'Printer Help — Canada | Printer Support',
-    description: '24/7 HP printer support across Canada.',
+    description: '24/7 HP printer customer service and technical support across Canada.',
     url: 'https://www.printerzsupport.com/canada',
     type: 'website',
   },

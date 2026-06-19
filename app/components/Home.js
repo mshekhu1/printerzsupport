@@ -101,7 +101,7 @@ export default function Home() {
                   {DEFAULT_HERO_HEADING}
                 </h1>
                 <p className="hero-subtitle">
-                  Call anytime for remote help with HP printers. We fix offline errors, jams, driver problems, and WiFi issues — usually in one session.
+                  24/7 HP printer customer service and technical support by phone. We fix offline errors, jams, driver problems, and WiFi issues — usually in one session.
                 </p>
                 <div className="hero-actions">
                   <a href={PHONE_TEL_HREF} className="hero-phone">

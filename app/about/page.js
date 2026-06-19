@@ -3,11 +3,11 @@ import '../../styles/pages/About.css';
 
 export const metadata = {
   title: 'About Us',
-  description: '24/7 HP printer support team with 10+ years helping customers fix offline errors, jams, drivers, WiFi issues, and error codes.',
-  keywords: '24/7 HP printer support, about HP printer help, remote printer support',
+  description: '24/7 HP printer customer service and technical support team. Over 10 years fixing offline errors, jams, drivers, WiFi issues, and error codes.',
+  keywords: '24/7 HP printer support, HP printer customer service, HP printer technical support',
   openGraph: {
     title: 'About Us | Printer Support',
-    description: '24/7 HP printer support for homes and businesses.',
+    description: '24/7 HP printer customer service and technical support for homes and businesses.',
     url: 'https://www.printerzsupport.com/about',
     type: 'website',
   },
