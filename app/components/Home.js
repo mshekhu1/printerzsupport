@@ -16,43 +16,43 @@ export default function Home() {
   const features = [
     {
       id: 1,
-      title: "Fast Response",
-      description: "Most issues are diagnosed and resolved in a single remote session — no waiting days for a repair shop.",
+      title: "Fast HP Printer Support",
+      description: "Get quick and reliable HP printer support with 24/7 customer service and technical support.",
       icon: "⚡",
       color: "#FFD700"
     },
     {
       id: 2,
-      title: "Certified Technicians",
-      description: "Our team knows HP hardware and software inside out, from LaserJet fleets to home DeskJet models.",
+      title: "HP Technical Support Experts",
+      description: "Certified technicians provide expert HP printer technical support for any printer problem.",
       icon: "👨‍💻",
       color: "#667eea"
     },
     {
       id: 3,
       title: "Affordable Pricing",
-      description: "Competitive rates for professional support without hidden fees or travel charges.",
+      description: "We offer competitive prices for our top-notch services without compromising quality.",
       icon: "💰",
       color: "#10b981"
     },
     {
       id: 4,
-      title: "24/7 Availability",
-      description: "Printer problems don't keep business hours — neither do we. Call anytime you need help.",
+      title: "24/7 Customer Service",
+      description: "Round-the-clock HP printer customer service and customer support when you need help.",
       icon: "🕒",
       color: "#f59e0b"
     },
     {
       id: 5,
-      title: "Wireless Setup",
-      description: "We connect your HP printer to WiFi and configure printing from phones, tablets, and laptops.",
+      title: "HP Wireless Setup",
+      description: "HP printer technical support for WiFi setup and wireless network configuration.",
       icon: "📶",
       color: "#3b82f6"
     },
     {
       id: 6,
       title: "Customer Satisfaction",
-      description: "We stay on the line until your printer is working and you're confident it will stay that way.",
+      description: "We prioritize customer satisfaction and ensure the best service experience.",
       icon: "😊",
       color: "#ec4899"
     }
@@ -62,28 +62,28 @@ export default function Home() {
     {
       id: 1,
       name: "John Doe",
-      text: "Printer Support has been a lifesaver! Their quick and efficient service is unmatched.",
+      text: "HP Printer Support has been a lifesaver! Their quick and efficient service is unmatched.",
       avatar: "https://th.bing.com/th?id=OIP.4vZ2x-GGaYuXq5b6y_WalgHaE8&w=125&h=104&c=7&bgcl=ecd846&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     },
     {
       id: 2,
       name: "Jane Smith",
-      text: "I highly recommend Printer Support for their professional and affordable services.",
+      text: "I highly recommend HP Printer Support for their professional and affordable services.",
       avatar: "https://th.bing.com/th?id=OIP.AQtvP5FcfiEMQpu14ueJCgHaGU&w=98&h=104&c=7&bgcl=2bf252&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     },
     {
       id: 3,
       name: "Alice Johnson",
-      text: "They fixed my OfficeJet WiFi issue in under 20 minutes. Friendly, patient, and actually knew what they were doing.",
+      text: "The best HP printer customer support I have ever used. Their technical support team fixed my issue fast!",
       avatar: "https://th.bing.com/th?id=OIP.UidYXknATm9TVaVDAEDm6AHaE8&w=125&h=104&c=7&bgcl=ea3ff9&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     },
     {
       id: 4,
       name: "Bob Brown",
-      text: "Excellent support — very professional and got my LaserJet printing again on the first call.",
+      text: "Excellent HP printer technical support and customer service. Very professional — will use again.",
       avatar: "https://th.bing.com/th?id=OIP.xcKD3w58xiM1l9211ExZMwHaE8&w=127&h=104&c=7&bgcl=393163&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     }
@@ -101,7 +101,7 @@ export default function Home() {
                   {DEFAULT_HERO_HEADING}
                 </h1>
                 <p className="hero-subtitle">
-                  HP Printer Support with 24/7 Customer Service by phone. We fix offline errors, jams, driver problems, and WiFi issues — usually in one session.
+                  24/7 HP printer support with expert customer service, customer support, and technical support for LaserJet, OfficeJet, DeskJet, and Envy—remote help for jams, offline errors, drivers, WiFi setup, and print quality.
                 </p>
                 <div className="hero-actions">
                   <a href={PHONE_TEL_HREF} className="hero-phone">
@@ -137,10 +137,10 @@ export default function Home() {
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
             <h2 id="home-customer-service-heading" className="section-title">
-              Help for Every Common HP Printer Problem
+              HP Printer Support, Customer Service, Customer Support &amp; Technical Support
             </h2>
             <p className="section-subtitle">
-              LaserJet, OfficeJet, DeskJet, and Envy — technical support by phone so you can skip the repair shop.
+              Call our 24/7 HP printer support helpline for expert customer service, customer support, and technical support on LaserJet, OfficeJet, DeskJet, and Envy printers. We fix offline errors, paper jams, driver issues, WiFi setup problems, and print quality faults with fast remote assistance.
             </p>
           </ScrollAnimation>
         </div>
@@ -150,9 +150,9 @@ export default function Home() {
       <section className="home-resources-section" aria-labelledby="home-resources-heading">
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
-            <h2 id="home-resources-heading" className="section-title">HP Printer Support &amp; Resources</h2>
+            <h2 id="home-resources-heading" className="section-title">HP Printer Help &amp; Resources</h2>
             <p className="section-subtitle">
-              Step-by-step articles, nationwide coverage, and phone support when you need a hand.
+              Popular HP printer support guides, nationwide customer service, customer support, and professional technical support.
             </p>
             <div className="home-resources-grid">
               <div className="home-resources-card">
@@ -170,7 +170,7 @@ export default function Home() {
                   </li>
                   <li>
                     <Link href="/blog/hp-printer-troubleshooting-guide">
-                      HP troubleshooting guide
+                      HP printer troubleshooting
                     </Link>
                   </li>
                   <li>
@@ -195,7 +195,7 @@ export default function Home() {
                   </li>
                   <li>
                     <Link href="/blog/printer-customer-support-phone-number">
-                      HP printer customer support
+                      HP printer customer support phone number
                     </Link>
                   </li>
                   <li>
@@ -227,21 +227,21 @@ export default function Home() {
                 <Link href="/blog" className="home-resources-more">View all blog guides →</Link>
               </div>
               <div className="home-resources-card">
-                <h3>Support by location</h3>
-                <p>Remote help in every US state and Canadian province.</p>
+                <h3>HP support by location</h3>
+                <p>Remote HP printer repair and assistance in every US state and Canadian province.</p>
                 <ul className="home-resources-links">
-                  <li><Link href="/us">United States</Link></li>
-                  <li><Link href="/canada">Canada</Link></li>
+                  <li><Link href="/us">HP printer support — United States</Link></li>
+                  <li><Link href="/canada">HP printer support — Canada</Link></li>
                 </ul>
               </div>
               <div className="home-resources-card">
                 <h3>Our services</h3>
-                <p>Setup, repair, drivers, and WiFi help for home and business.</p>
+                <p>HP printer setup, repair, drivers, and WiFi technical support for home and business.</p>
                 <ul className="home-resources-links">
-                  <li><Link href="/services">All services</Link></li>
-                  <li><Link href="/drivers">Drivers &amp; downloads</Link></li>
-                  <li><Link href="/brands/hp">HP printer help</Link></li>
-                  <li><Link href="/contact">Contact us</Link></li>
+                  <li><Link href="/services">HP printer support services</Link></li>
+                  <li><Link href="/drivers">Printer drivers &amp; downloads</Link></li>
+                  <li><Link href="/brands/hp">HP printer brand support</Link></li>
+                  <li><Link href="/contact">Contact support</Link></li>
                 </ul>
               </div>
             </div>
@@ -258,7 +258,7 @@ export default function Home() {
                 Why Choose Us
               </h2>
               <p className="section-subtitle">
-                Reliable remote support with a focus on getting you back to printing quickly.
+                We provide the best HP printer support, customer service, customer support, and technical support with a focus on satisfaction and quality.
               </p>
             </div>
           </ScrollAnimation>
@@ -361,9 +361,9 @@ export default function Home() {
       <section className="home-resources-section" aria-labelledby="home-faq-heading">
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
-            <h2 id="home-faq-heading" className="section-title">Common Questions</h2>
-            <p className="section-subtitle faq-intro">
-              Quick answers about how our phone support works.
+            <h2 id="home-faq-heading" className="section-title">HP Printer Support FAQs</h2>
+            <p className="section-subtitle">
+              Common questions about HP printer customer service, customer support, and technical support.
             </p>
             <div className="faq-list">
               {homeFaqs.map((faq, index) => (
@@ -395,7 +395,7 @@ export default function Home() {
           <ScrollAnimation animation="fadeInUp">
             <div className="cta-content">
               <h2 className="cta-title">Ready to Get Started?</h2>
-              <p className="cta-subtitle">Call now for expert remote help — most issues fixed in one session.</p>
+              <p className="cta-subtitle">Contact us today for expert HP printer support, customer service, customer support, and technical support!</p>
               <div className="cta-buttons">
                 <a href={PHONE_TEL_HREF} className="btn-cta-primary">
                   📞 Call Now: {PHONE_DISPLAY}
