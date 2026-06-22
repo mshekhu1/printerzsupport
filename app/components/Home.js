@@ -23,8 +23,8 @@ export default function Home() {
     },
     {
       id: 2,
-      title: "HP Technical Support Experts",
-      description: "Certified technicians provide expert HP printer technical support for any printer problem.",
+      title: "Certified Technicians",
+      description: "Our team knows HP hardware and software inside out, from LaserJet fleets to home DeskJet models.",
       icon: "👨‍💻",
       color: "#667eea"
     },
@@ -44,8 +44,8 @@ export default function Home() {
     },
     {
       id: 5,
-      title: "HP Wireless Setup",
-      description: "HP printer technical support for WiFi setup and wireless network configuration.",
+      title: "Wireless Setup",
+      description: "We connect your HP printer to WiFi and configure printing from phones, tablets, and laptops.",
       icon: "📶",
       color: "#3b82f6"
     },
@@ -101,7 +101,7 @@ export default function Home() {
                   {DEFAULT_HERO_HEADING}
                 </h1>
                 <p className="hero-subtitle">
-                  24/7 HP printer support with expert customer service, customer support, and technical support for LaserJet, OfficeJet, DeskJet, and Envy—remote help for jams, offline errors, drivers, WiFi setup, and print quality.
+                  HP Printer Support with 24/7 Customer Service by phone. We fix offline errors, jams, driver problems, and WiFi issues — usually in one session.
                 </p>
                 <div className="hero-actions">
                   <a href={PHONE_TEL_HREF} className="hero-phone">
@@ -137,10 +137,10 @@ export default function Home() {
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
             <h2 id="home-customer-service-heading" className="section-title">
-              HP Printer Support, Customer Service, Customer Support &amp; Technical Support
+              Help for Every Common HP Printer Problem
             </h2>
             <p className="section-subtitle">
-              Call our 24/7 HP printer support helpline for expert customer service, customer support, and technical support on LaserJet, OfficeJet, DeskJet, and Envy printers. We fix offline errors, paper jams, driver issues, WiFi setup problems, and print quality faults with fast remote assistance.
+              LaserJet, OfficeJet, DeskJet, and Envy — phone support for offline errors, paper jams, driver issues, WiFi setup, and print quality. Call our 24/7 HP printer support helpline for fast remote assistance.
             </p>
           </ScrollAnimation>
         </div>
@@ -152,7 +152,7 @@ export default function Home() {
           <ScrollAnimation animation="fadeInUp">
             <h2 id="home-resources-heading" className="section-title">HP Printer Help &amp; Resources</h2>
             <p className="section-subtitle">
-              Popular HP printer support guides, nationwide customer service, customer support, and professional technical support.
+              Step-by-step guides, nationwide coverage, and phone support when you need a hand.
             </p>
             <div className="home-resources-grid">
               <div className="home-resources-card">
@@ -258,7 +258,7 @@ export default function Home() {
                 Why Choose Us
               </h2>
               <p className="section-subtitle">
-                We provide the best HP printer support, customer service, customer support, and technical support with a focus on satisfaction and quality.
+                Reliable remote HP printer support with a focus on getting you back to printing quickly.
               </p>
             </div>
           </ScrollAnimation>
@@ -395,7 +395,7 @@ export default function Home() {
           <ScrollAnimation animation="fadeInUp">
             <div className="cta-content">
               <h2 className="cta-title">Ready to Get Started?</h2>
-              <p className="cta-subtitle">Contact us today for expert HP printer support, customer service, customer support, and technical support!</p>
+              <p className="cta-subtitle">Call now for expert HP printer support — most issues fixed in one session.</p>
               <div className="cta-buttons">
                 <a href={PHONE_TEL_HREF} className="btn-cta-primary">
                   📞 Call Now: {PHONE_DISPLAY}
