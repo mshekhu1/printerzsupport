@@ -99,7 +99,7 @@ export default function DriversPage() {
         <Breadcrumb items={breadcrumbItems} />
         
         <div className="drivers-header">
-          <h1>Printer Drivers & Instruction Manuals</h1>
+          <h1>Printer Drivers &amp; Manuals</h1>
           <p>Download the latest drivers and instruction manuals for your printer model</p>
         </div>
 

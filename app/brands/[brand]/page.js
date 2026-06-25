@@ -23,19 +23,21 @@ export async function generateMetadata({ params }) {
   }
 
   const isHp = brandData.slug === 'hp';
-  const title = isHp
-    ? 'HP Printer Help'
-    : `${brandData.name} Printer Help`;
+  const hpTitle = 'HP Printer Support - Expert HP Printer Services | Printer Support';
+  const brandTitle = `${brandData.name} Printer Support - Expert ${brandData.name} Printer Services | Printer Support`;
+  const title = isHp ? { absolute: hpTitle } : { absolute: brandTitle };
   const keywords = isHp
     ? 'HP printer support, fix HP printer error, HP printer help, HP printer error code'
     : `${brandData.name} printer support, ${brandData.name} printer help, ${brandData.name} printer troubleshooting`;
+
+  const pageTitle = isHp ? hpTitle : brandTitle;
 
   return {
     title,
     description: brandData.description,
     keywords,
     openGraph: {
-      title,
+      title: pageTitle,
       description: brandData.description,
       url: `https://www.printerzsupport.com/brands/${brandData.slug}`,
       type: 'website',

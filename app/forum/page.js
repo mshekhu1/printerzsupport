@@ -59,8 +59,8 @@ export default function ForumPage() {
         <Breadcrumb items={breadcrumbItems} />
         <div className="container">
           <div className="forum-header">
-            <h1>Printer Help Forum</h1>
-            <p>Ask questions, share fixes, and get help with printer problems</p>
+            <h1>HP Printer Support Forum</h1>
+            <p>Ask questions, share solutions, and help others with printer problems</p>
           </div>
 
           <div className="forum-controls">

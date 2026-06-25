@@ -24,9 +24,9 @@ export default function CanadaPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Support — Canada</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Help in Canada</h1>
           <p className="animate__animated animate__fadeInUp">
-            Customer Support for HP printers in every province and territory. LaserJet, OfficeJet, DeskJet, or Envy — most issues are fixed remotely in one call.
+            We provide remote printer support to residents and businesses in every province and territory. Whether you have a LaserJet, OfficeJet, DeskJet, or Envy, our technicians can help fix jams, offline errors, driver problems, and WiFi issues — usually in one session.
           </p>
           
           <h2 className="animate__animated animate__fadeInDown">Support Across Canada</h2>

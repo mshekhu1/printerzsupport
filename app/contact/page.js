@@ -16,7 +16,7 @@ export default function ContactPage() {
       />
       <div className="contact-container mt-nav">
         <h1>Contact Us</h1>
-        <p>HP printer support number and email — call {PHONE_DISPLAY} or reach out anytime.</p>
+        <p>If you have any questions or need support, please contact us at:</p>
         <div className="contact-info">
           <p>Email: <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></p>
           <p>Phone: <a href={PHONE_TEL_HREF}>{PHONE_DISPLAY}</a></p>

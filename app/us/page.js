@@ -24,9 +24,9 @@ export default function USPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Support — United States</h1>
+          <h1 className="animate__animated animate__fadeInDown">Online Printer Support in United States</h1>
           <p className="animate__animated animate__fadeInUp">
-            HP Printer Support for residents and businesses in all 50 states. Whether you use a LaserJet, OfficeJet, DeskJet, or Envy, we fix jams, offline errors, driver problems, and WiFi issues in one remote session.
+            Welcome to Printer Support - your trusted partner for comprehensive online printer support services across the United States. We provide expert remote printer support to help residents and businesses in all 50 states resolve printer issues quickly and efficiently.
           </p>
           
           <h2 className="animate__animated animate__fadeInDown">Nationwide Remote Support</h2>
