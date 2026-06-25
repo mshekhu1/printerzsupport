@@ -24,7 +24,7 @@ export default function BrandsPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Support</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Support by Brand</h1>
           <p className="animate__animated animate__fadeInUp">
             We provide remote printer support for HP LaserJet, OfficeJet, DeskJet, and Envy models — plus Canon, Epson, Brother, and other major brands.
           </p>

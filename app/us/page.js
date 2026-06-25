@@ -24,7 +24,7 @@ export default function USPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">Online Printer Support in United States</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Support in the United States</h1>
           <p className="animate__animated animate__fadeInUp">
             Welcome to Printer Support - your trusted partner for comprehensive online printer support services across the United States. We provide expert remote printer support to help residents and businesses in all 50 states resolve printer issues quickly and efficiently.
           </p>

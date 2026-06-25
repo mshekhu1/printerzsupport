@@ -87,7 +87,7 @@ function BlogPageContent() {
       <div className="blog-container">
         <Breadcrumb items={breadcrumbItems} />
         <div className="blog-header">
-          <h1>Printer Support Blog</h1>
+          <h1>HP Printer Guides &amp; Tips</h1>
           <p>Expert guides, tips, and tutorials for all your printer needs</p>
         </div>
 
@@ -161,7 +161,7 @@ export default function BlogPage() {
           { name: 'Blog', url: 'https://www.printerzsupport.com/blog' }
         ]} />
         <div className="blog-header">
-          <h1>Printer Support Blog</h1>
+          <h1>HP Printer Guides &amp; Tips</h1>
           <p>Expert guides, tips, and tutorials for all your printer needs</p>
         </div>
       </div>

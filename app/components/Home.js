@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
 import { homeFaqs } from '../../lib/data/homeFaqs';
-import { DEFAULT_DESCRIPTION, DEFAULT_HERO_ALT, DEFAULT_HERO_HEADING } from '../../lib/seo/siteSeo';
+import { DEFAULT_HERO_ALT, DEFAULT_HERO_HEADING, DEFAULT_HERO_SUBTITLE } from '../../lib/seo/siteSeo';
 import Image from 'next/image';
 import ScrollAnimation from './ScrollAnimation';
 import AnimatedCounter from './AnimatedCounter';
@@ -101,7 +101,7 @@ export default function Home() {
                   {DEFAULT_HERO_HEADING}
                 </h1>
                 <p className="hero-subtitle">
-                  {DEFAULT_DESCRIPTION}
+                  {DEFAULT_HERO_SUBTITLE}
                 </p>
                 <div className="hero-actions">
                   <a href={PHONE_TEL_HREF} className="hero-phone">
