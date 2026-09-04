@@ -16,7 +16,7 @@ const MANUAL_TARGETS = {
   'printer-wifi-setup-troubleshooting-guide': 'wireless-printer-setup-guide',
   'install-printer-drivers-windows-11': 'install-printer-drivers-windows-11-setup',
   'printer-maintenance-tips-guide': 'printer-maintenance-tips',
-  'hp-laserjet-pro-m15a-driver-usb-setup-guide': 'hp-laserjet-pro-m15a-driver-setup',
+  'hp-laserjet-pro-m15a-driver-usb-setup-guide': 'hp-laserjet-pro-m15w-driver-setup',
   'brother-printer-not-printing-troubleshooting-guide': 'brother-printer-not-printing-solutions',
   'hp-laserjet-pro-mfp-m428fdw-m428fdn-driver-installation-wifi-setup-guide':
     'hp-laserjet-pro-mfp-m428fdw-driver-setup',
@@ -27,7 +27,7 @@ const MANUAL_TARGETS = {
   'hp-laserjet-pro-mfp-m477-fdw-fdn-fnw-dw-dn-driver-installation-wifi-setup-guide':
     'hp-laserjet-pro-mfp-m477fdw-driver-setup',
   'hp-laserjet-pro-m234dn-m234dw-m234nw-m234sdw-driver-installation-wifi-setup-guide':
-    'hp-laserjet-pro-m234dn-driver-setup',
+    'hp-laserjet-pro-m234dw-driver-setup',
   'hp-laserjet-pro-mfp-m227fdw-m227sdn-m227fdn-m227sdw-driver-installation-wifi-setup-guide':
     'hp-laserjet-pro-mfp-m227fdw-driver-setup',
   'hp-laserjet-pro-m402dn-m402n-driver-installation-wifi-usb-setup-guide':
@@ -47,7 +47,7 @@ const MANUAL_TARGETS = {
   'hp-laserjet-pro-mfp-m227-fdw-sdn-fdn-sdw-driver-installation-wifi-setup-guide':
     'hp-laserjet-pro-mfp-m227fdw-driver-setup',
   'hp-laserjet-pro-m234-dn-dw-nw-sdw-driver-installation-wifi-setup-guide':
-    'hp-laserjet-pro-m234dn-driver-setup',
+    'hp-laserjet-pro-m234dw-driver-setup',
   'hp-laserjet-pro-m201dw-m202dw-m203dw-driver-installation-wifi-setup-guide':
     'hp-laserjet-pro-m201dw-driver-setup',
   'hp-laserjet-pro-m15-w-a-driver-installation-wifi-setup-guide':

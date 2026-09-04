@@ -28,6 +28,15 @@
   margin: 0 auto;
 }
 
+.drivers-header p + p {
+  margin-top: 0.85rem;
+}
+
+.drivers-header a {
+  color: #4c6ef5;
+  text-decoration: underline;
+}
+
 .drivers-search-filters {
   margin-bottom: 2.5rem;
 }

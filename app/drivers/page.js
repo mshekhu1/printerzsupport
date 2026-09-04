@@ -100,7 +100,22 @@ export default function DriversPage() {
         
         <div className="drivers-header">
           <h1>Printer Drivers & Instruction Manuals</h1>
-          <p>Download the latest drivers and instruction manuals for your printer model</p>
+          <p>Download files from the manufacturer (HP Support, Canon, Epson, Brother). For HP setup that the generic driver page does not cover, use these guides:</p>
+          <p>
+            <Link href="/blog/hp-laserjet-pro-m402dn-driver-setup">M402dn Ethernet</Link>
+            {' · '}
+            <Link href="/blog/hp-laserjet-pro-m15w-driver-setup">M15w WiFi</Link>
+            {' · '}
+            <Link href="/blog/hp-laserjet-pro-m201dw-driver-setup">M201dw</Link>
+            {' · '}
+            <Link href="/blog/hp-officejet-pro-8710-driver-setup">OfficeJet 8710</Link>
+            {' · '}
+            <Link href="/blog/hp-envy-7855-driver-setup">Envy 7855</Link>
+            {' · '}
+            <Link href="/blog/hp-smart-tank-driver-download-install">Smart Tank drivers</Link>
+            {' · '}
+            <Link href="/brands/hp">HP error hub</Link>
+          </p>
         </div>
 
         <div className="drivers-search-filters">

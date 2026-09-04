@@ -75,33 +75,33 @@ const brandSpecificFAQs = {
   hp: [
     {
       question: "How do I fix my HP printer when it shows offline status?",
-      answer: "To fix HP printer offline issues, check HP printer power and USB/WiFi connections. In Windows Settings > Devices > Printers, right-click your HP printer and select 'Use printer online'. Restart the Print Spooler service or reinstall HP printer drivers if needed. For wireless HP printers, ensure they're connected to the same WiFi network. Use HP Smart app to reconnect your HP printer to the network.",
-      link: "/faq"
+      answer: "Check power and USB/WiFi, set the printer to Use printer online in Windows, restart Print Spooler, and confirm the printer and PC share the same network. Wireless models often need HP Smart or a fresh IP after a router reset.",
+      link: "/blog/how-to-fix-printer-offline-issues-troubleshooting"
     },
     {
-      question: "How do I connect my HP printer to WiFi network?",
-      answer: "To connect HP printer to WiFi, use the HP Smart app on your phone or computer. Alternatively, access your HP printer's control panel, navigate to Network or Wireless settings, select your WiFi network, and enter the password. For HP LaserJet and OfficeJet models, you can also use WPS button method. Ensure your HP printer supports 2.4GHz WiFi networks.",
-      link: "/faq"
+      question: "HP Easy Start cannot find my printer. What should I try?",
+      answer: "Use a data USB cable on a motherboard port, put the printer in wireless setup mode, stay on 2.4 GHz, and allow Easy Start through the firewall. If discovery still fails, skip Easy Start and add the printer by IP from the network configuration page.",
+      link: "/blog/hp-easy-start-cannot-find-printer"
     },
     {
-      question: "Why is my HP printer not printing even though it's connected?",
-      answer: "If your HP printer is connected but not printing, check HP printer paper and ink/toner levels, clear any paper jams, verify the HP printer is set as default printer, check for HP error codes on printer display, restart both HP printer and computer, update HP printer drivers from HP website, and clear stuck print jobs in HP print queue.",
-      link: "/faq"
+      question: "What does HP event 74899 or 69552 mean?",
+      answer: "Those IDs are Windows / HP diagnostic events, not LCD jam codes. They usually mean HP software lost contact with the printer — sleep, USB drop, stale IP, or two HP helper apps polling at once. Power-cycle, ping the printer, then clean up leftover HP services.",
+      link: "/blog/hp-printer-event-74899"
     },
     {
-      question: "How do I install HP printer drivers on Windows?",
-      answer: "To install HP printer drivers, download HP Smart from Microsoft Store or HP's official website. Alternatively, use Windows Update (Settings > Update & Security > Windows Update), download HP printer drivers from HP Support website, or use the installation CD that came with your HP printer. HP Smart will automatically detect and install drivers for your HP printer model.",
-      link: "/faq"
+      question: "Why is my HP printer connected but not printing?",
+      answer: "Clear the queue, confirm the default printer is not Print to PDF, print a test page from the panel, then update or reinstall the driver. Panel test OK and PC test fail means software; both fail means paper, ink, or hardware.",
+      link: "/blog/hp-printer-not-printing-fix"
     },
     {
-      question: "What HP printer error codes mean and how to fix them?",
-      answer: "Common HP printer error codes include 0x83d00002 (HP printer offline), 0x610000d4 (HP paper jam), 0x6100004e (HP ink cartridge issue), and 49.4C02 (HP firmware error). Fix HP error codes by checking HP printer status, clearing paper jams, replacing HP ink cartridges, updating HP printer firmware, or restarting your HP printer. Use HP Smart app for automated HP error code resolution.",
-      link: "/faq"
+      question: "HP printer says invalid WPA passphrase. What now?",
+      answer: "Use the 2.4 GHz network, WPA2 or mixed mode (not WPA3-only), and retype the password carefully. Hidden SSIDs and special characters often look like a bad passphrase. After it joins, add the printer by IP if HP Smart still searches.",
+      link: "/blog/hp-invalid-wpa-passphrase"
     },
     {
-      question: "How do I fix HP printer print quality issues?",
-      answer: "To fix HP printer print quality, run HP printer cleaning cycle from HP Smart app or printer control panel. Check HP ink or toner levels and replace if low. Clean HP print heads using HP Printer Assistant. Ensure correct paper type settings for your HP printer. For HP laser printers, try removing and shaking the HP toner cartridge. If HP print quality issues persist, HP print heads or HP toner cartridge may need replacement.",
-      link: "/faq"
+      question: "Where do I start for an HP DesignJet plotter?",
+      answer: "Use HP DesignJet Utility or HP Click and the plotter IP — not HP Smart. Print a configuration page, ping the Ethernet address, and run printhead alignment from the front panel for line quality issues.",
+      link: "/blog/hp-designjet-support"
     }
   ],
   canon: [
@@ -466,7 +466,7 @@ export default function BlogPostSidebars({ children, brand = null, relatedPosts 
 
                       return postsToShow.map((post) => (
                         <Link 
-                          key={post.id} 
+                          key={post.slug} 
                           href={`/blog/${post.slug}`} 
                           className="blog-related-article-item"
                         >

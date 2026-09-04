@@ -5,6 +5,7 @@ import { printerBrands, getBrandBySlug, generateBrandContent } from '../../../li
 import { SITE_NAME } from '../../../lib/seo/siteSeo';
 import { getOrganizationSchema } from '../../../lib/utils/structuredData';
 import '../../../styles/pages/About.css';
+import '../../../styles/blog/BlogPost.css';
 
 export async function generateStaticParams() {
   return printerBrands.map((brand) => ({
@@ -24,10 +25,10 @@ export async function generateMetadata({ params }) {
 
   const isHp = brandData.slug === 'hp';
   const title = isHp
-    ? 'HP Printer Help'
+    ? 'HP Printer Errors, Easy Start & DesignJet Help'
     : `${brandData.name} Printer Help`;
   const keywords = isHp
-    ? 'HP printer support, fix HP printer error, HP printer help, HP printer error code'
+    ? 'HP Easy Start, HP event 74899, HP DesignJet support, HP printer error, HP printer offline'
     : `${brandData.name} printer support, ${brandData.name} printer help, ${brandData.name} printer troubleshooting`;
 
   return {

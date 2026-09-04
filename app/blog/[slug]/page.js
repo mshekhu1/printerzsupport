@@ -3,6 +3,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 import BlogPostSidebars from '../../components/BlogPostSidebars';
 import { blogPosts } from '../../../lib/data/blogPosts';
 import { getCanonicalSlug, getCanonicalBlogSlugs, isBlogAlias } from '../../../lib/data/blogAliases';
+import { getRelatedBlogPosts } from '../../../lib/data/relatedBlogPosts';
 import {
   getBlogSeoTitle,
   getBlogOgImage,
@@ -81,9 +82,7 @@ export default async function BlogPostPage({ params }) {
   const post = blogPosts.find(p => p.slug === canonicalSlug);
   if (!post) notFound();
 
-  const relatedPosts = blogPosts
-    .filter(p => p.category === post.category && p.id !== post.id)
-    .slice(0, 5);
+  const relatedPosts = getRelatedBlogPosts(post, blogPosts, 5);
 
   const canonicalBlogUrl = `https://www.printerzsupport.com/blog/${post.slug}`;
   const breadcrumbItems = [

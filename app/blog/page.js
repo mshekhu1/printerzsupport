@@ -51,8 +51,8 @@ function BlogPageContent() {
         );
       });
     }
-    
-    return posts;
+
+    return [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
   }, [selectedCategory, searchQuery]);
 
   const blogSchema = {
