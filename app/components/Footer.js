@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { PHONE_DISPLAY, PHONE_TEL_HREF } from '../../lib/constants/phone';
-import { SITE_NAME } from '../../lib/seo/siteSeo';
+import { SITE_NAME, SITE_UPDATED_LABEL } from '../../lib/seo/siteSeo';
 
 export default function Footer({ style }) {
   return (
@@ -91,7 +91,7 @@ export default function Footer({ style }) {
             <span>|</span>
             <Link href="/refund-policy">Refund Policy</Link>
           </div>
-          <p>&copy; 2024 {SITE_NAME}. All rights reserved.</p>
+          <p>&copy; 2026 {SITE_NAME}. All rights reserved. Updated {SITE_UPDATED_LABEL}.</p>
         </div>
       </div>
     </footer>
