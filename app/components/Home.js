@@ -164,6 +164,21 @@ export default function Home() {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/blog/hp-designjet-support">
+                      HP DesignJet support
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/hp-easy-start-cannot-find-printer">
+                      HP Easy Start cannot find printer
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/hp-pick-motor-stalled">
+                      Fix HP pick motor stalled
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/hp-printer-customer-service">
                       HP printer customer service
                     </Link>
