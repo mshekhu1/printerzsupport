@@ -18,7 +18,7 @@ const LAST_MODIFIED = {
   faq: '2026-06-14',
   locationPages: '2026-06-20',
   brandsIndex: '2026-06-20',
-  brandPages: '2026-09-05',
+  brandPages: '2026-06-19',
   hpBrand: '2026-09-16',
   drivers: '2026-09-05',
   forumIndex: '2026-06-19',
