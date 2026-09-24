@@ -16,8 +16,8 @@ export default function Home() {
   const features = [
     {
       id: 1,
-      title: "Fast HP Printer Support",
-      description: "Get quick and reliable HP printer support with 24/7 customer service and technical support.",
+      title: "Fast Authorised HP Repair",
+      description: "Get quick, reliable repair for HP devices, with 24/7 support from experienced printer technicians.",
       icon: "⚡",
       color: "#FFD700"
     },
@@ -62,14 +62,14 @@ export default function Home() {
     {
       id: 1,
       name: "John Doe",
-      text: "HP Printer Support has been a lifesaver! Their quick and efficient service is unmatched.",
+      text: "The HP printer repair team has been a lifesaver! Their quick and efficient service is unmatched.",
       avatar: "https://th.bing.com/th?id=OIP.4vZ2x-GGaYuXq5b6y_WalgHaE8&w=125&h=104&c=7&bgcl=ecd846&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     },
     {
       id: 2,
       name: "Jane Smith",
-      text: "I highly recommend HP Printer Support for their professional and affordable services.",
+      text: "I highly recommend their authorised HP repair service for its professional and affordable work.",
       avatar: "https://th.bing.com/th?id=OIP.AQtvP5FcfiEMQpu14ueJCgHaGU&w=98&h=104&c=7&bgcl=2bf252&r=0&o=6&cb=15&pid=13.1",
       rating: 5
     },
@@ -101,7 +101,7 @@ export default function Home() {
                   {DEFAULT_HERO_HEADING}
                 </h1>
                 <p className="hero-subtitle">
-                  HP Printer Support with 24/7 Customer Service by phone. We fix offline errors, jams, driver problems, and WiFi issues — usually in one session.
+                  Get authorised repair for your HP device, with 24/7 support from printer specialists by phone. We fix offline errors, jams, driver problems, and WiFi issues — usually in one session.
                 </p>
                 <div className="hero-actions">
                   <a href={PHONE_TEL_HREF} className="hero-phone">
@@ -140,7 +140,7 @@ export default function Home() {
               Help for Every Common HP Printer Problem
             </h2>
             <p className="section-subtitle">
-              LaserJet, OfficeJet, DeskJet, and Envy — phone support for offline errors, paper jams, driver issues, WiFi setup, and print quality. Call our 24/7 HP printer support helpline for fast remote assistance.
+              LaserJet, OfficeJet, DeskJet, and Envy repairs for offline errors, paper jams, driver issues, WiFi setup, and print quality. HP owners can call our 24/7 helpline for fast printer support.
             </p>
           </ScrollAnimation>
         </div>
@@ -215,7 +215,7 @@ export default function Home() {
                   </li>
                   <li>
                     <Link href="/contact">
-                      HP printer support number
+                      HP printer repair number
                     </Link>
                   </li>
                   <li>
@@ -245,15 +245,15 @@ export default function Home() {
                 <h3>HP support by location</h3>
                 <p>Remote HP printer repair and assistance in every US state and Canadian province.</p>
                 <ul className="home-resources-links">
-                  <li><Link href="/us">HP printer support — United States</Link></li>
-                  <li><Link href="/canada">HP printer support — Canada</Link></li>
+                  <li><Link href="/us">Authorised HP repair — United States</Link></li>
+                  <li><Link href="/canada">HP repair specialists — Canada</Link></li>
                 </ul>
               </div>
               <div className="home-resources-card">
                 <h3>Our services</h3>
                 <p>HP printer setup, repair, drivers, and WiFi technical support for home and business.</p>
                 <ul className="home-resources-links">
-                  <li><Link href="/services">HP printer support services</Link></li>
+                  <li><Link href="/services">Authorised HP repair services</Link></li>
                   <li><Link href="/drivers">Printer drivers &amp; downloads</Link></li>
                   <li><Link href="/brands/hp">HP printer brand support</Link></li>
                   <li><Link href="/contact">Contact support</Link></li>
@@ -273,7 +273,7 @@ export default function Home() {
                 Why Choose Us
               </h2>
               <p className="section-subtitle">
-                Reliable remote HP printer support with a focus on getting you back to printing quickly.
+                Reliable remote repair for HP devices, with printer specialists ready to support you and get you printing quickly.
               </p>
             </div>
           </ScrollAnimation>
@@ -376,7 +376,7 @@ export default function Home() {
       <section className="home-resources-section" aria-labelledby="home-faq-heading">
         <div className="container">
           <ScrollAnimation animation="fadeInUp">
-            <h2 id="home-faq-heading" className="section-title">HP Printer Support FAQs</h2>
+            <h2 id="home-faq-heading" className="section-title">HP Printer Repair FAQs</h2>
             <p className="section-subtitle">
               Common questions about HP printer customer service, customer support, and technical support.
             </p>
@@ -410,7 +410,7 @@ export default function Home() {
           <ScrollAnimation animation="fadeInUp">
             <div className="cta-content">
               <h2 className="cta-title">Ready to Get Started?</h2>
-              <p className="cta-subtitle">Call now for expert HP printer support — most issues fixed in one session.</p>
+              <p className="cta-subtitle">Call now for expert HP printer repair — most issues fixed in one session.</p>
               <div className="cta-buttons">
                 <a href={PHONE_TEL_HREF} className="btn-cta-primary">
                   📞 Call Now: {PHONE_DISPLAY}

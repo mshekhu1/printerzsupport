@@ -24,12 +24,12 @@ export default function USPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Support — United States</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Authorised Repair — United States</h1>
           <p className="animate__animated animate__fadeInUp">
-            HP Printer Support for residents and businesses in all 50 states. Whether you use a LaserJet, OfficeJet, DeskJet, or Envy, we fix jams, offline errors, driver problems, and WiFi issues in one remote session.
+            Get authorised repair for HP devices in all 50 states. Our printer specialists support residents and businesses with LaserJet, OfficeJet, DeskJet, and Envy jams, offline errors, driver problems, and WiFi issues.
           </p>
           
-          <h2 className="animate__animated animate__fadeInDown">Nationwide Remote Support</h2>
+          <h2 className="animate__animated animate__fadeInDown">Nationwide Remote Repair</h2>
           <p className="animate__animated animate__fadeInUp">
             Our services are available in every state. Whether you&apos;re in California, New York, Texas, Florida, or anywhere else, we help with:
           </p>
@@ -44,7 +44,7 @@ export default function USPage() {
 
           <h2 className="animate__animated animate__fadeInDown">Select Your State</h2>
           <p className="animate__animated animate__fadeInUp">
-            Click your state below to see local support details:
+            Click your state below to see local authorised repair and support details:
           </p>
           
           <div className="state-link-grid">

@@ -72,7 +72,7 @@ export default function Navbar() {
         <Link className="navbar-brand" href="/" onClick={closeMenu}>
           <img 
             src="/favicon.svg" 
-            alt={SITE_NAME} 
+            alt={SITE_NAME}
             width="32" 
             height="32"
             className="navbar-brand-icon"

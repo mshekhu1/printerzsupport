@@ -24,12 +24,12 @@ export default function BrandsPage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Support by Brand</h1>
+          <h1 className="animate__animated animate__fadeInDown">HP Printer Repair by Brand</h1>
           <p className="animate__animated animate__fadeInUp">
-            HP Printer Support for LaserJet, OfficeJet, DeskJet, and Envy — plus technical support for Canon, Epson, Brother, and other major brands by phone.
+            Authorised repairs for HP LaserJet, OfficeJet, DeskJet, and Envy printers — plus technical assistance for Canon, Epson, Brother, and other major brands by phone.
           </p>
           
-          <h2 className="animate__animated animate__fadeInDown">Our Printer Brand Support Services</h2>
+          <h2 className="animate__animated animate__fadeInDown">Our Printer Brand Repair Services</h2>
           <p className="animate__animated animate__fadeInUp">
             Our online printer support services are available for customers using any major printer brand. Whether you own an HP, Canon, Epson, Brother, Lexmark, Xerox, Samsung, or any other printer brand, we're here to help with:
           </p>

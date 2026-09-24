@@ -1,7 +1,7 @@
 {
-  "short_name": "Printer Support",
-  "name": "Printer Support — 24/7 HP Printer Support",
-  "description": "HP Printer Support with 24/7 Customer Service. Fix offline errors, jams, drivers, WiFi, and error codes.",
+  "short_name": "HP Repair",
+  "name": "Printer Support",
+  "description": "Authorised repair for HP devices, with 24/7 support from printer specialists for offline errors, jams, drivers, WiFi, and error codes.",
   "icons": [
     {
       "src": "favicon.svg",

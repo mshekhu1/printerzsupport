@@ -15,9 +15,9 @@ export default function AboutPage() {
       />
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
-          <h1 className="animate__animated animate__fadeInDown">About Printer Support</h1>
+          <h1 className="animate__animated animate__fadeInDown">About Our Authorised HP Repair Team</h1>
           <p className="animate__animated animate__fadeInUp">
-            We help people get their printers working again — without hauling hardware to a shop. Most fixes happen over the phone in a single session.
+            We help people get their printers working again without hauling hardware to a shop. HP owners receive remote support from experienced repair specialists, and most fixes happen by phone in one session.
           </p>
           <p className="animate__animated animate__fadeInUp">
             Our technicians work with HP LaserJet, OfficeJet, DeskJet, and Envy models every day, along with other major brands. Offline errors, jams, driver failures, and WiFi setup are what we see most.

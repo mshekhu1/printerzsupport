@@ -15,8 +15,8 @@ export default function ContactPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <div className="contact-container mt-nav">
-        <h1>Contact Us</h1>
-        <p>HP printer support number and email — call {PHONE_DISPLAY} or reach out anytime.</p>
+        <h1>Contact Our Authorised HP Repair Team</h1>
+        <p>Call {PHONE_DISPLAY} or email us anytime for support from a printer specialist.</p>
         <div className="contact-info">
           <p>Email: <a href="mailto:support@printerzsupport.com">support@printerzsupport.com</a></p>
           <p>Phone: <a href={PHONE_TEL_HREF}>{PHONE_DISPLAY}</a></p>

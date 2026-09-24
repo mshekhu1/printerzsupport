@@ -25,10 +25,10 @@ export async function generateMetadata({ params }) {
 
   const isHp = brandData.slug === 'hp';
   const title = isHp
-    ? 'HP Printer Errors, Easy Start & DesignJet Help'
+    ? 'Authorised HP Printer Repair by Model'
     : `${brandData.name} Printer Help`;
   const keywords = isHp
-    ? 'HP Easy Start, HP event 74899, HP DesignJet support, HP printer error, HP printer offline'
+    ? 'authorised HP printer repair, printer support for HP models, HP DesignJet repair, HP printer error'
     : `${brandData.name} printer support, ${brandData.name} printer help, ${brandData.name} printer troubleshooting`;
 
   return {
@@ -60,7 +60,7 @@ export default async function BrandPage({ params }) {
     ...getOrganizationSchema(),
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": isHp ? 'HP printer support' : `${brandData.name} printer support`,
+    "serviceType": isHp ? 'Authorised HP printer repair' : `${brandData.name} printer support`,
     "provider": {
       "@type": "Organization",
       "name": SITE_NAME,

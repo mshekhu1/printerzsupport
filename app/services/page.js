@@ -15,7 +15,7 @@ export default function ServicesPage() {
           <div className="section-header">
             <h1 className="section-title">Our Services</h1>
             <p className="section-subtitle">
-              Comprehensive printer support services to meet all your printing needs. Select a service to learn more.
+              Authorised HP repair for setup, faults, drivers, WiFi, and maintenance, with support from experienced printer technicians. Select a service to learn more.
             </p>
           </div>
         </ScrollAnimation>

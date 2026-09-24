@@ -38,12 +38,22 @@ export default function Footer({ style }) {
             >
               <span aria-hidden="true">y</span>
             </a>
+            <a
+              href="https://www.mapquest.com/us/michigan/printer-support-791268588"
+              className="footer-listing-icon footer-listing-icon-mapquest"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${SITE_NAME} on MapQuest`}
+              title="MapQuest"
+            >
+              <span aria-hidden="true">M</span>
+            </a>
           </nav>
 
           <div className="footer-content">
             <div className="footer-section">
               <h3>{SITE_NAME}</h3>
-              <p>HP Printer Support with 24/7 Customer Service for home and office. We troubleshoot LaserJet, OfficeJet, DeskJet, and Envy models by phone.</p>
+              <p>Authorised repair for HP devices, with 24/7 support from printer specialists for home and office LaserJet, OfficeJet, DeskJet, and Envy models.</p>
             </div>
 
             <div className="footer-section">
@@ -91,7 +101,7 @@ export default function Footer({ style }) {
             <span>|</span>
             <Link href="/refund-policy">Refund Policy</Link>
           </div>
-          <p>&copy; 2024 {SITE_NAME}. All rights reserved.</p>
+          <p>&copy; 2026 {SITE_NAME}. All rights reserved.</p>
         </div>
       </div>
     </footer>

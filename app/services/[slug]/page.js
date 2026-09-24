@@ -26,14 +26,15 @@ export async function generateMetadata({ params }) {
   }
 
   const pageTitle = getServicePageTitle(service);
+  const metaDescription = `Authorised HP repair with support from printer specialists. ${service.description}`;
 
   return {
     title: pageTitle,
-    description: service.description,
-    keywords: `${service.title}, remote printer support, ${service.slug.replace(/-/g, ' ')}`,
+    description: metaDescription,
+    keywords: `${service.title}, authorised HP repair, printer support for HP, ${service.slug.replace(/-/g, ' ')}`,
     openGraph: {
       title: pageTitle,
-      description: service.description,
+      description: metaDescription,
       url: `https://www.printerzsupport.com/services/${service.slug}`,
       type: 'website',
     },

@@ -24,9 +24,9 @@ export default function HPPrinterCustomerServicePage() {
       <div className="about-container animate__animated animate__fadeIn">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
-          <h1 className="animate__animated animate__fadeInDown">HP Printer Customer Service</h1>
+          <h1 className="animate__animated animate__fadeInDown">Authorised HP Repair &amp; Customer Service</h1>
           <p className="animate__animated animate__fadeInUp">
-            Printer showing an error or refusing to print? Call our 24/7 HP printer customer service line — we fix most issues remotely on LaserJet, OfficeJet, DeskJet, and Envy models.
+            Is your printer showing an error or refusing to print? Call our authorised HP repair team for 24/7 support — we fix most LaserJet, OfficeJet, DeskJet, and Envy issues remotely.
           </p>
 
           <h2 className="animate__animated animate__fadeInDown">Problems we handle every day</h2>
@@ -55,7 +55,7 @@ export default function HPPrinterCustomerServicePage() {
             <a href={PHONE_TEL_HREF}>{PHONE_DISPLAY}</a>
           </p>
           <p className="animate__animated animate__fadeInUp">
-            Prefer to read first? See our <Link href="/blog/hp-printer-troubleshooting-guide">troubleshooting guide</Link>, <Link href="/brands/hp">HP help page</Link>, <Link href="/services">HP printer technical support</Link>, or <Link href="/contact">contact form</Link>.
+            Prefer to read first? See our <Link href="/blog/hp-printer-troubleshooting-guide">troubleshooting guide</Link>, <Link href="/brands/hp">HP repair page</Link>, <Link href="/services">printer support services</Link>, or <Link href="/contact">contact form</Link>.
           </p>
         </div>
       </div>
