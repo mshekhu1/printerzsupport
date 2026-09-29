@@ -25,18 +25,19 @@ export async function generateMetadata({ params }) {
 
   const isHp = brandData.slug === 'hp';
   const title = isHp
-    ? 'HP Printer Repair by Model'
+    ? 'HP Printer Help'
     : `${brandData.name} Printer Help`;
   const keywords = isHp
     ? 'authorised HP printer repair, printer support for HP models, HP DesignJet repair, HP printer error'
     : `${brandData.name} printer support, ${brandData.name} printer help, ${brandData.name} printer troubleshooting`;
+  const fullTitle = `${title} | ${SITE_NAME}`;
 
   return {
     title,
     description: brandData.description,
     keywords,
     openGraph: {
-      title,
+      title: fullTitle,
       description: brandData.description,
       url: `https://www.printerzsupport.com/brands/${brandData.slug}`,
       type: 'website',
